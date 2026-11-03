@@ -10,6 +10,7 @@ die() { log "ABORT: $*"; exit 1; }
 N="51 52 53 54"
 log "UPGRADE 1-4 start"
 for h in $N; do rsync -a "$HERE/" milo@192.168.1.$h:/home/milo/kbench/ || die "rsync .$h"; done
+if [ "${FROM:-}" != switch ]; then
 for h in $N; do $SSH milo@192.168.1.$h 'bash /home/milo/kbench/repack_rollback.sh 2>&1 | tail -1' | tee -a "$L" | grep -q REPACKED || die "repack .$h"; done
 $SSH milo@192.168.1.51 'docker inspect dsv41-head dsv41-nfs' > "$HERE/../receipts/prod-1to4-inspect-pre.json"
 for h in 52 53 54; do $SSH milo@192.168.1.$h 'docker inspect dsv41-worker' >> "$HERE/../receipts/prod-1to4-inspect-pre.json"; done
@@ -18,6 +19,8 @@ $SSH milo@192.168.1.51 'docker stop -t 60 dsv41-head >/dev/null' || die "stop he
 for h in 52 53 54; do $SSH milo@192.168.1.$h 'docker stop -t 60 dsv41-worker >/dev/null' || die "stop worker .$h"; done
 $SSH milo@192.168.1.51 'docker stop -t 60 dsv41-nfs >/dev/null' || die "stop nfs"
 for h in $N; do c=$($SSH milo@192.168.1.$h 'docker ps -q | wc -l' | tr -d ' '); [ "$c" = 0 ] || die ".$h still has $c containers"; done
+fi
+log "switch dry-run on 1-4"
 for h in $N; do $SSH milo@192.168.1.$h 'bash /home/milo/kbench/switch_to_580.sh --dry-run 2>&1 | tail -2' | tee -a "$L" | grep -q DRY_RUN_OK || die "switch dry-run .$h (lane stopped; restart it with docker start nfs/workers/head)"; done
 for h in $N; do $SSH milo@192.168.1.$h 'bash /home/milo/kbench/switch_to_580.sh 2>&1 | grep -E "STAGE1_DONE|ABORT|module 7.0.0-1024"' | tee -a "$L" | grep -q STAGE1_DONE || die "switch .$h (DO NOT reboot .$h)"; done
 for h in $N; do $SSH milo@192.168.1.$h 'bash /home/milo/kbench/finalize_stock_1024.sh 2>&1 | grep -E "holds now|first boot|FINAL_DONE|ABORT"' | tee -a "$L" | grep -q FINAL_DONE || die "finalize .$h (DO NOT reboot .$h)"; done

@@ -1,1 +1,49 @@
 2026-11-02 19:53:34 CST UPGRADE 1-4 start
+REPACKED 108/109 763M on spark-290c
+REPACKED 108/109 763M on spark-4b6e
+REPACKED 99/99 775M on spark3
+REPACKED 99/99 775M on spark4
+2026-11-02 20:04:40 CST stopping production lane (head -> workers -> nfs, kept)
+== spark-290c 2026-11-02T20:04:50-06:00 kernel=6.17.0-1031-nvidia driver=595.84
+/home/milo/kbench/switch_to_580.sh: line 14: /home/milo/kbench/logs/sim580.txt: No such file or directory
+2026-11-02 20:04:50 CST ABORT: switch dry-run .51 (lane stopped; restart it with docker start nfs/workers/head)
+2026-11-02 20:05:51 CST UPGRADE 1-4 start
+2026-11-02 20:05:52 CST switch dry-run on 1-4
+simulate ok: 37 inst, 34 remv
+DRY_RUN_OK
+simulate ok: 37 inst, 34 remv
+DRY_RUN_OK
+simulate ok: 28 inst, 17 remv
+DRY_RUN_OK
+simulate ok: 28 inst, 17 remv
+DRY_RUN_OK
+module 7.0.0-1024-nvidia nvidia=580.178.04
+STAGE1_DONE spark-290c
+module 7.0.0-1024-nvidia nvidia=580.178.04
+STAGE1_DONE spark-4b6e
+module 7.0.0-1024-nvidia nvidia=580.178.04
+STAGE1_DONE spark3
+module 7.0.0-1024-nvidia nvidia=580.178.04
+STAGE1_DONE spark4
+holds now: []
+first boot entry kernel: /boot/vmlinuz-7.0.0-1024-nvidia
+FINAL_DONE spark-290c
+holds now: []
+first boot entry kernel: /boot/vmlinuz-7.0.0-1024-nvidia
+FINAL_DONE spark-4b6e
+holds now: []
+first boot entry kernel: /boot/vmlinuz-7.0.0-1024-nvidia
+FINAL_DONE spark3
+holds now: []
+first boot entry kernel: /boot/vmlinuz-7.0.0-1024-nvidia
+FINAL_DONE spark4
+2026-11-02 20:14:53 CST rebooting 1-4
+2026-11-02 20:16:45 CST spark1: 7.0.0-1024-nvidia 580.178.04 0 0
+2026-11-02 20:16:45 CST spark2: 7.0.0-1024-nvidia 580.178.04 0 0
+2026-11-02 20:16:46 CST spark3: 7.0.0-1024-nvidia 580.178.04 1 0
+2026-11-02 20:16:46 CST spark4: 7.0.0-1024-nvidia 580.178.04 1 0
+2026-11-02 20:16:46 CST starting production lane (nfs -> workers -> head)
+2026-11-02 20:21:14 CST lane READY after 244s
+2026-11-02 20:21:15 CST chat: PONG
+2026-11-02 20:21:15 CST server_info: tp 4 max_total_tokens 4999424 ctx 1048576
+2026-11-02 20:21:15 CST UPGRADE 1-4 DONE

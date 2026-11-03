@@ -13,6 +13,7 @@ Write-up: https://al-engr.com/testing-dgx-spark-kernels.html
 | 7.0.0-1019 **without** `kho=off` | **12 / 12 NCCL runs fail** (`ibv_reg_mr_iova2 ... Cannot allocate memory`) | **won't start** | not run | not run |
 | 7.0.0-1024 | 0 failures | OK, bit-identical | same | 0 resets (one node had a USB-C monitor attached for 2 h) |
 
+- On 7.0.0-1024 the flag isn't needed: 1019 ships `CONFIG_KEXEC_HANDOVER_ENABLE_DEFAULT=y`, 1024 leaves it unset. Two of our production Sparks have no `kho=off` and run a 4-node RoCE TP4 lane on 1024.
 - If you run 7.0.0-1019 multi-node, `kho=off` must be in `/proc/cmdline` (NVIDIA's `nvidia-spark-grub-kho` package adds it). 7.0.0-1024 turns KHO off in its kernel config.
 - `perftest` (`ib_write_bw`) **passes** on broken 1019. It registers host memory, while NCCL registers GPU memory. A passing perftest proves nothing here.
 - 7.0.0-1024 did not reset for us, headless or with a USB-C monitor. Forum reports of 1024 resets exist (NVIDIA forum t/387397, t/387401). We could not reproduce them on this hardware.
@@ -47,7 +48,7 @@ That is why every comparison arm runs 580.178.04. Gate every reboot on `modinfo 
 | `bench/soak_watch.sh` + `load.py` | Per-minute reset detector (boot_id, kernel, uptime, Xid) and a steady 4-stream load |
 | `bench/userns_test.sh` | Does `user.max_user_namespaces=0` (the ZDI-CAN-33367 mitigation) break Docker GPU or RoCE NCCL? Runtime-only, restores at exit. Runs no exploit. |
 | `bench/boot_arm.sh`, `campaign.sh` | Our orchestration: one-shot `grub-reboot` boots with an automatic fallback, gated arm by arm |
-| `bench/switch_to_580.sh`, `finalize_stock_1024.sh` | Moving a Spark to 580.178.04 / stock 7.0.0-1024 with simulate-first gates |
+| `bench/switch_to_580.sh`, `finalize_stock_1024.sh`, `upgrade_1to4.sh` | Moving a Spark to 580.178.04 / stock 7.0.0-1024 with simulate-first gates, and our production rollout (`receipts/upgrade-1to4.log`) |
 | `bench/run_lane.sh` | Our 4-node DeepSeek-V4.1-Flash vLLM lane battery. Site-specific, kept for provenance. |
 | `receipts/` | Every raw result: one folder per arm, plus `campaign.log` and `T8-changelogs/` |
 

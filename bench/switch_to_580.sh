@@ -4,7 +4,7 @@
 # Does NOT reboot. Aborts (nothing reboots) on any gate failure.   switch_to_580.sh [--dry-run]
 set -euo pipefail
 DRY=${1:-}
-K=/home/milo/kbench; LOG=$K/logs/switch580-$(date +%Y%m%d-%H%M%S).log; exec > >(tee -a "$LOG") 2>&1
+K=/home/milo/kbench; mkdir -p $K/logs; LOG=$K/logs/switch580-$(date +%Y%m%d-%H%M%S).log; exec > >(tee -a "$LOG") 2>&1
 UUID=$(grep -oE 'root=UUID=[a-f0-9-]+' /proc/cmdline | cut -d= -f3)
 echo "== $(hostname) $(date -Is) kernel=$(uname -r) driver=$(nvidia-smi --query-gpu=driver_version --format=csv,noheader)"
 # gates
