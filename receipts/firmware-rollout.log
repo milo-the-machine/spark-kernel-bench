@@ -1,0 +1,96 @@
+2026-11-03 07:23:53 spark1 start
+2026-11-03 07:23:54 CST [192.168.1.51] before: bios=5.36_0ACUM018 fw=[0x03000508 0x02009b0b 0x00000516] memtotal=127598644
+Successfully installed firmware
+2026-11-03 07:23:58 CST [192.168.1.51] capsules staged: 3
+2026-11-03 07:23:58 CST [192.168.1.51] reboot 1 (flash)
+2026-11-03 07:24:18 BATCH 5-7 start
+2026-11-03 07:24:19 CST [192.168.1.55] before: bios=5.36_0ACUM027 fw=[0x03000508 0x02009b0b 0x00000516] memtotal=127598708
+2026-11-03 07:24:19 CST [192.168.1.56] before: bios=5.36_0ACUM027 fw=[0x03000508 0x02009b0b 0x00000516] memtotal=127598704
+2026-11-03 07:24:19 CST [192.168.1.57] before: bios=5.36_0ACUM027 fw=[0x03000508 0x02009b0b 0x00000516] memtotal=127598708
+Successfully installed firmware
+2026-11-03 07:24:22 CST [192.168.1.56] capsules staged: 3
+2026-11-03 07:24:22 CST [192.168.1.56] reboot 1 (flash)
+Successfully installed firmware
+2026-11-03 07:24:22 CST [192.168.1.55] capsules staged: 3
+2026-11-03 07:24:23 CST [192.168.1.55] reboot 1 (flash)
+Successfully installed firmware
+2026-11-03 07:24:23 CST [192.168.1.57] capsules staged: 3
+2026-11-03 07:24:23 CST [192.168.1.57] reboot 1 (flash)
+2026-11-03 07:31:05 BATCH 2-4 start (parallel, James approved)
+2026-11-03 07:31:05 CST [192.168.1.53] before: bios=5.36_0ACUM027 fw=[0x03000508 0x02009b0b 0x00000516] memtotal=127598708
+2026-11-03 07:31:05 CST [192.168.1.52] before: bios=5.36_0ACUM018 fw=[0x03000508 0x02009b0b 0x00000516] memtotal=127598644
+2026-11-03 07:31:05 CST [192.168.1.54] before: bios=5.36_0ACUM027 fw=[0x03000508 0x02009b0b 0x00000516] memtotal=127598704
+Successfully installed firmware
+2026-11-03 07:31:09 CST [192.168.1.54] capsules staged: 3
+2026-11-03 07:31:09 CST [192.168.1.54] reboot 1 (flash)
+Successfully installed firmware
+2026-11-03 07:31:10 CST [192.168.1.52] capsules staged: 3
+2026-11-03 07:31:10 CST [192.168.1.52] reboot 1 (flash)
+Successfully installed firmware
+2026-11-03 07:31:10 CST [192.168.1.53] capsules staged: 3
+2026-11-03 07:31:10 CST [192.168.1.53] reboot 1 (flash)
+2026-11-03 07:31:55 CST [192.168.1.51] after flash: bios=5.36_0ACUM028 fw=[]
+2026-11-03 07:31:55 CST [192.168.1.51] ABORT: SoC firmware not 0x02009e0f
+2026-11-03 07:32:12 CST [192.168.1.51] before: bios=5.36_0ACUM028 fw=[0x03000d07 0x02009e0f 0x00000519] memtotal=127598640
+2026-11-03 07:32:12 CST [192.168.1.51] capsules staged: 0
+2026-11-03 07:32:13 CST [192.168.1.51] after flash: bios=5.36_0ACUM028 fw=[0x03000d07 0x02009e0f 0x00000519]
+2026-11-03 07:32:13 CST [192.168.1.51] disp status before:  06 00 00 00 03 00 08 00 00
+2026-11-03 07:32:13 CST [192.168.1.51] reboot 2 (display memory)
+2026-11-03 07:33:28 CST [192.168.1.51] final: disp= 06 00 00 00 01 00 02 00 00 7.0.0-1024-nvidia 580.178.04 memtotal=129168424 links=up,up xid=0 userns=0 tgt=multi-user.target
+2026-11-03 07:33:28 CST [192.168.1.51] NODE DONE
+2026-11-03 07:33:30 CST [192.168.1.56] after flash: bios=5.36_0ACUM028 fw=[]
+2026-11-03 07:33:30 CST [192.168.1.56] ABORT: SoC firmware not 0x02009e0f
+2026-11-03 07:33:33 CST [192.168.1.57] after flash: bios=5.36_0ACUM028 fw=[]
+2026-11-03 07:33:33 CST [192.168.1.57] ABORT: SoC firmware not 0x02009e0f
+2026-11-03 07:33:38 CST [192.168.1.55] after flash: bios=5.36_0ACUM028 fw=[]
+2026-11-03 07:33:38 CST [192.168.1.55] ABORT: SoC firmware not 0x02009e0f
+2026-11-03 07:33:40 CST [192.168.1.56] before: bios=5.36_0ACUM028 fw=[0x03000d07 0x02009e0f 0x00000519] memtotal=127598704
+2026-11-03 07:33:40 CST [192.168.1.57] before: bios=5.36_0ACUM028 fw=[0x03000d07 0x02009e0f 0x00000519] memtotal=127598708
+2026-11-03 07:33:40 CST [192.168.1.56] capsules staged: 0
+2026-11-03 07:33:40 CST [192.168.1.56] after flash: bios=5.36_0ACUM028 fw=[0x03000d07 0x02009e0f 0x00000519]
+2026-11-03 07:33:40 CST [192.168.1.56] disp status before:  06 00 00 00 03 00 08 00 00
+2026-11-03 07:33:40 CST [192.168.1.56] reboot 2 (display memory)
+2026-11-03 07:33:40 CST [192.168.1.57] capsules staged: 0
+2026-11-03 07:33:40 CST [192.168.1.57] after flash: bios=5.36_0ACUM028 fw=[0x03000d07 0x02009e0f 0x00000519]
+2026-11-03 07:33:40 CST [192.168.1.57] disp status before:  06 00 00 00 03 00 08 00 00
+2026-11-03 07:33:40 CST [192.168.1.57] reboot 2 (display memory)
+2026-11-03 07:35:22 CST [192.168.1.56] final: disp= 06 00 00 00 01 00 02 00 00 7.0.0-1024-nvidia 580.178.04 memtotal=129168488 links=up,up xid=0 userns=0 tgt=multi-user.target
+2026-11-03 07:35:22 CST [192.168.1.56] NODE DONE
+2026-11-03 07:35:24 CST [192.168.1.57] final: disp= 06 00 00 00 01 00 02 00 00 7.0.0-1024-nvidia 580.178.04 memtotal=129168488 links=up,up xid=0 userns=0 tgt=multi-user.target
+2026-11-03 07:35:24 CST [192.168.1.57] NODE DONE
+2026-11-03 07:35:24 CST [192.168.1.55] before: bios=5.36_0ACUM028 fw=[0x03000d07 0x02009e0f 0x00000516] memtotal=127598704
+Successfully installed firmware
+2026-11-03 07:35:26 CST [192.168.1.55] capsules staged: 1
+2026-11-03 07:35:26 CST [192.168.1.55] reboot 1 (flash)
+2026-11-03 07:39:15 CST [192.168.1.55] after flash: bios=5.36_0ACUM028 fw=[0x03000d07 0x02009e0f 0x00000519]
+2026-11-03 07:39:15 CST [192.168.1.55] disp status before:  06 00 00 00 03 00 08 00 00
+2026-11-03 07:39:15 CST [192.168.1.55] reboot 2 (display memory)
+2026-11-03 07:40:17 CST [192.168.1.52] after flash: bios=5.36_0ACUM028 fw=[]
+2026-11-03 07:40:17 CST [192.168.1.52] ABORT: SoC firmware not 0x02009e0f
+2026-11-03 07:40:27 CST [192.168.1.53] after flash: bios=5.36_0ACUM028 fw=[]
+2026-11-03 07:40:27 CST [192.168.1.53] ABORT: SoC firmware not 0x02009e0f
+2026-11-03 07:40:29 CST [192.168.1.54] after flash: bios=5.36_0ACUM028 fw=[]
+2026-11-03 07:40:29 CST [192.168.1.54] ABORT: SoC firmware not 0x02009e0f
+2026-11-03 07:40:34 CST [192.168.1.53] before: bios=5.36_0ACUM028 fw=[0x03000d07 0x02009e0f 0x00000519] memtotal=127598704
+2026-11-03 07:40:34 CST [192.168.1.54] before: bios=5.36_0ACUM028 fw=[0x03000d07 0x02009e0f 0x00000519] memtotal=127598708
+2026-11-03 07:40:34 CST [192.168.1.52] before: bios=5.36_0ACUM028 fw=[0x03000d07 0x02009e0f 0x00000519] memtotal=127598644
+2026-11-03 07:40:34 CST [192.168.1.53] capsules staged: 0
+2026-11-03 07:40:34 CST [192.168.1.54] capsules staged: 0
+2026-11-03 07:40:34 CST [192.168.1.52] capsules staged: 0
+2026-11-03 07:40:34 CST [192.168.1.53] after flash: bios=5.36_0ACUM028 fw=[0x03000d07 0x02009e0f 0x00000519]
+2026-11-03 07:40:34 CST [192.168.1.54] after flash: bios=5.36_0ACUM028 fw=[0x03000d07 0x02009e0f 0x00000519]
+2026-11-03 07:40:34 CST [192.168.1.53] disp status before:  06 00 00 00 03 00 08 00 00
+2026-11-03 07:40:34 CST [192.168.1.52] after flash: bios=5.36_0ACUM028 fw=[0x03000d07 0x02009e0f 0x00000519]
+2026-11-03 07:40:34 CST [192.168.1.54] disp status before:  06 00 00 00 03 00 08 00 00
+2026-11-03 07:40:34 CST [192.168.1.52] disp status before:  06 00 00 00 03 00 08 00 00
+2026-11-03 07:40:34 CST [192.168.1.53] reboot 2 (display memory)
+2026-11-03 07:40:34 CST [192.168.1.54] reboot 2 (display memory)
+2026-11-03 07:40:34 CST [192.168.1.52] reboot 2 (display memory)
+2026-11-03 07:40:59 CST [192.168.1.55] final: disp= 06 00 00 00 01 00 02 00 00 7.0.0-1024-nvidia 580.178.04 memtotal=129168488 links=up,up xid=0 userns=0 tgt=multi-user.target
+2026-11-03 07:40:59 CST [192.168.1.55] NODE DONE
+2026-11-03 07:41:50 CST [192.168.1.52] final: disp= 06 00 00 00 01 00 02 00 00 7.0.0-1024-nvidia 580.178.04 memtotal=129168424 links=up,up xid=0 userns=0 tgt=multi-user.target
+2026-11-03 07:41:50 CST [192.168.1.52] NODE DONE
+2026-11-03 07:42:16 CST [192.168.1.54] final: disp= 06 00 00 00 01 00 02 00 00 7.0.0-1024-nvidia 580.178.04 memtotal=129168488 links=up,up xid=0 userns=0 tgt=multi-user.target
+2026-11-03 07:42:16 CST [192.168.1.54] NODE DONE
+2026-11-03 07:42:18 CST [192.168.1.53] final: disp= 06 00 00 00 01 00 02 00 00 7.0.0-1024-nvidia 580.178.04 memtotal=129168492 links=up,up xid=0 userns=0 tgt=multi-user.target
+2026-11-03 07:42:18 CST [192.168.1.53] NODE DONE

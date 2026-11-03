@@ -81,6 +81,18 @@ Same four Sparks, same boot of 7.0.0-1024 + 580.178.04. Graphical mode with GDM/
 
 A forum report from late 2025 said NCCL ran slower in `multi-user.target`. We did not see that on 7.0.0-1024. Going headless frees about 0.4 GiB per node. `bench/make_headless.sh` is the reversible version we use.
 
+## Follow-up: firmware and display memory (November 3)
+
+NVIDIA's October 2026 firmware (UEFI 0ACUM028, EC 3.13.7, SoC 2.158.15, USB-C PD 0.5.25, via `fwupdmgr`) adds 0.5 GB / 1 GB / Auto to UEFI **Display Reserved Memory** (older firmware only offers 2 GB or 4 GB). It can also be set from Linux through the `NvidiaDispFrmSizeRequest` UEFI variable. `bench/fw_node.sh` flashes one node and sets 0.5 GB with gates. Rolled out to all 8 nodes: `receipts/firmware-rollout.log`.
+
+| Per Spark | Before | After |
+|---|---|---|
+| `MemTotal` | 127,598,480 kB | 129,168,268 kB (+1.50 GiB) |
+| `cudaMemGetInfo` free (headless, after cache flush) | 117.4 GiB | 119.0 GiB |
+| SGLang TP4 KV pool (Sparks 1-4, fraction-sized) | 4,999,424 tokens | 5,930,496 tokens (+18.6%) |
+
+The fwupd daemon can take a minute after boot to list devices; check for a non-empty device list before comparing versions.
+
 ## Safety notes that cost us something
 
 - **Never allocate GPU memory until failure on a GB10.** `cudaMalloc` isn't charged to the cgroup, so the host OOM killer fires first. It took out our user session. `hog.py --probe` stops 8 GiB short of MemAvailable.

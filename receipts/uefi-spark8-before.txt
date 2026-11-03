@@ -1,0 +1,4 @@
+MemTotal:       127598480 kB
+Memory: 127473288K/133828484K
+               total        used        free      shared  buff/cache   available
+Mem:           121Gi       3.9Gi       116Gi        11Mi       2.6Gi       117Gi
