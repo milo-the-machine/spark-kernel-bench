@@ -1,0 +1,36 @@
+2026-11-01 23:30:09 ARM S0-6.17.0-1032-580.178.04 start reps=3
+2026-11-01 23:30:17 facts spark5 6.17.0-1032-nvidia 580.178.04 xid 0 alloc {"kind": "alloc_probe", "memavail_gib": 117, "limit_gib": 109, "allocated_gib": 109, "cuda_free_gib": 116.1, "cuda_total_gib": 121.7, "secs": 4.3, "stop_reason": null, "kernel": "6.17.0-1032-nvidia"}
+2026-11-01 23:30:25 facts spark6 6.17.0-1032-nvidia 580.178.04 xid 0 alloc {"kind": "alloc_probe", "memavail_gib": 117, "limit_gib": 109, "allocated_gib": 109, "cuda_free_gib": 116.1, "cuda_total_gib": 121.7, "secs": 4.4, "stop_reason": null, "kernel": "6.17.0-1032-nvidia"}
+2026-11-01 23:30:35 facts spark7 6.17.0-1032-nvidia 580.178.04 xid 0 alloc {"kind": "alloc_probe", "memavail_gib": 117, "limit_gib": 109, "allocated_gib": 109, "cuda_free_gib": 116.2, "cuda_total_gib": 121.7, "secs": 4.7, "stop_reason": null, "kernel": "6.17.0-1032-nvidia"}
+2026-11-01 23:30:43 facts spark8 6.17.0-1032-nvidia 580.178.04 xid 0 alloc {"kind": "alloc_probe", "memavail_gib": 117, "limit_gib": 109, "allocated_gib": 109, "cuda_free_gib": 116.2, "cuda_total_gib": 121.7, "secs": 4.4, "stop_reason": null, "kernel": "6.17.0-1032-nvidia"}
+2026-11-01 23:36:30 rdma hog0 done
+2026-11-01 23:42:31 rdma hog100 done
+2026-11-01 23:42:41 nccl n2-hog0-rep1 rc=0 {"kind": "summary", "label": "S0-6.17.0-1032-580.178.04 n2-hog0-rep1", "status": "ok", "error": null, "sizes_done": 13, "peak_busbw_GBs": 23.336, "peak_busbw_Gbps": 186.69, "hog_gib": 0, "world": 2} 
+2026-11-01 23:42:55 nccl n2-hog100-rep1 rc=0 {"kind": "summary", "label": "S0-6.17.0-1032-580.178.04 n2-hog100-rep1", "status": "ok", "error": null, "sizes_done": 13, "peak_busbw_GBs": 22.41, "peak_busbw_Gbps": 179.28, "hog_gib": 100, "world": 2} 
+2026-11-01 23:43:10 nccl n4-hog0-rep1 rc=0 {"kind": "summary", "label": "S0-6.17.0-1032-580.178.04 n4-hog0-rep1", "status": "ok", "error": null, "sizes_done": 13, "peak_busbw_GBs": 23.283, "peak_busbw_Gbps": 186.26, "hog_gib": 0, "world": 4} 
+2026-11-01 23:43:30 nccl n4-hog100-rep1 rc=0 {"kind": "summary", "label": "S0-6.17.0-1032-580.178.04 n4-hog100-rep1", "status": "ok", "error": null, "sizes_done": 13, "peak_busbw_GBs": 23.395, "peak_busbw_Gbps": 187.16, "hog_gib": 100, "world": 4} 
+2026-11-01 23:43:40 nccl n2-hog0-rep2 rc=0 {"kind": "summary", "label": "S0-6.17.0-1032-580.178.04 n2-hog0-rep2", "status": "ok", "error": null, "sizes_done": 13, "peak_busbw_GBs": 23.931, "peak_busbw_Gbps": 191.45, "hog_gib": 0, "world": 2} 
+2026-11-01 23:43:53 nccl n2-hog100-rep2 rc=0 {"kind": "summary", "label": "S0-6.17.0-1032-580.178.04 n2-hog100-rep2", "status": "ok", "error": null, "sizes_done": 13, "peak_busbw_GBs": 23.902, "peak_busbw_Gbps": 191.22, "hog_gib": 100, "world": 2} 
+2026-11-01 23:44:08 nccl n4-hog0-rep2 rc=0 {"kind": "summary", "label": "S0-6.17.0-1032-580.178.04 n4-hog0-rep2", "status": "ok", "error": null, "sizes_done": 13, "peak_busbw_GBs": 23.329, "peak_busbw_Gbps": 186.63, "hog_gib": 0, "world": 4} 
+2026-11-01 23:44:28 nccl n4-hog100-rep2 rc=0 {"kind": "summary", "label": "S0-6.17.0-1032-580.178.04 n4-hog100-rep2", "status": "ok", "error": null, "sizes_done": 13, "peak_busbw_GBs": 23.359, "peak_busbw_Gbps": 186.87, "hog_gib": 100, "world": 4} 
+2026-11-01 23:44:37 nccl n2-hog0-rep3 rc=0 {"kind": "summary", "label": "S0-6.17.0-1032-580.178.04 n2-hog0-rep3", "status": "ok", "error": null, "sizes_done": 13, "peak_busbw_GBs": 23.017, "peak_busbw_Gbps": 184.14, "hog_gib": 0, "world": 2} 
+2026-11-01 23:44:51 nccl n2-hog100-rep3 rc=0 {"kind": "summary", "label": "S0-6.17.0-1032-580.178.04 n2-hog100-rep3", "status": "ok", "error": null, "sizes_done": 13, "peak_busbw_GBs": 23.183, "peak_busbw_Gbps": 185.46, "hog_gib": 100, "world": 2} 
+2026-11-01 23:45:06 nccl n4-hog0-rep3 rc=0 {"kind": "summary", "label": "S0-6.17.0-1032-580.178.04 n4-hog0-rep3", "status": "ok", "error": null, "sizes_done": 13, "peak_busbw_GBs": 23.291, "peak_busbw_Gbps": 186.33, "hog_gib": 0, "world": 4} 
+2026-11-01 23:45:25 nccl n4-hog100-rep3 rc=0 {"kind": "summary", "label": "S0-6.17.0-1032-580.178.04 n4-hog100-rep3", "status": "ok", "error": null, "sizes_done": 13, "peak_busbw_GBs": 23.216, "peak_busbw_Gbps": 185.73, "hog_gib": 100, "world": 4} 
+2026-11-01 23:45:25 ARM S0-6.17.0-1032-580.178.04 fabric end
+2026-11-01 23:45:25 LANE S0-6.17.0-1032-580.178.04 start
+spark5 835e9a8b0a28 117 GiB avail 
+spark6 835e9a8b0a28 117 GiB avail 
+spark7 835e9a8b0a28 117 GiB avail 
+spark8 835e9a8b0a28 117 GiB avail 
+2026-11-01 23:47:50 READY after 127s
+2026-11-01 23:58:57 battery rc=0 2026-11-01T23:58:57-0600 ARM S0-6.17.0-1032-580.178.04 end
+2026-11-01 23:59:14 noninf   INSTR  self-repeat base 0.0 cand 0.0 (must be 0.0), id mismatches 0, errors 0: True   info   exact-zero 1.0, mean d 0.0, ppl 3.470555355873363 -> 3.470555355873363, top-1 agree 1.0, mean dNLL ub95 0.0 VERDICT PASS 
+2026-11-01 23:59:14 LANE S0-6.17.0-1032-580.178.04 end (left UP for loaded soak)
+{"ok": 4040, "err": 0, "completion_tokens": 719796, "kind": "load", "concurrency": 4, "minutes": 120.1, "tok_s_avg": 99.9}
+{"arm":"S0-6.17.0-1032-580.178.04","soak":"loaded","minutes":120,"resets":0,"unreachable_polls":0}
+2026-11-02 02:00:46 SINGLE S0-6.17.0-1032-580.178.04 start on 192.168.1.55
+2026-11-02 02:01:26 llama-bench rc=0 rows=6
+2026-11-02 02:02:31 gemm/membw {"kind": "gemm_bf16", "n": 8192, "peak_tflops": 61.08, "median_tflops": 60.83, "kernel": "6.17.0-1032-nvidia"} {"kind": "membw_copy", "bytes": 4294967296, "best_GBs": 246.8, "median_GBs": 246.5, "kernel": "6.17.0-1032-nvidia"} 
+2026-11-02 02:02:31 SINGLE S0-6.17.0-1032-580.178.04 end
+{"arm":"S0-6.17.0-1032-580.178.04","soak":"idle","minutes":240,"resets":0,"unreachable_polls":0}

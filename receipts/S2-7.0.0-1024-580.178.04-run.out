@@ -1,0 +1,53 @@
+2026-11-02 13:12:31 ARM S2-7.0.0-1024-580.178.04 start reps=3
+2026-11-02 13:12:40 facts spark5 7.0.0-1024-nvidia 580.178.04 xid 0 alloc {"kind": "alloc_probe", "memavail_gib": 116, "limit_gib": 108, "allocated_gib": 108, "cuda_free_gib": 116.1, "cuda_total_gib": 121.7, "secs": 5.1, "stop_reason": null, "kernel": "7.0.0-1024-nvidia"}
+2026-11-02 13:12:48 facts spark6 7.0.0-1024-nvidia 580.178.04 xid 0 alloc {"kind": "alloc_probe", "memavail_gib": 117, "limit_gib": 109, "allocated_gib": 109, "cuda_free_gib": 116.2, "cuda_total_gib": 121.7, "secs": 4.9, "stop_reason": null, "kernel": "7.0.0-1024-nvidia"}
+2026-11-02 13:12:57 facts spark7 7.0.0-1024-nvidia 580.178.04 xid 0 alloc {"kind": "alloc_probe", "memavail_gib": 117, "limit_gib": 109, "allocated_gib": 109, "cuda_free_gib": 116.3, "cuda_total_gib": 121.7, "secs": 4.8, "stop_reason": null, "kernel": "7.0.0-1024-nvidia"}
+2026-11-02 13:13:08 facts spark8 7.0.0-1024-nvidia 580.178.04 xid 0 alloc {"kind": "alloc_probe", "memavail_gib": 117, "limit_gib": 109, "allocated_gib": 109, "cuda_free_gib": 116.3, "cuda_total_gib": 121.7, "secs": 5.2, "stop_reason": null, "kernel": "7.0.0-1024-nvidia"}
+2026-11-02 13:18:56 rdma hog0 done
+2026-11-02 13:24:59 rdma hog100 done
+2026-11-02 13:25:08 nccl n2-hog0-rep1 rc=0 {"kind": "summary", "label": "S2-7.0.0-1024-580.178.04 n2-hog0-rep1", "status": "ok", "error": null, "sizes_done": 13, "peak_busbw_GBs": 23.347, "peak_busbw_Gbps": 186.78, "hog_gib": 0, "world": 2} 
+2026-11-02 13:25:22 nccl n2-hog100-rep1 rc=0 {"kind": "summary", "label": "S2-7.0.0-1024-580.178.04 n2-hog100-rep1", "status": "ok", "error": null, "sizes_done": 13, "peak_busbw_GBs": 21.853, "peak_busbw_Gbps": 174.82, "hog_gib": 100, "world": 2} 
+2026-11-02 13:25:38 nccl n4-hog0-rep1 rc=0 {"kind": "summary", "label": "S2-7.0.0-1024-580.178.04 n4-hog0-rep1", "status": "ok", "error": null, "sizes_done": 13, "peak_busbw_GBs": 23.244, "peak_busbw_Gbps": 185.95, "hog_gib": 0, "world": 4} 
+2026-11-02 13:25:58 nccl n4-hog100-rep1 rc=0 {"kind": "summary", "label": "S2-7.0.0-1024-580.178.04 n4-hog100-rep1", "status": "ok", "error": null, "sizes_done": 13, "peak_busbw_GBs": 23.297, "peak_busbw_Gbps": 186.38, "hog_gib": 100, "world": 4} 
+2026-11-02 13:26:07 nccl n2-hog0-rep2 rc=0 {"kind": "summary", "label": "S2-7.0.0-1024-580.178.04 n2-hog0-rep2", "status": "ok", "error": null, "sizes_done": 13, "peak_busbw_GBs": 23.216, "peak_busbw_Gbps": 185.73, "hog_gib": 0, "world": 2} 
+2026-11-02 13:26:22 nccl n2-hog100-rep2 rc=0 {"kind": "summary", "label": "S2-7.0.0-1024-580.178.04 n2-hog100-rep2", "status": "ok", "error": null, "sizes_done": 13, "peak_busbw_GBs": 23.125, "peak_busbw_Gbps": 185.0, "hog_gib": 100, "world": 2} 
+2026-11-02 13:26:37 nccl n4-hog0-rep2 rc=0 {"kind": "summary", "label": "S2-7.0.0-1024-580.178.04 n4-hog0-rep2", "status": "ok", "error": null, "sizes_done": 13, "peak_busbw_GBs": 23.333, "peak_busbw_Gbps": 186.66, "hog_gib": 0, "world": 4} 
+2026-11-02 13:26:57 nccl n4-hog100-rep2 rc=0 {"kind": "summary", "label": "S2-7.0.0-1024-580.178.04 n4-hog100-rep2", "status": "ok", "error": null, "sizes_done": 13, "peak_busbw_GBs": 23.352, "peak_busbw_Gbps": 186.82, "hog_gib": 100, "world": 4} 
+2026-11-02 13:27:06 nccl n2-hog0-rep3 rc=0 {"kind": "summary", "label": "S2-7.0.0-1024-580.178.04 n2-hog0-rep3", "status": "ok", "error": null, "sizes_done": 13, "peak_busbw_GBs": 23.668, "peak_busbw_Gbps": 189.34, "hog_gib": 0, "world": 2} 
+2026-11-02 13:27:21 nccl n2-hog100-rep3 rc=0 {"kind": "summary", "label": "S2-7.0.0-1024-580.178.04 n2-hog100-rep3", "status": "ok", "error": null, "sizes_done": 13, "peak_busbw_GBs": 22.485, "peak_busbw_Gbps": 179.88, "hog_gib": 100, "world": 2} 
+2026-11-02 13:27:36 nccl n4-hog0-rep3 rc=0 {"kind": "summary", "label": "S2-7.0.0-1024-580.178.04 n4-hog0-rep3", "status": "ok", "error": null, "sizes_done": 13, "peak_busbw_GBs": 23.33, "peak_busbw_Gbps": 186.64, "hog_gib": 0, "world": 4} 
+2026-11-02 13:27:56 nccl n4-hog100-rep3 rc=0 {"kind": "summary", "label": "S2-7.0.0-1024-580.178.04 n4-hog100-rep3", "status": "ok", "error": null, "sizes_done": 13, "peak_busbw_GBs": 23.31, "peak_busbw_Gbps": 186.48, "hog_gib": 100, "world": 4} 
+2026-11-02 13:27:56 ARM S2-7.0.0-1024-580.178.04 fabric end
+2026-11-02 13:27:56 LANE S2-7.0.0-1024-580.178.04 start
+spark5 835e9a8b0a28 117 GiB avail 
+spark6 835e9a8b0a28 117 GiB avail 
+spark7 835e9a8b0a28 117 GiB avail 
+spark8 835e9a8b0a28 117 GiB avail 
+2026-11-02 13:30:21 READY after 128s
+2026-11-02 13:41:26 battery rc=0 2026-11-02T13:41:26-0600 ARM S2-7.0.0-1024-580.178.04 end
+2026-11-02 13:41:43 noninf   INSTR  self-repeat base 0.0 cand 0.0 (must be 0.0), id mismatches 0, errors 0: True   info   exact-zero 1.0, mean d 0.0, ppl 3.470555355873363 -> 3.470555355873363, top-1 agree 1.0, mean dNLL ub95 0.0 VERDICT PASS 
+2026-11-02 13:41:43 LANE S2-7.0.0-1024-580.178.04 end (left UP for loaded soak)
+{"ok": 4077, "err": 0, "completion_tokens": 726329, "kind": "load", "concurrency": 4, "minutes": 120.1, "tok_s_avg": 100.8}
+{"arm":"S2-7.0.0-1024-580.178.04","soak":"loaded","minutes":120,"resets":0,"unreachable_polls":0}
+2026-11-02 15:43:16 SINGLE S2-7.0.0-1024-580.178.04 start on 192.168.1.55
+2026-11-02 15:43:56 llama-bench rc=0 rows=6
+2026-11-02 15:45:00 gemm/membw {"kind": "gemm_bf16", "n": 8192, "peak_tflops": 61.55, "median_tflops": 61.31, "kernel": "7.0.0-1024-nvidia"} {"kind": "membw_copy", "bytes": 4294967296, "best_GBs": 247.1, "median_GBs": 246.9, "kernel": "7.0.0-1024-nvidia"} 
+2026-11-02 15:45:00 SINGLE S2-7.0.0-1024-580.178.04 end
+{"kind":"userns","arm":"S2-7.0.0-1024-580.178.04","node":"spark7","check":"firefox_snap_headless_CONTROL","result":"INFO","detail":"rc=0 png=0"}
+{"kind":"userns","arm":"S2-7.0.0-1024-580.178.04","node":"spark8","check":"firefox_snap_headless_CONTROL","result":"INFO","detail":"rc=0 png=0"}
+{"kind":"userns","arm":"S2-7.0.0-1024-580.178.04","node":"spark7","check":"unshare_user_ns","result":"BLOCKED","detail":"unshare: unshare failed: No space left on device\nrc=1"}
+{"kind":"userns","arm":"S2-7.0.0-1024-580.178.04","node":"spark7","check":"docker_gpu_container","result":"OK","detail":"True NVIDIA GB10"}
+{"kind":"userns","arm":"S2-7.0.0-1024-580.178.04","node":"spark7","check":"userns_inside_container","result":"INFO","detail":"inner-userns-blocked"}
+{"kind":"userns","arm":"S2-7.0.0-1024-580.178.04","node":"spark7","check":"systemd_user_run","result":"INFO","detail":"rc=0"}
+{"kind":"userns","arm":"S2-7.0.0-1024-580.178.04","node":"spark7","check":"snaps_present","result":"INFO","detail":"firefox firefox.geckodriver firmware-updater geckodriver snap-store snap-store.show-updates thunderbird "}
+{"kind":"userns","arm":"S2-7.0.0-1024-580.178.04","node":"spark7","check":"firefox_snap_headless","result":"INFO","detail":"rc=0 png=0"}
+{"kind":"userns","arm":"S2-7.0.0-1024-580.178.04","node":"spark8","check":"unshare_user_ns","result":"BLOCKED","detail":"unshare: unshare failed: No space left on device\nrc=1"}
+{"kind":"userns","arm":"S2-7.0.0-1024-580.178.04","node":"spark8","check":"docker_gpu_container","result":"OK","detail":"True NVIDIA GB10"}
+{"kind":"userns","arm":"S2-7.0.0-1024-580.178.04","node":"spark8","check":"userns_inside_container","result":"INFO","detail":"inner-userns-blocked"}
+{"kind":"userns","arm":"S2-7.0.0-1024-580.178.04","node":"spark8","check":"systemd_user_run","result":"INFO","detail":"rc=0"}
+{"kind":"userns","arm":"S2-7.0.0-1024-580.178.04","node":"spark8","check":"snaps_present","result":"INFO","detail":"firefox firefox.geckodriver firmware-updater geckodriver snap-store snap-store.show-updates thunderbird "}
+{"kind":"userns","arm":"S2-7.0.0-1024-580.178.04","node":"spark8","check":"firefox_snap_headless","result":"INFO","detail":"rc=0 png=0"}
+{"kind":"userns","arm":"S2-7.0.0-1024-580.178.04","node":"spark7+8","check":"nccl_roce_2node","result":"OK","detail":"{\"kind\": \"summary\", \"label\": \"userns0\", \"status\": \"ok\", \"error\": null, \"sizes_done\": 9, \"peak_busbw_GBs\": 21.647, \"peak_busbw_Gbps\": 173.18, \"hog_gib\": 0, \"world\": 2}"}
+512927
+512927
+{"arm":"S2-7.0.0-1024-580.178.04","soak":"idle","minutes":240,"resets":0,"unreachable_polls":0}

@@ -1,0 +1,13 @@
+2026-11-02 12:37:25 spark5: saved_entry=gnulinux-advanced-02a57489-a431-46d3-ab1c-3fb3dd966782>gnulinux-6.17.0-1032-nvidia-advanced-02a57489-a431-46d3-ab1c-3fb3dd966782 next_entry=gnulinux-advanced-02a57489-a431-46d3-ab1c-3fb3dd966782>gnulinux-7.0.0-1019-nvidia-advanced-02a57489-a431-46d3-ab1c-3fb3dd966782 
+2026-11-02 12:37:26 spark6: saved_entry=gnulinux-advanced-02a57489-a431-46d3-ab1c-3fb3dd966782>gnulinux-6.17.0-1032-nvidia-advanced-02a57489-a431-46d3-ab1c-3fb3dd966782 next_entry=gnulinux-advanced-02a57489-a431-46d3-ab1c-3fb3dd966782>gnulinux-7.0.0-1019-nvidia-advanced-02a57489-a431-46d3-ab1c-3fb3dd966782 
+2026-11-02 12:37:27 spark7: saved_entry=gnulinux-advanced-02a57489-a431-46d3-ab1c-3fb3dd966782>gnulinux-6.17.0-1032-nvidia-advanced-02a57489-a431-46d3-ab1c-3fb3dd966782 next_entry=gnulinux-advanced-02a57489-a431-46d3-ab1c-3fb3dd966782>gnulinux-7.0.0-1019-nvidia-advanced-02a57489-a431-46d3-ab1c-3fb3dd966782 
+2026-11-02 12:37:28 spark8: saved_entry=gnulinux-advanced-02a57489-a431-46d3-ab1c-3fb3dd966782>gnulinux-6.17.0-1032-nvidia-advanced-02a57489-a431-46d3-ab1c-3fb3dd966782 next_entry=gnulinux-advanced-02a57489-a431-46d3-ab1c-3fb3dd966782>gnulinux-7.0.0-1019-nvidia-advanced-02a57489-a431-46d3-ab1c-3fb3dd966782 
+2026-11-02 12:37:28 reboots issued; waiting
+2026-11-02 12:39:17 spark5: 7.0.0-1019-nvidia up=20s drv=580.178.04 kho=0 cdi_old=0 cdi_new=80 dri=ok hca=rocep1s0f0,rocep1s0f1,roceP2p1s0f0,roceP2p1s0f1, sys=starting
+2026-11-02 12:39:17 spark5: kho cfg restored for next boot
+2026-11-02 12:39:18 spark6: 7.0.0-1019-nvidia up=20s drv=580.178.04 kho=0 cdi_old=0 cdi_new=80 dri=ok hca=rocep1s0f0,rocep1s0f1,roceP2p1s0f0,roceP2p1s0f1, sys=starting
+2026-11-02 12:39:18 spark6: kho cfg restored for next boot
+2026-11-02 12:39:20 spark7: 7.0.0-1019-nvidia up=20s drv=580.178.04 kho=0 cdi_old=0 cdi_new=80 dri=ok hca=rocep1s0f0,rocep1s0f1,roceP2p1s0f0,roceP2p1s0f1, sys=starting
+2026-11-02 12:39:20 spark7: kho cfg restored for next boot
+2026-11-02 12:39:21 spark8: 7.0.0-1019-nvidia up=21s drv=580.178.04 kho=0 cdi_old=0 cdi_new=80 dri=ok hca=rocep1s0f0,rocep1s0f1,roceP2p1s0f0,roceP2p1s0f1, sys=starting
+2026-11-02 12:39:21 spark8: kho cfg restored for next boot

@@ -1,0 +1,76 @@
+2026-11-01 22:18:33 ARM K0-6.17.0-1031-595.84 start reps=3
+2026-11-01 22:18:50 facts spark5 Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "/Users/jamesmeadlock/.local/share/uv/python/cpython-3.11-macos-aarch64-none/lib/python3.11/json/__init__.py", line 293, in load
+    return loads(fp.read(),
+           ^^^^^^^^^^^^^^^^
+  File "/Users/jamesmeadlock/.local/share/uv/python/cpython-3.11-macos-aarch64-none/lib/python3.11/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jamesmeadlock/.local/share/uv/python/cpython-3.11-macos-aarch64-none/lib/python3.11/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jamesmeadlock/.local/share/uv/python/cpython-3.11-macos-aarch64-none/lib/python3.11/json/decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting ',' delimiter: line 13 column 1 (char 1134) alloc 
+2026-11-01 22:19:04 facts spark6 Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "/Users/jamesmeadlock/.local/share/uv/python/cpython-3.11-macos-aarch64-none/lib/python3.11/json/__init__.py", line 293, in load
+    return loads(fp.read(),
+           ^^^^^^^^^^^^^^^^
+  File "/Users/jamesmeadlock/.local/share/uv/python/cpython-3.11-macos-aarch64-none/lib/python3.11/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jamesmeadlock/.local/share/uv/python/cpython-3.11-macos-aarch64-none/lib/python3.11/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jamesmeadlock/.local/share/uv/python/cpython-3.11-macos-aarch64-none/lib/python3.11/json/decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting ',' delimiter: line 13 column 1 (char 1134) alloc 
+2026-11-01 22:19:25 facts spark7 Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "/Users/jamesmeadlock/.local/share/uv/python/cpython-3.11-macos-aarch64-none/lib/python3.11/json/__init__.py", line 293, in load
+    return loads(fp.read(),
+           ^^^^^^^^^^^^^^^^
+  File "/Users/jamesmeadlock/.local/share/uv/python/cpython-3.11-macos-aarch64-none/lib/python3.11/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jamesmeadlock/.local/share/uv/python/cpython-3.11-macos-aarch64-none/lib/python3.11/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jamesmeadlock/.local/share/uv/python/cpython-3.11-macos-aarch64-none/lib/python3.11/json/decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting ',' delimiter: line 13 column 1 (char 1134) alloc 
+2026-11-01 22:19:40 facts spark8 Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "/Users/jamesmeadlock/.local/share/uv/python/cpython-3.11-macos-aarch64-none/lib/python3.11/json/__init__.py", line 293, in load
+    return loads(fp.read(),
+           ^^^^^^^^^^^^^^^^
+  File "/Users/jamesmeadlock/.local/share/uv/python/cpython-3.11-macos-aarch64-none/lib/python3.11/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jamesmeadlock/.local/share/uv/python/cpython-3.11-macos-aarch64-none/lib/python3.11/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jamesmeadlock/.local/share/uv/python/cpython-3.11-macos-aarch64-none/lib/python3.11/json/decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting ',' delimiter: line 13 column 1 (char 1134) alloc 
+2026-11-01 22:25:28 rdma hog0 done
+2026-11-01 22:31:25 rdma hog100 done
+2026-11-01 22:31:38 nccl n2-hog0-rep1 rc=0 {"kind": "summary", "label": "K0-6.17.0-1031-595.84 n2-hog0-rep1", "status": "ok", "error": null, "sizes_done": 13, "peak_busbw_GBs": 23.923, "peak_busbw_Gbps": 191.38, "hog_gib": 0, "world": 2} 
+2026-11-01 22:31:51 nccl n2-hog100-rep1 rc=0 {"kind": "summary", "label": "K0-6.17.0-1031-595.84 n2-hog100-rep1", "status": "ok", "error": null, "sizes_done": 13, "peak_busbw_GBs": 23.83, "peak_busbw_Gbps": 190.64, "hog_gib": 100, "world": 2} 
+2026-11-01 22:32:09 nccl n4-hog0-rep1 rc=0 {"kind": "summary", "label": "K0-6.17.0-1031-595.84 n4-hog0-rep1", "status": "ok", "error": null, "sizes_done": 13, "peak_busbw_GBs": 24.04, "peak_busbw_Gbps": 192.32, "hog_gib": 0, "world": 4} 
+2026-11-01 22:32:44 nccl n4-hog100-rep1 rc=0 {"kind": "summary", "label": "K0-6.17.0-1031-595.84 n4-hog100-rep1", "status": "ok", "error": null, "sizes_done": 13, "peak_busbw_GBs": 24.074, "peak_busbw_Gbps": 192.59, "hog_gib": 100, "world": 4} 
+2026-11-01 22:32:55 nccl n2-hog0-rep2 rc=0 {"kind": "summary", "label": "K0-6.17.0-1031-595.84 n2-hog0-rep2", "status": "ok", "error": null, "sizes_done": 13, "peak_busbw_GBs": 24.028, "peak_busbw_Gbps": 192.22, "hog_gib": 0, "world": 2} 
+2026-11-01 22:33:08 nccl n2-hog100-rep2 rc=0 {"kind": "summary", "label": "K0-6.17.0-1031-595.84 n2-hog100-rep2", "status": "ok", "error": null, "sizes_done": 13, "peak_busbw_GBs": 24.062, "peak_busbw_Gbps": 192.5, "hog_gib": 100, "world": 2} 
+2026-11-01 22:33:29 nccl n4-hog0-rep2 rc=0 {"kind": "summary", "label": "K0-6.17.0-1031-595.84 n4-hog0-rep2", "status": "ok", "error": null, "sizes_done": 13, "peak_busbw_GBs": 24.18, "peak_busbw_Gbps": 193.44, "hog_gib": 0, "world": 4} 
+2026-11-01 22:33:57 nccl n4-hog100-rep2 rc=0 {"kind": "summary", "label": "K0-6.17.0-1031-595.84 n4-hog100-rep2", "status": "ok", "error": null, "sizes_done": 13, "peak_busbw_GBs": 24.183, "peak_busbw_Gbps": 193.46, "hog_gib": 100, "world": 4} 
+2026-11-01 22:34:08 nccl n2-hog0-rep3 rc=0 {"kind": "summary", "label": "K0-6.17.0-1031-595.84 n2-hog0-rep3", "status": "ok", "error": null, "sizes_done": 13, "peak_busbw_GBs": 24.075, "peak_busbw_Gbps": 192.6, "hog_gib": 0, "world": 2} 
+2026-11-01 22:34:23 nccl n2-hog100-rep3 rc=0 {"kind": "summary", "label": "K0-6.17.0-1031-595.84 n2-hog100-rep3", "status": "ok", "error": null, "sizes_done": 13, "peak_busbw_GBs": 24.049, "peak_busbw_Gbps": 192.39, "hog_gib": 100, "world": 2} 
+2026-11-01 22:34:42 nccl n4-hog0-rep3 rc=0 {"kind": "summary", "label": "K0-6.17.0-1031-595.84 n4-hog0-rep3", "status": "ok", "error": null, "sizes_done": 13, "peak_busbw_GBs": 24.077, "peak_busbw_Gbps": 192.62, "hog_gib": 0, "world": 4} 
+2026-11-01 22:35:24 nccl n4-hog100-rep3 rc=0 {"kind": "summary", "label": "K0-6.17.0-1031-595.84 n4-hog100-rep3", "status": "ok", "error": null, "sizes_done": 13, "peak_busbw_GBs": 24.068, "peak_busbw_Gbps": 192.54, "hog_gib": 100, "world": 4} 
+2026-11-01 22:35:24 ARM K0-6.17.0-1031-595.84 fabric end

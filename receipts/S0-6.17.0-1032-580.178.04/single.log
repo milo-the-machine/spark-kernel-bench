@@ -1,0 +1,4 @@
+2026-11-02 02:00:46 SINGLE S0-6.17.0-1032-580.178.04 start on 192.168.1.55
+2026-11-02 02:01:26 llama-bench rc=0 rows=6
+2026-11-02 02:02:31 gemm/membw {"kind": "gemm_bf16", "n": 8192, "peak_tflops": 61.08, "median_tflops": 60.83, "kernel": "6.17.0-1032-nvidia"} {"kind": "membw_copy", "bytes": 4294967296, "best_GBs": 246.8, "median_GBs": 246.5, "kernel": "6.17.0-1032-nvidia"} 
+2026-11-02 02:02:31 SINGLE S0-6.17.0-1032-580.178.04 end

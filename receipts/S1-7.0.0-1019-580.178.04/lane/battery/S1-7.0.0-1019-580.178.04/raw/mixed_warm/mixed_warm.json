@@ -1,0 +1,76 @@
+{
+ "doc_tokens": 68000,
+ "big_tokens": 413000,
+ "suffix_tokens": 1500,
+ "reps": 4,
+ "jitter_s": [
+  6.0,
+  9.5
+ ],
+ "runs": [
+  {
+   "short": {
+    "ttft_s": 1.711,
+    "total_s": 19.62,
+    "prompt_tokens": 69500,
+    "cached_tokens": null
+   },
+   "arrive_s": 7.62,
+   "long": {
+    "prompt_tokens": 413000,
+    "seconds": 89.453
+   }
+  },
+  {
+   "short": {
+    "ttft_s": 3.456,
+    "total_s": 13.77,
+    "prompt_tokens": 69500,
+    "cached_tokens": null
+   },
+   "arrive_s": 7.01,
+   "long": {
+    "prompt_tokens": 413000,
+    "seconds": 89.889
+   }
+  },
+  {
+   "short": {
+    "ttft_s": 2.556,
+    "total_s": 19.685,
+    "prompt_tokens": 69500,
+    "cached_tokens": null
+   },
+   "arrive_s": 6.83,
+   "long": {
+    "prompt_tokens": 413000,
+    "seconds": 89.572
+   }
+  },
+  {
+   "short": {
+    "ttft_s": 2.576,
+    "total_s": 16.708,
+    "prompt_tokens": 69500,
+    "cached_tokens": null
+   },
+   "arrive_s": 7.58,
+   "long": {
+    "prompt_tokens": 413000,
+    "seconds": 89.676
+   }
+  }
+ ],
+ "prime": {
+  "ttft_s": 12.935,
+  "total_s": 12.936,
+  "prompt_tokens": 69500,
+  "cached_tokens": null
+ },
+ "warm_median_s": 2.576,
+ "warm_all_s": [
+  3.456,
+  2.556,
+  2.576
+ ]
+}

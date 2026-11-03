@@ -1,0 +1,38 @@
+
+=============
+== PyTorch ==
+=============
+
+NVIDIA Release 25.09 (build 210907838)
+PyTorch Version 2.9.0a0+50eac81
+Container image Copyright (c) 2025, NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+Copyright (c) 2014-2024 Facebook Inc.
+Copyright (c) 2011-2014 Idiap Research Institute (Ronan Collobert)
+Copyright (c) 2012-2014 Deepmind Technologies    (Koray Kavukcuoglu)
+Copyright (c) 2011-2012 NEC Laboratories America (Koray Kavukcuoglu)
+Copyright (c) 2011-2013 NYU                      (Clement Farabet)
+Copyright (c) 2006-2010 NEC Laboratories America (Ronan Collobert, Leon Bottou, Iain Melvin, Jason Weston)
+Copyright (c) 2006      Idiap Research Institute (Samy Bengio)
+Copyright (c) 2001-2004 Idiap Research Institute (Ronan Collobert, Samy Bengio, Johnny Mariethoz)
+Copyright (c) 2015      Google Inc.
+Copyright (c) 2015      Yangqing Jia
+Copyright (c) 2013-2016 The Caffe contributors
+All rights reserved.
+
+Various files include modifications (c) NVIDIA CORPORATION & AFFILIATES.  All rights reserved.
+
+GOVERNING TERMS: The software and materials are governed by the NVIDIA Software License Agreement
+(found at https://www.nvidia.com/en-us/agreements/enterprise-software/nvidia-software-license-agreement/)
+and the Product-Specific Terms for NVIDIA AI Products
+(found at https://www.nvidia.com/en-us/agreements/enterprise-software/product-specific-terms-for-ai-products/).
+
+NOTE: The SHMEM allocation limit is set to the default of 64MB.  This may be
+   insufficient for PyTorch.  NVIDIA recommends the use of the following flags:
+   docker run --gpus all --ipc=host --ulimit memlock=-1 --ulimit stack=67108864 ...
+
+{"build_commit": "unknown", "build_number": 0, "cpu_info": "CPU", "gpu_info": "NVIDIA GB10", "backends": "CUDA", "model_filename": "/m/gpt-oss-120b-MXFP4.gguf", "model_type": "gpt-oss 120B MXFP4 MoE", "model_size": 63374323968, "model_n_params": 116829156672, "n_batch": 2048, "n_ubatch": 2048, "n_threads": 20, "cpu_mask": "0x0", "cpu_strict": false, "poll": 50, "type_k": "f16", "type_v": "f16", "n_gpu_layers": -1, "n_cpu_moe": 0, "split_mode": "layer", "main_gpu": 0, "no_kv_offload": false, "flash_attn": 1, "devices": "auto", "tensor_split": "0.00", "tensor_buft_overrides": "none", "load_mode": "none", "lazy_mode": "auto", "embeddings": false, "no_op_offload": 0, "no_host": false, "repack": true, "fit_target": 0, "fit_min_ctx": 0, "n_prompt": 2048, "n_gen": 0, "n_depth": 0, "test_time": "2026-11-02T05:17:08Z", "avg_ns": 784418211, "stddev_ns": 4662982, "avg_ts": 2610.913492, "stddev_ts": 15.471092, "samples_ns": [ 789755577, 781136150, 782362908 ],"samples_ts": [ 2593.21, 2621.82, 2617.71 ]}
+{"build_commit": "unknown", "build_number": 0, "cpu_info": "CPU", "gpu_info": "NVIDIA GB10", "backends": "CUDA", "model_filename": "/m/gpt-oss-120b-MXFP4.gguf", "model_type": "gpt-oss 120B MXFP4 MoE", "model_size": 63374323968, "model_n_params": 116829156672, "n_batch": 2048, "n_ubatch": 2048, "n_threads": 20, "cpu_mask": "0x0", "cpu_strict": false, "poll": 50, "type_k": "f16", "type_v": "f16", "n_gpu_layers": -1, "n_cpu_moe": 0, "split_mode": "layer", "main_gpu": 0, "no_kv_offload": false, "flash_attn": 1, "devices": "auto", "tensor_split": "0.00", "tensor_buft_overrides": "none", "load_mode": "none", "lazy_mode": "auto", "embeddings": false, "no_op_offload": 0, "no_host": false, "repack": true, "fit_target": 0, "fit_min_ctx": 0, "n_prompt": 0, "n_gen": 32, "n_depth": 0, "test_time": "2026-11-02T05:17:11Z", "avg_ns": 532366819, "stddev_ns": 3020609, "avg_ts": 60.110216, "stddev_ts": 0.340009, "samples_ns": [ 535829725, 530275141, 530995592 ],"samples_ts": [ 59.7205, 60.346, 60.2642 ]}
+{"build_commit": "unknown", "build_number": 0, "cpu_info": "CPU", "gpu_info": "NVIDIA GB10", "backends": "CUDA", "model_filename": "/m/gpt-oss-120b-MXFP4.gguf", "model_type": "gpt-oss 120B MXFP4 MoE", "model_size": 63374323968, "model_n_params": 116829156672, "n_batch": 2048, "n_ubatch": 2048, "n_threads": 20, "cpu_mask": "0x0", "cpu_strict": false, "poll": 50, "type_k": "f16", "type_v": "f16", "n_gpu_layers": -1, "n_cpu_moe": 0, "split_mode": "layer", "main_gpu": 0, "no_kv_offload": false, "flash_attn": 1, "devices": "auto", "tensor_split": "0.00", "tensor_buft_overrides": "none", "load_mode": "none", "lazy_mode": "auto", "embeddings": false, "no_op_offload": 0, "no_host": false, "repack": true, "fit_target": 0, "fit_min_ctx": 0, "n_prompt": 2048, "n_gen": 0, "n_depth": 4096, "test_time": "2026-11-02T05:17:13Z", "avg_ns": 822942650, "stddev_ns": 4484977, "avg_ts": 2488.679527, "stddev_ts": 13.554252, "samples_ns": [ 827595763, 822584750, 818647438 ],"samples_ts": [ 2474.64, 2489.71, 2501.69 ]}
+{"build_commit": "unknown", "build_number": 0, "cpu_info": "CPU", "gpu_info": "NVIDIA GB10", "backends": "CUDA", "model_filename": "/m/gpt-oss-120b-MXFP4.gguf", "model_type": "gpt-oss 120B MXFP4 MoE", "model_size": 63374323968, "model_n_params": 116829156672, "n_batch": 2048, "n_ubatch": 2048, "n_threads": 20, "cpu_mask": "0x0", "cpu_strict": false, "poll": 50, "type_k": "f16", "type_v": "f16", "n_gpu_layers": -1, "n_cpu_moe": 0, "split_mode": "layer", "main_gpu": 0, "no_kv_offload": false, "flash_attn": 1, "devices": "auto", "tensor_split": "0.00", "tensor_buft_overrides": "none", "load_mode": "none", "lazy_mode": "auto", "embeddings": false, "no_op_offload": 0, "no_host": false, "repack": true, "fit_target": 0, "fit_min_ctx": 0, "n_prompt": 0, "n_gen": 32, "n_depth": 4096, "test_time": "2026-11-02T05:17:18Z", "avg_ns": 561711807, "stddev_ns": 3613375, "avg_ts": 56.970281, "stddev_ts": 0.365107, "samples_ns": [ 565883718, 559584269, 559667436 ],"samples_ts": [ 56.5487, 57.1853, 57.1768 ]}
+{"build_commit": "unknown", "build_number": 0, "cpu_info": "CPU", "gpu_info": "NVIDIA GB10", "backends": "CUDA", "model_filename": "/m/gpt-oss-120b-MXFP4.gguf", "model_type": "gpt-oss 120B MXFP4 MoE", "model_size": 63374323968, "model_n_params": 116829156672, "n_batch": 2048, "n_ubatch": 2048, "n_threads": 20, "cpu_mask": "0x0", "cpu_strict": false, "poll": 50, "type_k": "f16", "type_v": "f16", "n_gpu_layers": -1, "n_cpu_moe": 0, "split_mode": "layer", "main_gpu": 0, "no_kv_offload": false, "flash_attn": 1, "devices": "auto", "tensor_split": "0.00", "tensor_buft_overrides": "none", "load_mode": "none", "lazy_mode": "auto", "embeddings": false, "no_op_offload": 0, "no_host": false, "repack": true, "fit_target": 0, "fit_min_ctx": 0, "n_prompt": 2048, "n_gen": 0, "n_depth": 16384, "test_time": "2026-11-02T05:17:20Z", "avg_ns": 947086125, "stddev_ns": 3784213, "avg_ts": 2162.445114, "stddev_ts": 8.627730, "samples_ns": [ 951252570, 946142612, 943863195 ],"samples_ts": [ 2152.95, 2164.58, 2169.81 ]}
+{"build_commit": "unknown", "build_number": 0, "cpu_info": "CPU", "gpu_info": "NVIDIA GB10", "backends": "CUDA", "model_filename": "/m/gpt-oss-120b-MXFP4.gguf", "model_type": "gpt-oss 120B MXFP4 MoE", "model_size": 63374323968, "model_n_params": 116829156672, "n_batch": 2048, "n_ubatch": 2048, "n_threads": 20, "cpu_mask": "0x0", "cpu_strict": false, "poll": 50, "type_k": "f16", "type_v": "f16", "n_gpu_layers": -1, "n_cpu_moe": 0, "split_mode": "layer", "main_gpu": 0, "no_kv_offload": false, "flash_attn": 1, "devices": "auto", "tensor_split": "0.00", "tensor_buft_overrides": "none", "load_mode": "none", "lazy_mode": "auto", "embeddings": false, "no_op_offload": 0, "no_host": false, "repack": true, "fit_target": 0, "fit_min_ctx": 0, "n_prompt": 0, "n_gen": 32, "n_depth": 16384, "test_time": "2026-11-02T05:17:30Z", "avg_ns": 620853316, "stddev_ns": 12155332, "avg_ts": 51.554995, "stddev_ts": 0.998283, "samples_ns": [ 634861502, 613088357, 614610091 ],"samples_ts": [ 50.4047, 52.1948, 52.0655 ]}

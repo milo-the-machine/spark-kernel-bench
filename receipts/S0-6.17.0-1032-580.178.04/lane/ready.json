@@ -1,0 +1,1 @@
+{"kind":"lane_ready","arm":"S0-6.17.0-1032-580.178.04","ready_s":127,"kv_line":"(EngineCore pid=125) INFO 11-02 05:47:24 [kv_cache_utils.py:2854] GPU KV cache size: 8,580,566 tokens, Maximum concurrency for 1,048,576 tokens per request: 8.18x"}

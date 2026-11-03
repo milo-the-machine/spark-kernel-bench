@@ -1,0 +1,53 @@
+[candidate] g40-00                    65 tok  reps 2
+[candidate] g40-01                   153 tok  reps 2
+[candidate] g40-02                   154 tok  reps 2
+[candidate] g40-03                   151 tok  reps 2
+[candidate] g40-04                    47 tok  reps 2
+[candidate] g40-05                    79 tok  reps 2
+[candidate] g40-06                   152 tok  reps 2
+[candidate] g40-07                   155 tok  reps 2
+[candidate] g40-08                    24 tok  reps 2
+[candidate] g40-09                   155 tok  reps 2
+[candidate] g40-10                    58 tok  reps 2
+[candidate] g40-11                    54 tok  reps 2
+[candidate] g40-12                   155 tok  reps 2
+[candidate] g40-13                   153 tok  reps 2
+[candidate] g40-14                   154 tok  reps 2
+[candidate] g40-15                   153 tok  reps 2
+[candidate] g40-16                   152 tok  reps 2
+[candidate] g40-17                   155 tok  reps 2
+[candidate] g40-18                   116 tok  reps 2
+[candidate] g40-19                   153 tok  reps 2
+[candidate] g40-20                    26 tok  reps 2
+[candidate] g40-21                    37 tok  reps 2
+[candidate] g40-22                   154 tok  reps 2
+[candidate] g40-23                   153 tok  reps 2
+[candidate] g40-24                   102 tok  reps 2
+[candidate] g40-25                   153 tok  reps 2
+[candidate] g40-26                    53 tok  reps 2
+[candidate] g40-27                   113 tok  reps 2
+[candidate] g40-28                    74 tok  reps 2
+[candidate] g40-29                   155 tok  reps 2
+[candidate] g40-30                   114 tok  reps 2
+[candidate] g40-31                   153 tok  reps 2
+[candidate] g40-32                   154 tok  reps 2
+[candidate] g40-33                   153 tok  reps 2
+[candidate] g40-34                    53 tok  reps 2
+[candidate] g40-35                   151 tok  reps 2
+[candidate] g40-36                   153 tok  reps 2
+[candidate] g40-37                   155 tok  reps 2
+[candidate] g40-38                   152 tok  reps 2
+[candidate] g40-39                   155 tok  reps 2
+[candidate] builtin-prose            164 tok  reps 2
+[candidate] builtin-code             158 tok  reps 2
+[candidate] builtin-json             100 tok  reps 2
+[candidate] builtin-math             115 tok  reps 2
+[candidate] builtin-reasoning         97 tok  reps 2
+[candidate] self-repeat max|d| = 0.0 over 5440 positions -> exact zero: True
+compared positions n = 5485 over 45 segments
+  COUNT  5485 >= 3000: True
+  P99    nearest rank ceil(0.99 x 5485) = 5431 -> |d| = 0.0 <= 0.05: True  (0 positions above the bar, 54 allowed)
+  MAX    0.0 <= 0.5: True
+  INSTR  self-repeat base 0.0 cand 0.0 (must be 0.0), id mismatches 0, errors 0: True
+  info   exact-zero 1.0, mean d 0.0, ppl 3.470555355873363 -> 3.470555355873363, top-1 agree 1.0, mean dNLL ub95 0.0
+VERDICT PASS

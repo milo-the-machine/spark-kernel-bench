@@ -1,0 +1,22 @@
+{
+ "32768": {
+  "reps": [
+   {
+    "prompt_tokens": 32768,
+    "seconds": 5.996,
+    "tok_s": 5464.8
+   },
+   {
+    "prompt_tokens": 32768,
+    "seconds": 5.988,
+    "tok_s": 5472.3
+   },
+   {
+    "prompt_tokens": 32768,
+    "seconds": 6.041,
+    "tok_s": 5424.0
+   }
+  ],
+  "median_tok_s": 5464.8
+ }
+}

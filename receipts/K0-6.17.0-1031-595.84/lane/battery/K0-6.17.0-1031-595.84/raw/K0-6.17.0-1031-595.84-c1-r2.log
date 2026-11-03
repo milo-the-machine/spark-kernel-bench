@@ -1,0 +1,32 @@
+[K0-6.17.0-1031-595.84-c1-r2] warmup
+  C1 coding        agg  126.44 tok/s  per-stream 135.9  ttft 0.116s
+  C1 json          agg   87.93 tok/s  per-stream 105.58  ttft 0.171s
+  C1 narrative     agg   60.26 tok/s  per-stream 63.02  ttft 0.128s
+  C1 prose         agg   74.14 tok/s  per-stream 79.43  ttft 0.127s
+  C1 math          agg  117.60 tok/s  per-stream 129.03  ttft 0.158s
+  C1 reasoning     agg   95.43 tok/s  per-stream 102.81  ttft 0.16s
+  C1 summary       agg   70.39 tok/s  per-stream 79.91  ttft 0.246s
+  C1 format        agg  122.52 tok/s  per-stream 150.88  ttft 0.167s
+  C1 ceiling_count agg  152.09 tok/s  per-stream 163.46  ttft 0.115s
+Prompt set `v1` (identical across boots), temperature 0, thinking off. Tokens from the server's usage block; TTFT = first token delta.
+
+### Throughput by concurrency (8 categories; the counting ceiling is excluded)
+
+| C | aggregate tok/s | per-stream tok/s | mean TTFT (s) |
+|---|---|---|---|
+| C1 | 94.34 | 105.82 | 0.159 |
+
+### Per-stream tok/s by category
+
+| category | C1 |
+|---|---|
+| coding | 135.9 |
+| json | 105.58 |
+| narrative | 63.02 |
+| prose | 79.43 |
+| math | 129.03 |
+| reasoning | 102.81 |
+| summary | 79.91 |
+| format | 150.88 |
+| ceiling_count | 163.46 |
+wrote /Users/jamesmeadlock/hermes/work/spark-kernel-research-2026-11/receipts/K0-6.17.0-1031-595.84/lane/battery/K0-6.17.0-1031-595.84/raw/bench-K0-6.17.0-1031-595.84-c1-r2.json and .md

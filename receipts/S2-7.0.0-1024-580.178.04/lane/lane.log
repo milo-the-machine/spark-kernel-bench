@@ -1,0 +1,9 @@
+2026-11-02 13:27:56 LANE S2-7.0.0-1024-580.178.04 start
+spark5 835e9a8b0a28 117 GiB avail 
+spark6 835e9a8b0a28 117 GiB avail 
+spark7 835e9a8b0a28 117 GiB avail 
+spark8 835e9a8b0a28 117 GiB avail 
+2026-11-02 13:30:21 READY after 128s
+2026-11-02 13:41:26 battery rc=0 2026-11-02T13:41:26-0600 ARM S2-7.0.0-1024-580.178.04 end
+2026-11-02 13:41:43 noninf   INSTR  self-repeat base 0.0 cand 0.0 (must be 0.0), id mismatches 0, errors 0: True   info   exact-zero 1.0, mean d 0.0, ppl 3.470555355873363 -> 3.470555355873363, top-1 agree 1.0, mean dNLL ub95 0.0 VERDICT PASS 
+2026-11-02 13:41:43 LANE S2-7.0.0-1024-580.178.04 end (left UP for loaded soak)

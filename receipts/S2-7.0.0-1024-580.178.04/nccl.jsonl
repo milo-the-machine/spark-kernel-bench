@@ -1,0 +1,180 @@
+{"kind": "meta", "label": "S2-7.0.0-1024-580.178.04 n2-hog0-rep1", "world": 2, "hog_gib": 0, "torch": "2.9.0a0+50eac811a6.nv25.09", "nccl": "2.27.7", "kernel": "7.0.0-1024-nvidia", "env": {"NCCL_VERSION": "2.27.7", "NCCL_SOCKET_IFNAME": "enp1s0f0np0", "NCCL_DEBUG": "WARN", "NCCL_IB_HCA": "rocep1s0f0,roceP2p1s0f0", "NCCL_IB_GID_INDEX": "3", "NCCL_IB_DISABLE": "0"}}
+{"kind": "row", "bytes": 1048576, "time_us": 221.2, "algbw_GBs": 4.74, "busbw_GBs": 4.74, "busbw_Gbps": 37.92, "correct": true}
+{"kind": "row", "bytes": 2097152, "time_us": 345.4, "algbw_GBs": 6.072, "busbw_GBs": 6.072, "busbw_Gbps": 48.58, "correct": true}
+{"kind": "row", "bytes": 4194304, "time_us": 573.7, "algbw_GBs": 7.311, "busbw_GBs": 7.311, "busbw_Gbps": 58.49, "correct": true}
+{"kind": "row", "bytes": 8388608, "time_us": 389.8, "algbw_GBs": 21.522, "busbw_GBs": 21.522, "busbw_Gbps": 172.18, "correct": true}
+{"kind": "row", "bytes": 16777216, "time_us": 764.6, "algbw_GBs": 21.943, "busbw_GBs": 21.943, "busbw_Gbps": 175.55, "correct": true}
+{"kind": "row", "bytes": 33554432, "time_us": 1527.6, "algbw_GBs": 21.965, "busbw_GBs": 21.965, "busbw_Gbps": 175.72, "correct": true}
+{"kind": "row", "bytes": 67108864, "time_us": 4060.4, "algbw_GBs": 16.528, "busbw_GBs": 16.528, "busbw_Gbps": 132.22, "correct": true}
+{"kind": "row", "bytes": 134217728, "time_us": 7787.7, "algbw_GBs": 17.235, "busbw_GBs": 17.235, "busbw_Gbps": 137.88, "correct": true}
+{"kind": "row", "bytes": 268435456, "time_us": 15649.9, "algbw_GBs": 17.153, "busbw_GBs": 17.153, "busbw_Gbps": 137.22, "correct": true}
+{"kind": "row", "bytes": 536870912, "time_us": 28446.4, "algbw_GBs": 18.873, "busbw_GBs": 18.873, "busbw_Gbps": 150.98, "correct": true}
+{"kind": "row", "bytes": 1073741824, "time_us": 51520.7, "algbw_GBs": 20.841, "busbw_GBs": 20.841, "busbw_Gbps": 166.73, "correct": true}
+{"kind": "row", "bytes": 2147483648, "time_us": 95910.7, "algbw_GBs": 22.39, "busbw_GBs": 22.39, "busbw_Gbps": 179.12, "correct": true}
+{"kind": "row", "bytes": 4294967296, "time_us": 183962.0, "algbw_GBs": 23.347, "busbw_GBs": 23.347, "busbw_Gbps": 186.78, "correct": true}
+{"kind": "summary", "label": "S2-7.0.0-1024-580.178.04 n2-hog0-rep1", "status": "ok", "error": null, "sizes_done": 13, "peak_busbw_GBs": 23.347, "peak_busbw_Gbps": 186.78, "hog_gib": 0, "world": 2}
+{"kind": "meta", "label": "S2-7.0.0-1024-580.178.04 n2-hog100-rep1", "world": 2, "hog_gib": 100, "torch": "2.9.0a0+50eac811a6.nv25.09", "nccl": "2.27.7", "kernel": "7.0.0-1024-nvidia", "env": {"NCCL_VERSION": "2.27.7", "NCCL_SOCKET_IFNAME": "enp1s0f0np0", "NCCL_DEBUG": "WARN", "NCCL_IB_HCA": "rocep1s0f0,roceP2p1s0f0", "NCCL_IB_GID_INDEX": "3", "NCCL_IB_DISABLE": "0"}}
+{"kind": "row", "bytes": 1048576, "time_us": 234.5, "algbw_GBs": 4.471, "busbw_GBs": 4.471, "busbw_Gbps": 35.77, "correct": true}
+{"kind": "row", "bytes": 2097152, "time_us": 350.2, "algbw_GBs": 5.989, "busbw_GBs": 5.989, "busbw_Gbps": 47.91, "correct": true}
+{"kind": "row", "bytes": 4194304, "time_us": 589.4, "algbw_GBs": 7.117, "busbw_GBs": 7.117, "busbw_Gbps": 56.93, "correct": true}
+{"kind": "row", "bytes": 8388608, "time_us": 419.7, "algbw_GBs": 19.988, "busbw_GBs": 19.988, "busbw_Gbps": 159.9, "correct": true}
+{"kind": "row", "bytes": 16777216, "time_us": 778.8, "algbw_GBs": 21.541, "busbw_GBs": 21.541, "busbw_Gbps": 172.33, "correct": true}
+{"kind": "row", "bytes": 33554432, "time_us": 1535.5, "algbw_GBs": 21.853, "busbw_GBs": 21.853, "busbw_Gbps": 174.82, "correct": true}
+{"kind": "row", "bytes": 67108864, "time_us": 4383.5, "algbw_GBs": 15.31, "busbw_GBs": 15.31, "busbw_Gbps": 122.48, "correct": true}
+{"kind": "row", "bytes": 134217728, "time_us": 8560.3, "algbw_GBs": 15.679, "busbw_GBs": 15.679, "busbw_Gbps": 125.43, "correct": true}
+{"kind": "row", "bytes": 268435456, "time_us": 17411.0, "algbw_GBs": 15.418, "busbw_GBs": 15.418, "busbw_Gbps": 123.34, "correct": true}
+{"kind": "row", "bytes": 536870912, "time_us": 31748.7, "algbw_GBs": 16.91, "busbw_GBs": 16.91, "busbw_Gbps": 135.28, "correct": true}
+{"kind": "row", "bytes": 1073741824, "time_us": 58379.7, "algbw_GBs": 18.392, "busbw_GBs": 18.392, "busbw_Gbps": 147.14, "correct": true}
+{"kind": "row", "bytes": 2147483648, "time_us": 104662.2, "algbw_GBs": 20.518, "busbw_GBs": 20.518, "busbw_Gbps": 164.15, "correct": true}
+{"kind": "row", "bytes": 4294967296, "time_us": 201883.7, "algbw_GBs": 21.274, "busbw_GBs": 21.274, "busbw_Gbps": 170.2, "correct": true}
+{"kind": "summary", "label": "S2-7.0.0-1024-580.178.04 n2-hog100-rep1", "status": "ok", "error": null, "sizes_done": 13, "peak_busbw_GBs": 21.853, "peak_busbw_Gbps": 174.82, "hog_gib": 100, "world": 2}
+{"kind": "meta", "label": "S2-7.0.0-1024-580.178.04 n4-hog0-rep1", "world": 4, "hog_gib": 0, "torch": "2.9.0a0+50eac811a6.nv25.09", "nccl": "2.27.7", "kernel": "7.0.0-1024-nvidia", "env": {"NCCL_VERSION": "2.27.7", "NCCL_SOCKET_IFNAME": "enp1s0f0np0", "NCCL_DEBUG": "WARN", "NCCL_IB_HCA": "rocep1s0f0,roceP2p1s0f0", "NCCL_IB_GID_INDEX": "3", "NCCL_IB_DISABLE": "0"}}
+{"kind": "row", "bytes": 1048576, "time_us": 370.2, "algbw_GBs": 2.833, "busbw_GBs": 4.249, "busbw_Gbps": 33.99, "correct": true}
+{"kind": "row", "bytes": 2097152, "time_us": 572.0, "algbw_GBs": 3.667, "busbw_GBs": 5.5, "busbw_Gbps": 44.0, "correct": true}
+{"kind": "row", "bytes": 4194304, "time_us": 915.3, "algbw_GBs": 4.582, "busbw_GBs": 6.874, "busbw_Gbps": 54.99, "correct": true}
+{"kind": "row", "bytes": 8388608, "time_us": 1637.2, "algbw_GBs": 5.124, "busbw_GBs": 7.686, "busbw_Gbps": 61.49, "correct": true}
+{"kind": "row", "bytes": 16777216, "time_us": 1094.0, "algbw_GBs": 15.335, "busbw_GBs": 23.003, "busbw_Gbps": 184.02, "correct": true}
+{"kind": "row", "bytes": 33554432, "time_us": 2165.4, "algbw_GBs": 15.496, "busbw_GBs": 23.244, "busbw_Gbps": 185.95, "correct": true}
+{"kind": "row", "bytes": 67108864, "time_us": 4525.7, "algbw_GBs": 14.828, "busbw_GBs": 22.243, "busbw_Gbps": 177.94, "correct": true}
+{"kind": "row", "bytes": 134217728, "time_us": 11434.1, "algbw_GBs": 11.738, "busbw_GBs": 17.608, "busbw_Gbps": 140.86, "correct": true}
+{"kind": "row", "bytes": 268435456, "time_us": 23179.6, "algbw_GBs": 11.581, "busbw_GBs": 17.371, "busbw_Gbps": 138.97, "correct": true}
+{"kind": "row", "bytes": 536870912, "time_us": 45080.7, "algbw_GBs": 11.909, "busbw_GBs": 17.864, "busbw_Gbps": 142.91, "correct": true}
+{"kind": "row", "bytes": 1073741824, "time_us": 88320.9, "algbw_GBs": 12.157, "busbw_GBs": 18.236, "busbw_Gbps": 145.89, "correct": true}
+{"kind": "row", "bytes": 2147483648, "time_us": 173863.8, "algbw_GBs": 12.352, "busbw_GBs": 18.527, "busbw_Gbps": 148.22, "correct": true}
+{"kind": "row", "bytes": 4294967296, "time_us": 329597.4, "algbw_GBs": 13.031, "busbw_GBs": 19.546, "busbw_Gbps": 156.37, "correct": true}
+{"kind": "summary", "label": "S2-7.0.0-1024-580.178.04 n4-hog0-rep1", "status": "ok", "error": null, "sizes_done": 13, "peak_busbw_GBs": 23.244, "peak_busbw_Gbps": 185.95, "hog_gib": 0, "world": 4}
+{"kind": "meta", "label": "S2-7.0.0-1024-580.178.04 n4-hog100-rep1", "world": 4, "hog_gib": 100, "torch": "2.9.0a0+50eac811a6.nv25.09", "nccl": "2.27.7", "kernel": "7.0.0-1024-nvidia", "env": {"NCCL_VERSION": "2.27.7", "NCCL_SOCKET_IFNAME": "enp1s0f0np0", "NCCL_DEBUG": "WARN", "NCCL_IB_HCA": "rocep1s0f0,roceP2p1s0f0", "NCCL_IB_GID_INDEX": "3", "NCCL_IB_DISABLE": "0"}}
+{"kind": "row", "bytes": 1048576, "time_us": 504.7, "algbw_GBs": 2.078, "busbw_GBs": 3.116, "busbw_Gbps": 24.93, "correct": true}
+{"kind": "row", "bytes": 2097152, "time_us": 810.0, "algbw_GBs": 2.589, "busbw_GBs": 3.884, "busbw_Gbps": 31.07, "correct": true}
+{"kind": "row", "bytes": 4194304, "time_us": 1344.9, "algbw_GBs": 3.119, "busbw_GBs": 4.678, "busbw_Gbps": 37.43, "correct": true}
+{"kind": "row", "bytes": 8388608, "time_us": 2123.0, "algbw_GBs": 3.951, "busbw_GBs": 5.927, "busbw_Gbps": 47.42, "correct": true}
+{"kind": "row", "bytes": 16777216, "time_us": 1108.2, "algbw_GBs": 15.139, "busbw_GBs": 22.708, "busbw_Gbps": 181.67, "correct": true}
+{"kind": "row", "bytes": 33554432, "time_us": 2163.5, "algbw_GBs": 15.509, "busbw_GBs": 23.264, "busbw_Gbps": 186.11, "correct": true}
+{"kind": "row", "bytes": 67108864, "time_us": 4320.8, "algbw_GBs": 15.531, "busbw_GBs": 23.297, "busbw_Gbps": 186.38, "correct": true}
+{"kind": "row", "bytes": 134217728, "time_us": 12149.9, "algbw_GBs": 11.047, "busbw_GBs": 16.57, "busbw_Gbps": 132.56, "correct": true}
+{"kind": "row", "bytes": 268435456, "time_us": 24085.6, "algbw_GBs": 11.145, "busbw_GBs": 16.718, "busbw_Gbps": 133.74, "correct": true}
+{"kind": "row", "bytes": 536870912, "time_us": 45821.7, "algbw_GBs": 11.717, "busbw_GBs": 17.575, "busbw_Gbps": 140.6, "correct": true}
+{"kind": "row", "bytes": 1073741824, "time_us": 84485.8, "algbw_GBs": 12.709, "busbw_GBs": 19.064, "busbw_Gbps": 152.51, "correct": true}
+{"kind": "row", "bytes": 2147483648, "time_us": 179093.6, "algbw_GBs": 11.991, "busbw_GBs": 17.986, "busbw_Gbps": 143.89, "correct": true}
+{"kind": "row", "bytes": 4294967296, "time_us": 325721.8, "algbw_GBs": 13.186, "busbw_GBs": 19.779, "busbw_Gbps": 158.23, "correct": true}
+{"kind": "summary", "label": "S2-7.0.0-1024-580.178.04 n4-hog100-rep1", "status": "ok", "error": null, "sizes_done": 13, "peak_busbw_GBs": 23.297, "peak_busbw_Gbps": 186.38, "hog_gib": 100, "world": 4}
+{"kind": "meta", "label": "S2-7.0.0-1024-580.178.04 n2-hog0-rep2", "world": 2, "hog_gib": 0, "torch": "2.9.0a0+50eac811a6.nv25.09", "nccl": "2.27.7", "kernel": "7.0.0-1024-nvidia", "env": {"NCCL_VERSION": "2.27.7", "NCCL_SOCKET_IFNAME": "enp1s0f0np0", "NCCL_DEBUG": "WARN", "NCCL_IB_HCA": "rocep1s0f0,roceP2p1s0f0", "NCCL_IB_GID_INDEX": "3", "NCCL_IB_DISABLE": "0"}}
+{"kind": "row", "bytes": 1048576, "time_us": 227.1, "algbw_GBs": 4.616, "busbw_GBs": 4.616, "busbw_Gbps": 36.93, "correct": true}
+{"kind": "row", "bytes": 2097152, "time_us": 354.7, "algbw_GBs": 5.913, "busbw_GBs": 5.913, "busbw_Gbps": 47.3, "correct": true}
+{"kind": "row", "bytes": 4194304, "time_us": 580.5, "algbw_GBs": 7.225, "busbw_GBs": 7.225, "busbw_Gbps": 57.8, "correct": true}
+{"kind": "row", "bytes": 8388608, "time_us": 397.2, "algbw_GBs": 21.121, "busbw_GBs": 21.121, "busbw_Gbps": 168.97, "correct": true}
+{"kind": "row", "bytes": 16777216, "time_us": 762.7, "algbw_GBs": 21.997, "busbw_GBs": 21.997, "busbw_Gbps": 175.98, "correct": true}
+{"kind": "row", "bytes": 33554432, "time_us": 1631.0, "algbw_GBs": 20.573, "busbw_GBs": 20.573, "busbw_Gbps": 164.58, "correct": true}
+{"kind": "row", "bytes": 67108864, "time_us": 3982.7, "algbw_GBs": 16.85, "busbw_GBs": 16.85, "busbw_Gbps": 134.8, "correct": true}
+{"kind": "row", "bytes": 134217728, "time_us": 7874.8, "algbw_GBs": 17.044, "busbw_GBs": 17.044, "busbw_Gbps": 136.35, "correct": true}
+{"kind": "row", "bytes": 268435456, "time_us": 15205.6, "algbw_GBs": 17.654, "busbw_GBs": 17.654, "busbw_Gbps": 141.23, "correct": true}
+{"kind": "row", "bytes": 536870912, "time_us": 29537.2, "algbw_GBs": 18.176, "busbw_GBs": 18.176, "busbw_Gbps": 145.41, "correct": true}
+{"kind": "row", "bytes": 1073741824, "time_us": 52803.7, "algbw_GBs": 20.335, "busbw_GBs": 20.335, "busbw_Gbps": 162.68, "correct": true}
+{"kind": "row", "bytes": 2147483648, "time_us": 99690.0, "algbw_GBs": 21.542, "busbw_GBs": 21.542, "busbw_Gbps": 172.33, "correct": true}
+{"kind": "row", "bytes": 4294967296, "time_us": 185000.6, "algbw_GBs": 23.216, "busbw_GBs": 23.216, "busbw_Gbps": 185.73, "correct": true}
+{"kind": "summary", "label": "S2-7.0.0-1024-580.178.04 n2-hog0-rep2", "status": "ok", "error": null, "sizes_done": 13, "peak_busbw_GBs": 23.216, "peak_busbw_Gbps": 185.73, "hog_gib": 0, "world": 2}
+{"kind": "meta", "label": "S2-7.0.0-1024-580.178.04 n2-hog100-rep2", "world": 2, "hog_gib": 100, "torch": "2.9.0a0+50eac811a6.nv25.09", "nccl": "2.27.7", "kernel": "7.0.0-1024-nvidia", "env": {"NCCL_VERSION": "2.27.7", "NCCL_SOCKET_IFNAME": "enp1s0f0np0", "NCCL_DEBUG": "WARN", "NCCL_IB_HCA": "rocep1s0f0,roceP2p1s0f0", "NCCL_IB_GID_INDEX": "3", "NCCL_IB_DISABLE": "0"}}
+{"kind": "row", "bytes": 1048576, "time_us": 214.6, "algbw_GBs": 4.886, "busbw_GBs": 4.886, "busbw_Gbps": 39.08, "correct": true}
+{"kind": "row", "bytes": 2097152, "time_us": 328.5, "algbw_GBs": 6.383, "busbw_GBs": 6.383, "busbw_Gbps": 51.07, "correct": true}
+{"kind": "row", "bytes": 4194304, "time_us": 573.9, "algbw_GBs": 7.308, "busbw_GBs": 7.308, "busbw_Gbps": 58.47, "correct": true}
+{"kind": "row", "bytes": 8388608, "time_us": 391.4, "algbw_GBs": 21.431, "busbw_GBs": 21.431, "busbw_Gbps": 171.45, "correct": true}
+{"kind": "row", "bytes": 16777216, "time_us": 769.4, "algbw_GBs": 21.804, "busbw_GBs": 21.804, "busbw_Gbps": 174.43, "correct": true}
+{"kind": "row", "bytes": 33554432, "time_us": 1523.2, "algbw_GBs": 22.029, "busbw_GBs": 22.029, "busbw_Gbps": 176.23, "correct": true}
+{"kind": "row", "bytes": 67108864, "time_us": 3928.9, "algbw_GBs": 17.081, "busbw_GBs": 17.081, "busbw_Gbps": 136.65, "correct": true}
+{"kind": "row", "bytes": 134217728, "time_us": 7867.2, "algbw_GBs": 17.06, "busbw_GBs": 17.06, "busbw_Gbps": 136.48, "correct": true}
+{"kind": "row", "bytes": 268435456, "time_us": 15209.9, "algbw_GBs": 17.649, "busbw_GBs": 17.649, "busbw_Gbps": 141.19, "correct": true}
+{"kind": "row", "bytes": 536870912, "time_us": 28579.1, "algbw_GBs": 18.785, "busbw_GBs": 18.785, "busbw_Gbps": 150.28, "correct": true}
+{"kind": "row", "bytes": 1073741824, "time_us": 51596.7, "algbw_GBs": 20.81, "busbw_GBs": 20.81, "busbw_Gbps": 166.48, "correct": true}
+{"kind": "row", "bytes": 2147483648, "time_us": 96858.6, "algbw_GBs": 22.171, "busbw_GBs": 22.171, "busbw_Gbps": 177.37, "correct": true}
+{"kind": "row", "bytes": 4294967296, "time_us": 185724.6, "algbw_GBs": 23.125, "busbw_GBs": 23.125, "busbw_Gbps": 185.0, "correct": true}
+{"kind": "summary", "label": "S2-7.0.0-1024-580.178.04 n2-hog100-rep2", "status": "ok", "error": null, "sizes_done": 13, "peak_busbw_GBs": 23.125, "peak_busbw_Gbps": 185.0, "hog_gib": 100, "world": 2}
+{"kind": "meta", "label": "S2-7.0.0-1024-580.178.04 n4-hog0-rep2", "world": 4, "hog_gib": 0, "torch": "2.9.0a0+50eac811a6.nv25.09", "nccl": "2.27.7", "kernel": "7.0.0-1024-nvidia", "env": {"NCCL_VERSION": "2.27.7", "NCCL_SOCKET_IFNAME": "enp1s0f0np0", "NCCL_DEBUG": "WARN", "NCCL_IB_HCA": "rocep1s0f0,roceP2p1s0f0", "NCCL_IB_GID_INDEX": "3", "NCCL_IB_DISABLE": "0"}}
+{"kind": "row", "bytes": 1048576, "time_us": 395.4, "algbw_GBs": 2.652, "busbw_GBs": 3.978, "busbw_Gbps": 31.83, "correct": true}
+{"kind": "row", "bytes": 2097152, "time_us": 589.7, "algbw_GBs": 3.557, "busbw_GBs": 5.335, "busbw_Gbps": 42.68, "correct": true}
+{"kind": "row", "bytes": 4194304, "time_us": 950.8, "algbw_GBs": 4.411, "busbw_GBs": 6.617, "busbw_Gbps": 52.94, "correct": true}
+{"kind": "row", "bytes": 8388608, "time_us": 1698.6, "algbw_GBs": 4.939, "busbw_GBs": 7.408, "busbw_Gbps": 59.26, "correct": true}
+{"kind": "row", "bytes": 16777216, "time_us": 1098.1, "algbw_GBs": 15.278, "busbw_GBs": 22.917, "busbw_Gbps": 183.33, "correct": true}
+{"kind": "row", "bytes": 33554432, "time_us": 2157.1, "algbw_GBs": 15.555, "busbw_GBs": 23.333, "busbw_Gbps": 186.66, "correct": true}
+{"kind": "row", "bytes": 67108864, "time_us": 4335.9, "algbw_GBs": 15.478, "busbw_GBs": 23.216, "busbw_Gbps": 185.73, "correct": true}
+{"kind": "row", "bytes": 134217728, "time_us": 11414.5, "algbw_GBs": 11.758, "busbw_GBs": 17.638, "busbw_Gbps": 141.1, "correct": true}
+{"kind": "row", "bytes": 268435456, "time_us": 22889.9, "algbw_GBs": 11.727, "busbw_GBs": 17.591, "busbw_Gbps": 140.73, "correct": true}
+{"kind": "row", "bytes": 536870912, "time_us": 44096.8, "algbw_GBs": 12.175, "busbw_GBs": 18.262, "busbw_Gbps": 146.1, "correct": true}
+{"kind": "row", "bytes": 1073741824, "time_us": 89670.7, "algbw_GBs": 11.974, "busbw_GBs": 17.961, "busbw_Gbps": 143.69, "correct": true}
+{"kind": "row", "bytes": 2147483648, "time_us": 176794.9, "algbw_GBs": 12.147, "busbw_GBs": 18.22, "busbw_Gbps": 145.76, "correct": true}
+{"kind": "row", "bytes": 4294967296, "time_us": 348444.8, "algbw_GBs": 12.326, "busbw_GBs": 18.489, "busbw_Gbps": 147.91, "correct": true}
+{"kind": "summary", "label": "S2-7.0.0-1024-580.178.04 n4-hog0-rep2", "status": "ok", "error": null, "sizes_done": 13, "peak_busbw_GBs": 23.333, "peak_busbw_Gbps": 186.66, "hog_gib": 0, "world": 4}
+{"kind": "meta", "label": "S2-7.0.0-1024-580.178.04 n4-hog100-rep2", "world": 4, "hog_gib": 100, "torch": "2.9.0a0+50eac811a6.nv25.09", "nccl": "2.27.7", "kernel": "7.0.0-1024-nvidia", "env": {"NCCL_VERSION": "2.27.7", "NCCL_SOCKET_IFNAME": "enp1s0f0np0", "NCCL_DEBUG": "WARN", "NCCL_IB_HCA": "rocep1s0f0,roceP2p1s0f0", "NCCL_IB_GID_INDEX": "3", "NCCL_IB_DISABLE": "0"}}
+{"kind": "row", "bytes": 1048576, "time_us": 366.5, "algbw_GBs": 2.861, "busbw_GBs": 4.292, "busbw_Gbps": 34.33, "correct": true}
+{"kind": "row", "bytes": 2097152, "time_us": 589.3, "algbw_GBs": 3.559, "busbw_GBs": 5.338, "busbw_Gbps": 42.7, "correct": true}
+{"kind": "row", "bytes": 4194304, "time_us": 950.6, "algbw_GBs": 4.412, "busbw_GBs": 6.618, "busbw_Gbps": 52.95, "correct": true}
+{"kind": "row", "bytes": 8388608, "time_us": 1647.2, "algbw_GBs": 5.092, "busbw_GBs": 7.639, "busbw_Gbps": 61.11, "correct": true}
+{"kind": "row", "bytes": 16777216, "time_us": 1091.7, "algbw_GBs": 15.368, "busbw_GBs": 23.052, "busbw_Gbps": 184.42, "correct": true}
+{"kind": "row", "bytes": 33554432, "time_us": 2158.3, "algbw_GBs": 15.546, "busbw_GBs": 23.32, "busbw_Gbps": 186.56, "correct": true}
+{"kind": "row", "bytes": 67108864, "time_us": 4310.6, "algbw_GBs": 15.568, "busbw_GBs": 23.352, "busbw_Gbps": 186.82, "correct": true}
+{"kind": "row", "bytes": 134217728, "time_us": 11293.3, "algbw_GBs": 11.885, "busbw_GBs": 17.827, "busbw_Gbps": 142.62, "correct": true}
+{"kind": "row", "bytes": 268435456, "time_us": 22225.8, "algbw_GBs": 12.078, "busbw_GBs": 18.117, "busbw_Gbps": 144.93, "correct": true}
+{"kind": "row", "bytes": 536870912, "time_us": 44074.0, "algbw_GBs": 12.181, "busbw_GBs": 18.272, "busbw_Gbps": 146.17, "correct": true}
+{"kind": "row", "bytes": 1073741824, "time_us": 87959.5, "algbw_GBs": 12.207, "busbw_GBs": 18.311, "busbw_Gbps": 146.49, "correct": true}
+{"kind": "row", "bytes": 2147483648, "time_us": 172895.1, "algbw_GBs": 12.421, "busbw_GBs": 18.631, "busbw_Gbps": 149.05, "correct": true}
+{"kind": "row", "bytes": 4294967296, "time_us": 338269.1, "algbw_GBs": 12.697, "busbw_GBs": 19.045, "busbw_Gbps": 152.36, "correct": true}
+{"kind": "summary", "label": "S2-7.0.0-1024-580.178.04 n4-hog100-rep2", "status": "ok", "error": null, "sizes_done": 13, "peak_busbw_GBs": 23.352, "peak_busbw_Gbps": 186.82, "hog_gib": 100, "world": 4}
+{"kind": "meta", "label": "S2-7.0.0-1024-580.178.04 n2-hog0-rep3", "world": 2, "hog_gib": 0, "torch": "2.9.0a0+50eac811a6.nv25.09", "nccl": "2.27.7", "kernel": "7.0.0-1024-nvidia", "env": {"NCCL_VERSION": "2.27.7", "NCCL_SOCKET_IFNAME": "enp1s0f0np0", "NCCL_DEBUG": "WARN", "NCCL_IB_HCA": "rocep1s0f0,roceP2p1s0f0", "NCCL_IB_GID_INDEX": "3", "NCCL_IB_DISABLE": "0"}}
+{"kind": "row", "bytes": 1048576, "time_us": 269.1, "algbw_GBs": 3.897, "busbw_GBs": 3.897, "busbw_Gbps": 31.18, "correct": true}
+{"kind": "row", "bytes": 2097152, "time_us": 464.4, "algbw_GBs": 4.516, "busbw_GBs": 4.516, "busbw_Gbps": 36.13, "correct": true}
+{"kind": "row", "bytes": 4194304, "time_us": 758.6, "algbw_GBs": 5.529, "busbw_GBs": 5.529, "busbw_Gbps": 44.23, "correct": true}
+{"kind": "row", "bytes": 8388608, "time_us": 402.8, "algbw_GBs": 20.823, "busbw_GBs": 20.823, "busbw_Gbps": 166.59, "correct": true}
+{"kind": "row", "bytes": 16777216, "time_us": 764.8, "algbw_GBs": 21.937, "busbw_GBs": 21.937, "busbw_Gbps": 175.49, "correct": true}
+{"kind": "row", "bytes": 33554432, "time_us": 1538.7, "algbw_GBs": 21.807, "busbw_GBs": 21.807, "busbw_Gbps": 174.45, "correct": true}
+{"kind": "row", "bytes": 67108864, "time_us": 3984.0, "algbw_GBs": 16.845, "busbw_GBs": 16.845, "busbw_Gbps": 134.76, "correct": true}
+{"kind": "row", "bytes": 134217728, "time_us": 7795.6, "algbw_GBs": 17.217, "busbw_GBs": 17.217, "busbw_Gbps": 137.74, "correct": true}
+{"kind": "row", "bytes": 268435456, "time_us": 15351.7, "algbw_GBs": 17.486, "busbw_GBs": 17.486, "busbw_Gbps": 139.89, "correct": true}
+{"kind": "row", "bytes": 536870912, "time_us": 28769.4, "algbw_GBs": 18.661, "busbw_GBs": 18.661, "busbw_Gbps": 149.29, "correct": true}
+{"kind": "row", "bytes": 1073741824, "time_us": 54952.1, "algbw_GBs": 19.54, "busbw_GBs": 19.54, "busbw_Gbps": 156.32, "correct": true}
+{"kind": "row", "bytes": 2147483648, "time_us": 96413.3, "algbw_GBs": 22.274, "busbw_GBs": 22.274, "busbw_Gbps": 178.19, "correct": true}
+{"kind": "row", "bytes": 4294967296, "time_us": 181470.0, "algbw_GBs": 23.668, "busbw_GBs": 23.668, "busbw_Gbps": 189.34, "correct": true}
+{"kind": "summary", "label": "S2-7.0.0-1024-580.178.04 n2-hog0-rep3", "status": "ok", "error": null, "sizes_done": 13, "peak_busbw_GBs": 23.668, "peak_busbw_Gbps": 189.34, "hog_gib": 0, "world": 2}
+{"kind": "meta", "label": "S2-7.0.0-1024-580.178.04 n2-hog100-rep3", "world": 2, "hog_gib": 100, "torch": "2.9.0a0+50eac811a6.nv25.09", "nccl": "2.27.7", "kernel": "7.0.0-1024-nvidia", "env": {"NCCL_VERSION": "2.27.7", "NCCL_SOCKET_IFNAME": "enp1s0f0np0", "NCCL_DEBUG": "WARN", "NCCL_IB_HCA": "rocep1s0f0,roceP2p1s0f0", "NCCL_IB_GID_INDEX": "3", "NCCL_IB_DISABLE": "0"}}
+{"kind": "row", "bytes": 1048576, "time_us": 289.9, "algbw_GBs": 3.617, "busbw_GBs": 3.617, "busbw_Gbps": 28.94, "correct": true}
+{"kind": "row", "bytes": 2097152, "time_us": 470.4, "algbw_GBs": 4.458, "busbw_GBs": 4.458, "busbw_Gbps": 35.67, "correct": true}
+{"kind": "row", "bytes": 4194304, "time_us": 725.2, "algbw_GBs": 5.784, "busbw_GBs": 5.784, "busbw_Gbps": 46.27, "correct": true}
+{"kind": "row", "bytes": 8388608, "time_us": 402.4, "algbw_GBs": 20.848, "busbw_GBs": 20.848, "busbw_Gbps": 166.78, "correct": true}
+{"kind": "row", "bytes": 16777216, "time_us": 765.2, "algbw_GBs": 21.925, "busbw_GBs": 21.925, "busbw_Gbps": 175.4, "correct": true}
+{"kind": "row", "bytes": 33554432, "time_us": 1573.0, "algbw_GBs": 21.331, "busbw_GBs": 21.331, "busbw_Gbps": 170.65, "correct": true}
+{"kind": "row", "bytes": 67108864, "time_us": 4054.7, "algbw_GBs": 16.551, "busbw_GBs": 16.551, "busbw_Gbps": 132.41, "correct": true}
+{"kind": "row", "bytes": 134217728, "time_us": 7850.3, "algbw_GBs": 17.097, "busbw_GBs": 17.097, "busbw_Gbps": 136.78, "correct": true}
+{"kind": "row", "bytes": 268435456, "time_us": 15703.6, "algbw_GBs": 17.094, "busbw_GBs": 17.094, "busbw_Gbps": 136.75, "correct": true}
+{"kind": "row", "bytes": 536870912, "time_us": 30168.5, "algbw_GBs": 17.796, "busbw_GBs": 17.796, "busbw_Gbps": 142.37, "correct": true}
+{"kind": "row", "bytes": 1073741824, "time_us": 57613.8, "algbw_GBs": 18.637, "busbw_GBs": 18.637, "busbw_Gbps": 149.1, "correct": true}
+{"kind": "row", "bytes": 2147483648, "time_us": 96998.6, "algbw_GBs": 22.139, "busbw_GBs": 22.139, "busbw_Gbps": 177.11, "correct": true}
+{"kind": "row", "bytes": 4294967296, "time_us": 191017.1, "algbw_GBs": 22.485, "busbw_GBs": 22.485, "busbw_Gbps": 179.88, "correct": true}
+{"kind": "summary", "label": "S2-7.0.0-1024-580.178.04 n2-hog100-rep3", "status": "ok", "error": null, "sizes_done": 13, "peak_busbw_GBs": 22.485, "peak_busbw_Gbps": 179.88, "hog_gib": 100, "world": 2}
+{"kind": "meta", "label": "S2-7.0.0-1024-580.178.04 n4-hog0-rep3", "world": 4, "hog_gib": 0, "torch": "2.9.0a0+50eac811a6.nv25.09", "nccl": "2.27.7", "kernel": "7.0.0-1024-nvidia", "env": {"NCCL_VERSION": "2.27.7", "NCCL_SOCKET_IFNAME": "enp1s0f0np0", "NCCL_DEBUG": "WARN", "NCCL_IB_HCA": "rocep1s0f0,roceP2p1s0f0", "NCCL_IB_GID_INDEX": "3", "NCCL_IB_DISABLE": "0"}}
+{"kind": "row", "bytes": 1048576, "time_us": 541.7, "algbw_GBs": 1.936, "busbw_GBs": 2.904, "busbw_Gbps": 23.23, "correct": true}
+{"kind": "row", "bytes": 2097152, "time_us": 887.3, "algbw_GBs": 2.363, "busbw_GBs": 3.545, "busbw_Gbps": 28.36, "correct": true}
+{"kind": "row", "bytes": 4194304, "time_us": 1525.2, "algbw_GBs": 2.75, "busbw_GBs": 4.125, "busbw_Gbps": 33.0, "correct": true}
+{"kind": "row", "bytes": 8388608, "time_us": 1924.8, "algbw_GBs": 4.358, "busbw_GBs": 6.537, "busbw_Gbps": 52.3, "correct": true}
+{"kind": "row", "bytes": 16777216, "time_us": 1098.4, "algbw_GBs": 15.275, "busbw_GBs": 22.912, "busbw_Gbps": 183.3, "correct": true}
+{"kind": "row", "bytes": 33554432, "time_us": 2157.4, "algbw_GBs": 15.553, "busbw_GBs": 23.33, "busbw_Gbps": 186.64, "correct": true}
+{"kind": "row", "bytes": 67108864, "time_us": 4483.4, "algbw_GBs": 14.968, "busbw_GBs": 22.453, "busbw_Gbps": 179.62, "correct": true}
+{"kind": "row", "bytes": 134217728, "time_us": 11004.2, "algbw_GBs": 12.197, "busbw_GBs": 18.295, "busbw_Gbps": 146.36, "correct": true}
+{"kind": "row", "bytes": 268435456, "time_us": 22230.6, "algbw_GBs": 12.075, "busbw_GBs": 18.113, "busbw_Gbps": 144.9, "correct": true}
+{"kind": "row", "bytes": 536870912, "time_us": 43911.3, "algbw_GBs": 12.226, "busbw_GBs": 18.339, "busbw_Gbps": 146.72, "correct": true}
+{"kind": "row", "bytes": 1073741824, "time_us": 85402.6, "algbw_GBs": 12.573, "busbw_GBs": 18.859, "busbw_Gbps": 150.87, "correct": true}
+{"kind": "row", "bytes": 2147483648, "time_us": 171034.1, "algbw_GBs": 12.556, "busbw_GBs": 18.834, "busbw_Gbps": 150.67, "correct": true}
+{"kind": "row", "bytes": 4294967296, "time_us": 338972.7, "algbw_GBs": 12.671, "busbw_GBs": 19.006, "busbw_Gbps": 152.05, "correct": true}
+{"kind": "summary", "label": "S2-7.0.0-1024-580.178.04 n4-hog0-rep3", "status": "ok", "error": null, "sizes_done": 13, "peak_busbw_GBs": 23.33, "peak_busbw_Gbps": 186.64, "hog_gib": 0, "world": 4}
+{"kind": "meta", "label": "S2-7.0.0-1024-580.178.04 n4-hog100-rep3", "world": 4, "hog_gib": 100, "torch": "2.9.0a0+50eac811a6.nv25.09", "nccl": "2.27.7", "kernel": "7.0.0-1024-nvidia", "env": {"NCCL_VERSION": "2.27.7", "NCCL_SOCKET_IFNAME": "enp1s0f0np0", "NCCL_DEBUG": "WARN", "NCCL_IB_HCA": "rocep1s0f0,roceP2p1s0f0", "NCCL_IB_GID_INDEX": "3", "NCCL_IB_DISABLE": "0"}}
+{"kind": "row", "bytes": 1048576, "time_us": 533.9, "algbw_GBs": 1.964, "busbw_GBs": 2.946, "busbw_Gbps": 23.57, "correct": true}
+{"kind": "row", "bytes": 2097152, "time_us": 884.1, "algbw_GBs": 2.372, "busbw_GBs": 3.558, "busbw_Gbps": 28.47, "correct": true}
+{"kind": "row", "bytes": 4194304, "time_us": 1395.1, "algbw_GBs": 3.007, "busbw_GBs": 4.51, "busbw_Gbps": 36.08, "correct": true}
+{"kind": "row", "bytes": 8388608, "time_us": 2036.1, "algbw_GBs": 4.12, "busbw_GBs": 6.18, "busbw_Gbps": 49.44, "correct": true}
+{"kind": "row", "bytes": 16777216, "time_us": 1109.7, "algbw_GBs": 15.118, "busbw_GBs": 22.677, "busbw_Gbps": 181.42, "correct": true}
+{"kind": "row", "bytes": 33554432, "time_us": 2159.2, "algbw_GBs": 15.54, "busbw_GBs": 23.31, "busbw_Gbps": 186.48, "correct": true}
+{"kind": "row", "bytes": 67108864, "time_us": 4335.0, "algbw_GBs": 15.481, "busbw_GBs": 23.221, "busbw_Gbps": 185.77, "correct": true}
+{"kind": "row", "bytes": 134217728, "time_us": 12289.5, "algbw_GBs": 10.921, "busbw_GBs": 16.382, "busbw_Gbps": 131.06, "correct": true}
+{"kind": "row", "bytes": 268435456, "time_us": 24058.5, "algbw_GBs": 11.158, "busbw_GBs": 16.736, "busbw_Gbps": 133.89, "correct": true}
+{"kind": "row", "bytes": 536870912, "time_us": 47180.1, "algbw_GBs": 11.379, "busbw_GBs": 17.069, "busbw_Gbps": 136.55, "correct": true}
+{"kind": "row", "bytes": 1073741824, "time_us": 92818.6, "algbw_GBs": 11.568, "busbw_GBs": 17.352, "busbw_Gbps": 138.82, "correct": true}
+{"kind": "row", "bytes": 2147483648, "time_us": 178063.3, "algbw_GBs": 12.06, "busbw_GBs": 18.09, "busbw_Gbps": 144.72, "correct": true}
+{"kind": "row", "bytes": 4294967296, "time_us": 345735.0, "algbw_GBs": 12.423, "busbw_GBs": 18.634, "busbw_Gbps": 149.07, "correct": true}
+{"kind": "summary", "label": "S2-7.0.0-1024-580.178.04 n4-hog100-rep3", "status": "ok", "error": null, "sizes_done": 13, "peak_busbw_GBs": 23.31, "peak_busbw_Gbps": 186.48, "hog_gib": 100, "world": 4}

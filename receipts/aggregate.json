@@ -1,0 +1,651 @@
+{
+ "K0-6.17.0-1031-595.84": {
+  "arm": "K0-6.17.0-1031-595.84",
+  "kernel": [
+   "6.17.0-1031-nvidia"
+  ],
+  "driver": [
+   "595.84"
+  ],
+  "xid_this_boot": 0,
+  "memavail_gib_boot": 117.4,
+  "memtotal_gib": 121.7,
+  "kho_off": true,
+  "alloc_gib": 108,
+  "alloc_secs": 0.7,
+  "rdma_write_gbps_hog0": "111.86 (111.85\u2013111.86)",
+  "rdma_lat_us_hog0": "2.51 (2.48\u20132.55)",
+  "rdma_fail_hog0": 0,
+  "rdma_write_gbps_hog100": "111.86 (111.85\u2013111.86)",
+  "rdma_lat_us_hog100": "2.50 (2.50\u20132.51)",
+  "rdma_fail_hog100": 0,
+  "nccl_n2_hog0_Gbps": "192.1 (191.4\u2013192.6)",
+  "nccl_n2_hog0_fail": 0,
+  "nccl_n2_hog100_Gbps": "191.8 (190.6\u2013192.5)",
+  "nccl_n2_hog100_fail": 0,
+  "nccl_n4_hog0_Gbps": "192.8 (192.3\u2013193.4)",
+  "nccl_n4_hog0_fail": 0,
+  "nccl_n4_hog100_Gbps": "192.9 (192.5\u2013193.5)",
+  "nccl_n4_hog100_fail": 0,
+  "lane_ready_s": 137,
+  "c1_agg_tok_s": "94.0 (93.7\u201394.3)",
+  "c1_ttft_s": "0.159 (0.159\u20130.160)",
+  "c16_agg_tok_s": "480.9 (480.6\u2013481.5)",
+  "c16_ttft_s": "0.496 (0.485\u20130.507)",
+  "prefill": {
+   "lengths": {
+    "32768": {
+     "n": 3,
+     "prompt_tokens": 32768,
+     "median_tok_s": 5321.1,
+     "tok_s_spread": [
+      5285.3,
+      5460.8
+     ],
+     "median_s": 6.158,
+     "s_spread": [
+      6.001,
+      6.2
+     ],
+     "reps": [
+      {
+       "prompt_tokens": 32768,
+       "seconds": 6.2,
+       "tok_s": 5285.3
+      },
+      {
+       "prompt_tokens": 32768,
+       "seconds": 6.158,
+       "tok_s": 5321.1
+      },
+      {
+       "prompt_tokens": 32768,
+       "seconds": 6.001,
+       "tok_s": 5460.8
+      }
+     ]
+    },
+    "131072": {
+     "n": 3,
+     "prompt_tokens": 131072,
+     "median_tok_s": 5294.9,
+     "tok_s_spread": [
+      5254.9,
+      5318.5
+     ],
+     "median_s": 24.755,
+     "s_spread": [
+      24.645,
+      24.943
+     ],
+     "reps": [
+      {
+       "prompt_tokens": 131072,
+       "seconds": 24.943,
+       "tok_s": 5254.9
+      },
+      {
+       "prompt_tokens": 131072,
+       "seconds": 24.755,
+       "tok_s": 5294.9
+      },
+      {
+       "prompt_tokens": 131072,
+       "seconds": 24.645,
+       "tok_s": 5318.5
+      }
+     ]
+    }
+   },
+   "one_m_tokens": null,
+   "one_m_skipped": "run without --allow-1m"
+  },
+  "mixed_warm": {
+   "doc_tokens": 68000,
+   "big_tokens": 413000,
+   "suffix_tokens": 1500,
+   "n_warm": 3,
+   "warm_median_ttft_s": 2.467,
+   "warm_ttft_spread": [
+    2.279,
+    3.194
+   ],
+   "warm_all_s": [
+    3.194,
+    2.467,
+    2.279
+   ],
+   "first_rep_ttft_s": 2.229,
+   "prime_s": 12.958,
+   "long_median_s": 89.523,
+   "short_prompt_tokens": 69500.0
+  },
+  "noninf-vs-base8": {
+   "verdict": "PASS"
+  },
+  "llama_pp2048@d0": 2616.39,
+  "llama_tg32@d0": 60.25,
+  "llama_pp2048@d4096": 2498.82,
+  "llama_tg32@d4096": 57.01,
+  "llama_pp2048@d16384": 2152.79,
+  "llama_tg32@d16384": 51.28,
+  "gemm_bf16_tflops": 91.16,
+  "membw_GBs": 246.6,
+  "userns": {
+   "spark7:firefox_snap_headless_CONTROL": "INFO",
+   "spark8:firefox_snap_headless_CONTROL": "INFO",
+   "spark7:unshare_user_ns": "BLOCKED",
+   "spark7:docker_gpu_container": "OK",
+   "spark7:userns_inside_container": "INFO",
+   "spark7:systemd_user_run": "INFO",
+   "spark7:snaps_present": "INFO",
+   "spark7:firefox_snap_headless": "INFO",
+   "spark8:unshare_user_ns": "BLOCKED",
+   "spark8:docker_gpu_container": "OK",
+   "spark8:userns_inside_container": "INFO",
+   "spark8:systemd_user_run": "INFO",
+   "spark8:snaps_present": "INFO",
+   "spark8:firefox_snap_headless": "INFO",
+   "spark7+8:nccl_roce_2node": "OK"
+  }
+ },
+ "S0-6.17.0-1032-580.178.04": {
+  "arm": "S0-6.17.0-1032-580.178.04",
+  "kernel": [
+   "6.17.0-1032-nvidia"
+  ],
+  "driver": [
+   "580.178.04"
+  ],
+  "xid_this_boot": 0,
+  "memavail_gib_boot": 117.4,
+  "memtotal_gib": 121.7,
+  "kho_off": true,
+  "alloc_gib": 109,
+  "alloc_secs": 4.7,
+  "rdma_write_gbps_hog0": "111.86 (111.86\u2013111.87)",
+  "rdma_lat_us_hog0": "3.04 (3.02\u20133.09)",
+  "rdma_fail_hog0": 0,
+  "rdma_write_gbps_hog100": "111.86 (111.86\u2013111.87)",
+  "rdma_lat_us_hog100": "3.05 (3.02\u20133.07)",
+  "rdma_fail_hog100": 0,
+  "nccl_n2_hog0_Gbps": "187.4 (184.1\u2013191.4)",
+  "nccl_n2_hog0_fail": 0,
+  "nccl_n2_hog100_Gbps": "185.3 (179.3\u2013191.2)",
+  "nccl_n2_hog100_fail": 0,
+  "nccl_n4_hog0_Gbps": "186.4 (186.3\u2013186.6)",
+  "nccl_n4_hog0_fail": 0,
+  "nccl_n4_hog100_Gbps": "186.6 (185.7\u2013187.2)",
+  "nccl_n4_hog100_fail": 0,
+  "lane_ready_s": 127,
+  "c1_agg_tok_s": "93.0 (93.0\u201393.0)",
+  "c1_ttft_s": "0.162 (0.162\u20130.162)",
+  "c16_agg_tok_s": "484.6 (479.0\u2013493.1)",
+  "c16_ttft_s": "0.507 (0.500\u20130.516)",
+  "prefill": {
+   "lengths": {
+    "32768": {
+     "n": 3,
+     "prompt_tokens": 32768,
+     "median_tok_s": 5455.4,
+     "tok_s_spread": [
+      5405.6,
+      5463.9
+     ],
+     "median_s": 6.007,
+     "s_spread": [
+      5.997,
+      6.062
+     ],
+     "reps": [
+      {
+       "prompt_tokens": 32768,
+       "seconds": 6.062,
+       "tok_s": 5405.6
+      },
+      {
+       "prompt_tokens": 32768,
+       "seconds": 5.997,
+       "tok_s": 5463.9
+      },
+      {
+       "prompt_tokens": 32768,
+       "seconds": 6.007,
+       "tok_s": 5455.4
+      }
+     ]
+    },
+    "131072": {
+     "n": 3,
+     "prompt_tokens": 131072,
+     "median_tok_s": 5306.4,
+     "tok_s_spread": [
+      5291.7,
+      5307.1
+     ],
+     "median_s": 24.701,
+     "s_spread": [
+      24.697,
+      24.769
+     ],
+     "reps": [
+      {
+       "prompt_tokens": 131072,
+       "seconds": 24.769,
+       "tok_s": 5291.7
+      },
+      {
+       "prompt_tokens": 131072,
+       "seconds": 24.701,
+       "tok_s": 5306.4
+      },
+      {
+       "prompt_tokens": 131072,
+       "seconds": 24.697,
+       "tok_s": 5307.1
+      }
+     ]
+    }
+   },
+   "one_m_tokens": null,
+   "one_m_skipped": "run without --allow-1m"
+  },
+  "mixed_warm": {
+   "doc_tokens": 68000,
+   "big_tokens": 413000,
+   "suffix_tokens": 1500,
+   "n_warm": 3,
+   "warm_median_ttft_s": 2.277,
+   "warm_ttft_spread": [
+    1.93,
+    3.135
+   ],
+   "warm_all_s": [
+    3.135,
+    1.93,
+    2.277
+   ],
+   "first_rep_ttft_s": 1.685,
+   "prime_s": 12.92,
+   "long_median_s": 89.896,
+   "short_prompt_tokens": 69500.0
+  },
+  "noninf-vs-base8": {
+   "verdict": "PASS"
+  },
+  "noninf-vs-K0": {
+   "verdict": "PASS"
+  },
+  "llama_pp2048@d0": 2604.04,
+  "llama_tg32@d0": 58.97,
+  "llama_pp2048@d4096": 2501.73,
+  "llama_tg32@d4096": 56.65,
+  "llama_pp2048@d16384": 2154.82,
+  "llama_tg32@d16384": 50.53,
+  "gemm_bf16_tflops": 61.08,
+  "membw_GBs": 246.5,
+  "soak_idle": "240 min, 0 resets, 0 unreachable polls",
+  "soak_loaded": "120 min, 0 resets, 0 unreachable polls"
+ },
+ "S1-7.0.0-1019-580.178.04": {
+  "arm": "S1-7.0.0-1019-580.178.04",
+  "kernel": [
+   "7.0.0-1019-nvidia"
+  ],
+  "driver": [
+   "580.178.04"
+  ],
+  "xid_this_boot": 0,
+  "memavail_gib_boot": 117.5,
+  "memtotal_gib": 121.7,
+  "kho_off": true,
+  "alloc_gib": 109,
+  "alloc_secs": 4.8,
+  "rdma_write_gbps_hog0": "111.86 (111.85\u2013111.87)",
+  "rdma_lat_us_hog0": "2.51 (2.49\u20132.54)",
+  "rdma_fail_hog0": 0,
+  "rdma_write_gbps_hog100": "111.86 (111.86\u2013111.86)",
+  "rdma_lat_us_hog100": "2.51 (2.50\u20132.54)",
+  "rdma_fail_hog100": 0,
+  "nccl_n2_hog0_Gbps": "188.4 (185.5\u2013190.8)",
+  "nccl_n2_hog0_fail": 0,
+  "nccl_n2_hog100_Gbps": "184.8 (177.2\u2013190.7)",
+  "nccl_n2_hog100_fail": 0,
+  "nccl_n4_hog0_Gbps": "186.0 (185.5\u2013186.5)",
+  "nccl_n4_hog0_fail": 0,
+  "nccl_n4_hog100_Gbps": "186.3 (185.9\u2013186.6)",
+  "nccl_n4_hog100_fail": 0,
+  "lane_ready_s": 125,
+  "c1_agg_tok_s": "93.1 (93.0\u201393.1)",
+  "c1_ttft_s": "0.161 (0.161\u20130.162)",
+  "c16_agg_tok_s": "477.7 (474.6\u2013480.5)",
+  "c16_ttft_s": "0.502 (0.490\u20130.508)",
+  "prefill": {
+   "lengths": {
+    "32768": {
+     "n": 3,
+     "prompt_tokens": 32768,
+     "median_tok_s": 5464.8,
+     "tok_s_spread": [
+      5424.0,
+      5472.3
+     ],
+     "median_s": 5.996,
+     "s_spread": [
+      5.988,
+      6.041
+     ],
+     "reps": [
+      {
+       "prompt_tokens": 32768,
+       "seconds": 5.996,
+       "tok_s": 5464.8
+      },
+      {
+       "prompt_tokens": 32768,
+       "seconds": 5.988,
+       "tok_s": 5472.3
+      },
+      {
+       "prompt_tokens": 32768,
+       "seconds": 6.041,
+       "tok_s": 5424.0
+      }
+     ]
+    },
+    "131072": {
+     "n": 3,
+     "prompt_tokens": 131072,
+     "median_tok_s": 5292.3,
+     "tok_s_spread": [
+      5287.3,
+      5295.2
+     ],
+     "median_s": 24.766,
+     "s_spread": [
+      24.753,
+      24.79
+     ],
+     "reps": [
+      {
+       "prompt_tokens": 131072,
+       "seconds": 24.766,
+       "tok_s": 5292.3
+      },
+      {
+       "prompt_tokens": 131072,
+       "seconds": 24.753,
+       "tok_s": 5295.2
+      },
+      {
+       "prompt_tokens": 131072,
+       "seconds": 24.79,
+       "tok_s": 5287.3
+      }
+     ]
+    }
+   },
+   "one_m_tokens": null,
+   "one_m_skipped": "run without --allow-1m"
+  },
+  "mixed_warm": {
+   "doc_tokens": 68000,
+   "big_tokens": 413000,
+   "suffix_tokens": 1500,
+   "n_warm": 3,
+   "warm_median_ttft_s": 2.576,
+   "warm_ttft_spread": [
+    2.556,
+    3.456
+   ],
+   "warm_all_s": [
+    3.456,
+    2.556,
+    2.576
+   ],
+   "first_rep_ttft_s": 1.711,
+   "prime_s": 12.936,
+   "long_median_s": 89.624,
+   "short_prompt_tokens": 69500.0
+  },
+  "noninf-vs-base8": {
+   "verdict": "PASS"
+  },
+  "noninf-vs-K0": {
+   "verdict": "PASS"
+  },
+  "llama_pp2048@d0": 2610.66,
+  "llama_tg32@d0": 59.01,
+  "llama_pp2048@d4096": 2501.64,
+  "llama_tg32@d4096": 56.76,
+  "llama_pp2048@d16384": 2158.22,
+  "llama_tg32@d16384": 50.53,
+  "gemm_bf16_tflops": 61.38,
+  "membw_GBs": 246.6,
+  "soak_idle": "240 min, 0 resets, 0 unreachable polls",
+  "soak_loaded": "120 min, 0 resets, 0 unreachable polls"
+ },
+ "S1x-7.0.0-1019-nokho-580.178.04": {
+  "arm": "S1x-7.0.0-1019-nokho-580.178.04",
+  "kernel": [
+   "7.0.0-1019-nvidia"
+  ],
+  "driver": [
+   "580.178.04"
+  ],
+  "xid_this_boot": 0,
+  "memavail_gib_boot": 117.5,
+  "memtotal_gib": 121.7,
+  "kho_off": false,
+  "alloc_gib": 107,
+  "alloc_secs": 19.5,
+  "rdma_write_gbps_hog0": "111.86 (111.86\u2013111.87)",
+  "rdma_lat_us_hog0": "2.50 (2.48\u20132.52)",
+  "rdma_fail_hog0": 0,
+  "rdma_write_gbps_hog100": "111.86 (111.85\u2013111.86)",
+  "rdma_lat_us_hog100": "2.50 (2.48\u20132.53)",
+  "rdma_fail_hog100": 0,
+  "nccl_n2_hog0_Gbps": "\u2014",
+  "nccl_n2_hog0_fail": 3,
+  "nccl_n2_hog100_Gbps": "\u2014",
+  "nccl_n2_hog100_fail": 3,
+  "nccl_n4_hog0_Gbps": "\u2014",
+  "nccl_n4_hog0_fail": 3,
+  "nccl_n4_hog100_Gbps": "\u2014",
+  "nccl_n4_hog100_fail": 3,
+  "lane_ready_s": null
+ },
+ "S2-7.0.0-1024-580.178.04": {
+  "arm": "S2-7.0.0-1024-580.178.04",
+  "kernel": [
+   "7.0.0-1024-nvidia"
+  ],
+  "driver": [
+   "580.178.04"
+  ],
+  "xid_this_boot": 0,
+  "memavail_gib_boot": 117.4,
+  "memtotal_gib": 121.7,
+  "kho_off": true,
+  "alloc_gib": 108,
+  "alloc_secs": 5.2,
+  "rdma_write_gbps_hog0": "111.86 (111.84\u2013111.87)",
+  "rdma_lat_us_hog0": "3.35 (3.33\u20133.38)",
+  "rdma_fail_hog0": 0,
+  "rdma_write_gbps_hog100": "111.86 (111.85\u2013111.86)",
+  "rdma_lat_us_hog100": "3.36 (3.34\u20133.37)",
+  "rdma_fail_hog100": 0,
+  "nccl_n2_hog0_Gbps": "187.3 (185.7\u2013189.3)",
+  "nccl_n2_hog0_fail": 0,
+  "nccl_n2_hog100_Gbps": "179.9 (174.8\u2013185.0)",
+  "nccl_n2_hog100_fail": 0,
+  "nccl_n4_hog0_Gbps": "186.4 (185.9\u2013186.7)",
+  "nccl_n4_hog0_fail": 0,
+  "nccl_n4_hog100_Gbps": "186.6 (186.4\u2013186.8)",
+  "nccl_n4_hog100_fail": 0,
+  "lane_ready_s": 128,
+  "c1_agg_tok_s": "93.2 (93.1\u201393.2)",
+  "c1_ttft_s": "0.162 (0.162\u20130.162)",
+  "c16_agg_tok_s": "484.4 (484.1\u2013484.7)",
+  "c16_ttft_s": "0.499 (0.472\u20130.515)",
+  "prefill": {
+   "lengths": {
+    "32768": {
+     "n": 3,
+     "prompt_tokens": 32768,
+     "median_tok_s": 5469.4,
+     "tok_s_spread": [
+      5464.6,
+      5479.4
+     ],
+     "median_s": 5.991,
+     "s_spread": [
+      5.98,
+      5.996
+     ],
+     "reps": [
+      {
+       "prompt_tokens": 32768,
+       "seconds": 5.996,
+       "tok_s": 5464.6
+      },
+      {
+       "prompt_tokens": 32768,
+       "seconds": 5.98,
+       "tok_s": 5479.4
+      },
+      {
+       "prompt_tokens": 32768,
+       "seconds": 5.991,
+       "tok_s": 5469.4
+      }
+     ]
+    },
+    "131072": {
+     "n": 3,
+     "prompt_tokens": 131072,
+     "median_tok_s": 5303.7,
+     "tok_s_spread": [
+      5300.5,
+      5303.8
+     ],
+     "median_s": 24.713,
+     "s_spread": [
+      24.713,
+      24.728
+     ],
+     "reps": [
+      {
+       "prompt_tokens": 131072,
+       "seconds": 24.713,
+       "tok_s": 5303.7
+      },
+      {
+       "prompt_tokens": 131072,
+       "seconds": 24.728,
+       "tok_s": 5300.5
+      },
+      {
+       "prompt_tokens": 131072,
+       "seconds": 24.713,
+       "tok_s": 5303.8
+      }
+     ]
+    }
+   },
+   "one_m_tokens": null,
+   "one_m_skipped": "run without --allow-1m"
+  },
+  "mixed_warm": {
+   "doc_tokens": 68000,
+   "big_tokens": 413000,
+   "suffix_tokens": 1500,
+   "n_warm": 3,
+   "warm_median_ttft_s": 2.435,
+   "warm_ttft_spread": [
+    2.412,
+    3.065
+   ],
+   "warm_all_s": [
+    3.065,
+    2.412,
+    2.435
+   ],
+   "first_rep_ttft_s": 1.917,
+   "prime_s": 12.928,
+   "long_median_s": 89.507,
+   "short_prompt_tokens": 69500.0
+  },
+  "noninf-vs-base8": {
+   "verdict": "PASS"
+  },
+  "noninf-vs-K0": {
+   "verdict": "PASS"
+  },
+  "llama_pp2048@d0": 2619.49,
+  "llama_tg32@d0": 59.23,
+  "llama_pp2048@d4096": 2497.44,
+  "llama_tg32@d4096": 56.85,
+  "llama_pp2048@d16384": 2166.86,
+  "llama_tg32@d16384": 50.73,
+  "gemm_bf16_tflops": 61.55,
+  "membw_GBs": 246.9,
+  "soak_idle": "240 min, 0 resets, 0 unreachable polls",
+  "soak_loaded": "120 min, 0 resets, 0 unreachable polls",
+  "userns": {
+   "spark7:firefox_snap_headless_CONTROL": "INFO",
+   "spark8:firefox_snap_headless_CONTROL": "INFO",
+   "spark7:unshare_user_ns": "BLOCKED",
+   "spark7:docker_gpu_container": "OK",
+   "spark7:userns_inside_container": "INFO",
+   "spark7:systemd_user_run": "INFO",
+   "spark7:snaps_present": "INFO",
+   "spark7:firefox_snap_headless": "INFO",
+   "spark8:unshare_user_ns": "BLOCKED",
+   "spark8:docker_gpu_container": "OK",
+   "spark8:userns_inside_container": "INFO",
+   "spark8:systemd_user_run": "INFO",
+   "spark8:snaps_present": "INFO",
+   "spark8:firefox_snap_headless": "INFO",
+   "spark7+8:nccl_roce_2node": "OK"
+  }
+ },
+ "K0c13-6.17.0-1031-595.84": {
+  "arm": "K0c13-6.17.0-1031-595.84",
+  "kernel": [
+   "6.17.0-1031-nvidia"
+  ],
+  "driver": [
+   "595.84"
+  ],
+  "xid_this_boot": 0,
+  "memavail_gib_boot": 117.1,
+  "memtotal_gib": 121.7,
+  "kho_off": true,
+  "alloc_gib": 107,
+  "alloc_secs": 3.3,
+  "rdma_write_gbps_hog0": "111.86 (111.85\u2013111.86)",
+  "rdma_lat_us_hog0": "2.50 (2.50\u20132.52)",
+  "rdma_fail_hog0": 0,
+  "rdma_write_gbps_hog100": "111.86 (111.85\u2013111.86)",
+  "rdma_lat_us_hog100": "2.50 (2.48\u20132.52)",
+  "rdma_fail_hog100": 0,
+  "nccl_n2_hog0_Gbps": "189.4 (186.1\u2013191.1)",
+  "nccl_n2_hog0_fail": 0,
+  "nccl_n2_hog100_Gbps": "189.7 (189.0\u2013190.3)",
+  "nccl_n2_hog100_fail": 0,
+  "nccl_n4_hog0_Gbps": "184.3 (183.8\u2013184.9)",
+  "nccl_n4_hog0_fail": 0,
+  "nccl_n4_hog100_Gbps": "184.6 (184.3\u2013185.0)",
+  "nccl_n4_hog100_fail": 0,
+  "lane_ready_s": null,
+  "llama_pp2048@d0": 2610.91,
+  "llama_tg32@d0": 60.11,
+  "llama_pp2048@d4096": 2488.68,
+  "llama_tg32@d4096": 56.97,
+  "llama_pp2048@d16384": 2162.45,
+  "llama_tg32@d16384": 51.55,
+  "gemm_bf16_tflops": 61.08,
+  "membw_GBs": 246.7
+ }
+}

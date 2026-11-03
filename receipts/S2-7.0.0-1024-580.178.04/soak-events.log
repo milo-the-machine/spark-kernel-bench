@@ -1,0 +1,1 @@
+2026-11-02 17:42:11 CST USB-C MONITOR attached to spark8 by James (~17:41 CST) during S2 idle soak; spark8 nvidia-smi display_active=Enabled (spark7 headless for comparison); kernel log shows no USB/xHCI events at plug-in; spark8 boot_id 31cd4c0a, up 4h29m at attach.

@@ -1,0 +1,56 @@
+
+=============
+== PyTorch ==
+=============
+
+NVIDIA Release 26.07 (build 373437299)
+PyTorch Version 2.13.0a0+9186a08
+Container image Copyright (c) 2026, NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+Copyright (c) 2014-2024 Facebook Inc.
+Copyright (c) 2011-2014 Idiap Research Institute (Ronan Collobert)
+Copyright (c) 2012-2014 Deepmind Technologies    (Koray Kavukcuoglu)
+Copyright (c) 2011-2012 NEC Laboratories America (Koray Kavukcuoglu)
+Copyright (c) 2011-2013 NYU                      (Clement Farabet)
+Copyright (c) 2006-2010 NEC Laboratories America (Ronan Collobert, Leon Bottou, Iain Melvin, Jason Weston)
+Copyright (c) 2006      Idiap Research Institute (Samy Bengio)
+Copyright (c) 2001-2004 Idiap Research Institute (Ronan Collobert, Samy Bengio, Johnny Mariethoz)
+Copyright (c) 2015      Google Inc.
+Copyright (c) 2015      Yangqing Jia
+Copyright (c) 2013-2016 The Caffe contributors
+All rights reserved.
+
+Various files include modifications (c) NVIDIA CORPORATION & AFFILIATES.  All rights reserved.
+
+GOVERNING TERMS: The software and materials are governed by the NVIDIA Software License Agreement
+(found at https://www.nvidia.com/en-us/agreements/enterprise-software/nvidia-software-license-agreement/)
+and the Product-Specific Terms for NVIDIA AI Products
+(found at https://www.nvidia.com/en-us/agreements/enterprise-software/product-specific-terms-for-ai-products/).
+
+NOTE: CUDA Forward Compatibility mode ENABLED.
+  Using CUDA 13.3 driver version 610.43.02 with kernel driver version 595.84.
+  See https://docs.nvidia.com/deploy/cuda-compatibility/ for details.
+
+NCCL version 2.30.7+cuda13.3
+
+[2026-11-02 04:33:17] spark5:208:208 [0] init.cc:449 NCCL WARN Spectrum-X (SPCX) NCCL plugin is not supported on device:rocep1s0f0, skipping ..
+
+[2026-11-02 04:33:17] spark5:208:208 [0] init.cc:449 NCCL WARN Spectrum-X (SPCX) NCCL plugin is not supported on device:roceP2p1s0f0, skipping ..
+
+[2026-11-02 04:33:17] spark5:208:208 [0] misc/ibvwrap.cc:402 (wrap_ibv_query_port_speed) NCCL WARN Call to ibv_query_port_speed failed with error Protocol not supported errno 93
+
+[2026-11-02 04:33:17] spark5:208:208 [0] misc/ibvwrap.cc:402 (wrap_ibv_query_port_speed) NCCL WARN Call to ibv_query_port_speed failed with error Protocol not supported errno 93
+{"kind": "meta", "label": "K0-6.17.0-1031-595.84 n4-hog0-rep2", "world": 4, "hog_gib": 0, "torch": "2.13.0a0+9186a08b2c.nv26.07", "nccl": "2.30.7", "kernel": "6.17.0-1031-nvidia", "env": {"NCCL_NET_PLUGIN": "spcx", "NCCL_VERSION": "2.30.7", "NCCL_SOCKET_IFNAME": "enp1s0f0np0", "NCCL_DEBUG": "WARN", "NCCL_IB_HCA": "rocep1s0f0,roceP2p1s0f0", "NCCL_IB_GID_INDEX": "3", "NCCL_IB_DISABLE": "0"}}
+{"kind": "row", "bytes": 1048576, "time_us": 2893.8, "algbw_GBs": 0.362, "busbw_GBs": 0.544, "busbw_Gbps": 4.35, "correct": true}
+{"kind": "row", "bytes": 2097152, "time_us": 1983.0, "algbw_GBs": 1.058, "busbw_GBs": 1.586, "busbw_Gbps": 12.69, "correct": true}
+{"kind": "row", "bytes": 4194304, "time_us": 1385.1, "algbw_GBs": 3.028, "busbw_GBs": 4.542, "busbw_Gbps": 36.34, "correct": true}
+{"kind": "row", "bytes": 8388608, "time_us": 898.7, "algbw_GBs": 9.334, "busbw_GBs": 14.001, "busbw_Gbps": 112.01, "correct": true}
+{"kind": "row", "bytes": 16777216, "time_us": 1186.8, "algbw_GBs": 14.136, "busbw_GBs": 21.204, "busbw_Gbps": 169.63, "correct": true}
+{"kind": "row", "bytes": 33554432, "time_us": 2173.8, "algbw_GBs": 15.436, "busbw_GBs": 23.154, "busbw_Gbps": 185.23, "correct": true}
+{"kind": "row", "bytes": 67108864, "time_us": 4443.6, "algbw_GBs": 15.102, "busbw_GBs": 22.654, "busbw_Gbps": 181.23, "correct": true}
+{"kind": "row", "bytes": 134217728, "time_us": 9129.5, "algbw_GBs": 14.702, "busbw_GBs": 22.052, "busbw_Gbps": 176.42, "correct": true}
+{"kind": "row", "bytes": 268435456, "time_us": 17347.9, "algbw_GBs": 15.474, "busbw_GBs": 23.211, "busbw_Gbps": 185.68, "correct": true}
+{"kind": "row", "bytes": 536870912, "time_us": 35439.8, "algbw_GBs": 15.149, "busbw_GBs": 22.723, "busbw_Gbps": 181.79, "correct": true}
+{"kind": "row", "bytes": 1073741824, "time_us": 69678.0, "algbw_GBs": 15.41, "busbw_GBs": 23.115, "busbw_Gbps": 184.92, "correct": true}
+{"kind": "row", "bytes": 2147483648, "time_us": 137343.2, "algbw_GBs": 15.636, "busbw_GBs": 23.454, "busbw_Gbps": 187.63, "correct": true}
+{"kind": "row", "bytes": 4294967296, "time_us": 266440.0, "algbw_GBs": 16.12, "busbw_GBs": 24.18, "busbw_Gbps": 193.44, "correct": true}
+{"kind": "summary", "label": "K0-6.17.0-1031-595.84 n4-hog0-rep2", "status": "ok", "error": null, "sizes_done": 13, "peak_busbw_GBs": 24.18, "peak_busbw_Gbps": 193.44, "hog_gib": 0, "world": 4}

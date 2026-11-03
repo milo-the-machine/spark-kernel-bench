@@ -1,0 +1,9 @@
+2026-11-01 22:35:52 LANE K0-6.17.0-1031-595.84 start
+spark5 835e9a8b0a28 117 GiB avail 
+spark6 835e9a8b0a28 117 GiB avail 
+spark7 835e9a8b0a28 117 GiB avail 
+spark8 835e9a8b0a28 117 GiB avail 
+2026-11-01 22:38:29 READY after 137s
+2026-11-01 22:49:35 battery rc=0 2026-11-01T22:49:35-0600 ARM K0-6.17.0-1031-595.84 end
+2026-11-01 22:49:52 noninf   INSTR  self-repeat base 0.0 cand 0.0 (must be 0.0), id mismatches 0, errors 0: True   info   exact-zero 1.0, mean d 0.0, ppl 3.470555355873363 -> 3.470555355873363, top-1 agree 1.0, mean dNLL ub95 0.0 VERDICT PASS 
+2026-11-01 22:50:30 LANE K0-6.17.0-1031-595.84 end (stopped, kept)

@@ -1,0 +1,8 @@
+2026-11-01 23:08:43 SINGLE K0c13-6.17.0-1031-595.84 start on 192.168.1.55
+2026-11-01 23:08:46 llama-bench rc=1 rows=0
+2026-11-01 23:09:51 gemm/membw {"kind": "gemm_bf16", "n": 8192, "peak_tflops": 60.9, "median_tflops": 60.55, "kernel": "6.17.0-1031-nvidia"} {"kind": "membw_copy", "bytes": 4294967296, "best_GBs": 246.7, "median_GBs": 246.6, "kernel": "6.17.0-1031-nvidia"} 
+2026-11-01 23:09:51 SINGLE K0c13-6.17.0-1031-595.84 end
+2026-11-01 23:16:58 SINGLE K0c13-6.17.0-1031-595.84 start on 192.168.1.55
+2026-11-01 23:17:33 llama-bench rc=0 rows=6
+2026-11-01 23:18:37 gemm/membw {"kind": "gemm_bf16", "n": 8192, "peak_tflops": 61.08, "median_tflops": 60.8, "kernel": "6.17.0-1031-nvidia"} {"kind": "membw_copy", "bytes": 4294967296, "best_GBs": 246.9, "median_GBs": 246.7, "kernel": "6.17.0-1031-nvidia"} 
+2026-11-01 23:18:37 SINGLE K0c13-6.17.0-1031-595.84 end

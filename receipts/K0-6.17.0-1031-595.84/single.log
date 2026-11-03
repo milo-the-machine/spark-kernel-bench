@@ -1,0 +1,12 @@
+2026-11-01 22:50:30 SINGLE K0-6.17.0-1031-595.84 start on 192.168.1.55
+2026-11-01 22:50:31 llama-bench rc=127 rows=0
+2026-11-01 22:51:36 gemm/membw {"kind": "gemm_bf16", "n": 8192, "peak_tflops": 61.02, "median_tflops": 60.75, "kernel": "6.17.0-1031-nvidia"} {"kind": "membw_copy", "bytes": 4294967296, "best_GBs": 246.4, "median_GBs": 246.3, "kernel": "6.17.0-1031-nvidia"} 
+2026-11-01 22:51:36 SINGLE K0-6.17.0-1031-595.84 end
+2026-11-01 23:09:51 SINGLE K0-6.17.0-1031-595.84 start on 192.168.1.55
+2026-11-01 23:09:53 llama-bench rc=1 rows=0
+2026-11-01 23:10:58 gemm/membw {"kind": "gemm_bf16", "n": 8192, "peak_tflops": 91.63, "median_tflops": 90.61, "kernel": "6.17.0-1031-nvidia"} {"kind": "membw_copy", "bytes": 4294967296, "best_GBs": 246.8, "median_GBs": 246.7, "kernel": "6.17.0-1031-nvidia"} 
+2026-11-01 23:10:58 SINGLE K0-6.17.0-1031-595.84 end
+2026-11-01 23:18:37 SINGLE K0-6.17.0-1031-595.84 start on 192.168.1.55
+2026-11-01 23:19:19 llama-bench rc=0 rows=6
+2026-11-01 23:20:24 gemm/membw {"kind": "gemm_bf16", "n": 8192, "peak_tflops": 91.16, "median_tflops": 90.54, "kernel": "6.17.0-1031-nvidia"} {"kind": "membw_copy", "bytes": 4294967296, "best_GBs": 246.7, "median_GBs": 246.6, "kernel": "6.17.0-1031-nvidia"} 
+2026-11-01 23:20:24 SINGLE K0-6.17.0-1031-595.84 end

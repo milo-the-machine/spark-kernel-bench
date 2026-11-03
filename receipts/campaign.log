@@ -1,0 +1,74 @@
+2026-11-01 22:51:44 CST CAMPAIGN start (idle 240m, loaded 120m)
+2026-11-01 22:51:44 CST STEP K0c13: llama.cpp cu13.0 build + fabric/single on NGC 25.09 (same container as the S arms)
+2026-11-01 23:10:58 CST K0c13 done: 2026-11-01 23:09:51 SINGLE K0c13-6.17.0-1031-595.84 end
+2026-11-01 23:10:58 CST STEP K0 userns
+2026-11-01 23:11:18 CST STEP driver switch dry-run
+2026-11-01 23:11:18 CST CAMPAIGN_STOPPED: switch dry-run failed on .55
+2026-11-01 23:20:36 CST K0 fixes done: 2026-11-01 23:18:37 SINGLE K0c13-6.17.0-1031-595.84 end
+2026-11-01 23:20:36 CST CAMPAIGN start (idle 240m, loaded 120m)
+2026-11-01 23:20:36 CST skip K0C13 (resuming from SWITCH)
+2026-11-01 23:20:36 CST skip K0T7 (resuming from SWITCH)
+2026-11-01 23:20:36 CST STEP driver switch dry-run
+2026-11-01 23:20:41 CST STEP driver switch 595.84 -> 580.178.04
+2026-11-01 23:28:16 CST switch done: 4/4 STAGE1_DONE
+2026-11-01 23:28:16 CST STEP S0-6.17.0-1032-580.178.04 boot 6.17.0-1032-nvidia 
+2026-11-01 23:30:09 CST gate S0-6.17.0-1032-580.178.04 spark5: 6.17.0-1032-nvidia 580.178.04 dri 0 0
+2026-11-01 23:30:09 CST gate S0-6.17.0-1032-580.178.04 spark6: 6.17.0-1032-nvidia 580.178.04 dri 0 0
+2026-11-01 23:30:09 CST gate S0-6.17.0-1032-580.178.04 spark7: 6.17.0-1032-nvidia 580.178.04 dri 0 0
+2026-11-01 23:30:09 CST gate S0-6.17.0-1032-580.178.04 spark8: 6.17.0-1032-nvidia 580.178.04 dri 0 0
+2026-11-01 23:30:09 CST STEP S0-6.17.0-1032-580.178.04 fabric
+2026-11-01 23:45:25 CST STEP S0-6.17.0-1032-580.178.04 lane
+2026-11-01 23:59:14 CST STEP S0-6.17.0-1032-580.178.04 loaded soak 120m
+2026-11-02 02:00:06 CST S0-6.17.0-1032-580.178.04 loaded: {"arm":"S0-6.17.0-1032-580.178.04","soak":"loaded","minutes":120,"resets":0,"unreachable_polls":0} load=4040 ok 0 err 99.9 tok/s
+2026-11-02 02:00:46 CST S0-6.17.0-1032-580.178.04 lane stopped (kept)
+2026-11-02 02:00:46 CST STEP S0-6.17.0-1032-580.178.04 single-node
+2026-11-02 02:02:31 CST STEP S0-6.17.0-1032-580.178.04 idle soak 240m (headless, nothing running)
+2026-11-02 06:03:01 CST S0-6.17.0-1032-580.178.04 idle: {"arm":"S0-6.17.0-1032-580.178.04","soak":"idle","minutes":240,"resets":0,"unreachable_polls":0}
+2026-11-02 06:03:01 CST ARM S0-6.17.0-1032-580.178.04 DONE
+2026-11-02 06:03:01 CST STEP S1-7.0.0-1019-580.178.04 boot 7.0.0-1019-nvidia 
+2026-11-02 06:05:03 CST gate S1-7.0.0-1019-580.178.04 spark5: 7.0.0-1019-nvidia 580.178.04 dri 0 0
+2026-11-02 06:05:03 CST gate S1-7.0.0-1019-580.178.04 spark6: 7.0.0-1019-nvidia 580.178.04 dri 0 0
+2026-11-02 06:05:03 CST gate S1-7.0.0-1019-580.178.04 spark7: 7.0.0-1019-nvidia 580.178.04 dri 0 0
+2026-11-02 06:05:03 CST gate S1-7.0.0-1019-580.178.04 spark8: 7.0.0-1019-nvidia 580.178.04 dri 0 0
+2026-11-02 06:05:03 CST STEP S1-7.0.0-1019-580.178.04 fabric
+2026-11-02 06:20:11 CST STEP S1-7.0.0-1019-580.178.04 lane
+2026-11-02 06:33:57 CST STEP S1-7.0.0-1019-580.178.04 loaded soak 120m
+2026-11-02 08:34:37 CST S1-7.0.0-1019-580.178.04 loaded: {"arm":"S1-7.0.0-1019-580.178.04","soak":"loaded","minutes":120,"resets":0,"unreachable_polls":0} load=4073 ok 0 err 100.9 tok/s
+2026-11-02 08:35:17 CST S1-7.0.0-1019-580.178.04 lane stopped (kept)
+2026-11-02 08:35:17 CST STEP S1-7.0.0-1019-580.178.04 single-node
+2026-11-02 08:37:01 CST STEP S1-7.0.0-1019-580.178.04 idle soak 240m (headless, nothing running)
+2026-11-02 12:37:25 CST S1-7.0.0-1019-580.178.04 idle: {"arm":"S1-7.0.0-1019-580.178.04","soak":"idle","minutes":240,"resets":0,"unreachable_polls":0}
+2026-11-02 12:37:25 CST ARM S1-7.0.0-1019-580.178.04 DONE
+2026-11-02 12:37:25 CST STEP S1x-7.0.0-1019-nokho-580.178.04 boot 7.0.0-1019-nvidia --no-kho-off
+2026-11-02 12:39:22 CST gate S1x-7.0.0-1019-nokho-580.178.04 spark5: 7.0.0-1019-nvidia 580.178.04 dri 0 0
+2026-11-02 12:39:22 CST gate S1x-7.0.0-1019-nokho-580.178.04 spark6: 7.0.0-1019-nvidia 580.178.04 dri 0 0
+2026-11-02 12:39:22 CST gate S1x-7.0.0-1019-nokho-580.178.04 spark7: 7.0.0-1019-nvidia 580.178.04 dri 0 0
+2026-11-02 12:39:22 CST gate S1x-7.0.0-1019-nokho-580.178.04 spark8: 7.0.0-1019-nvidia 580.178.04 dri 0 0
+2026-11-02 12:39:22 CST STEP S1x-7.0.0-1019-nokho-580.178.04 fabric
+2026-11-02 12:54:04 CST STEP S1x-7.0.0-1019-nokho-580.178.04 lane
+2026-11-02 13:10:10 CST CAMPAIGN_STOPPED: S1x-7.0.0-1019-nokho-580.178.04 lane failed
+2026-11-02 13:10:40 CST S1x RESULT: kho=off removed -> NCCL 12/12 fail ibv_reg_mr_iova2 ENOMEM (with and without hog), perftest 72/72 ok, lane fails same signature on 4 ranks. Stop was the lane gate (expected for this arm). Resuming --from S2.
+2026-11-02 13:10:40 CST CAMPAIGN start (idle 240m, loaded 120m)
+2026-11-02 13:10:40 CST skip K0C13 (resuming from S2)
+2026-11-02 13:10:40 CST skip K0T7 (resuming from S2)
+2026-11-02 13:10:40 CST skip SWITCH (resuming from S2)
+2026-11-02 13:10:40 CST skip S0 (resuming from S2)
+2026-11-02 13:10:40 CST skip S1 (resuming from S2)
+2026-11-02 13:10:40 CST skip S1x (resuming from S2)
+2026-11-02 13:10:40 CST STEP S2-7.0.0-1024-580.178.04 boot 7.0.0-1024-nvidia 
+2026-11-02 13:12:31 CST gate S2-7.0.0-1024-580.178.04 spark5: 7.0.0-1024-nvidia 580.178.04 dri 0 0
+2026-11-02 13:12:31 CST gate S2-7.0.0-1024-580.178.04 spark6: 7.0.0-1024-nvidia 580.178.04 dri 0 0
+2026-11-02 13:12:31 CST gate S2-7.0.0-1024-580.178.04 spark7: 7.0.0-1024-nvidia 580.178.04 dri 0 0
+2026-11-02 13:12:31 CST gate S2-7.0.0-1024-580.178.04 spark8: 7.0.0-1024-nvidia 580.178.04 dri 0 0
+2026-11-02 13:12:31 CST STEP S2-7.0.0-1024-580.178.04 fabric
+2026-11-02 13:27:56 CST STEP S2-7.0.0-1024-580.178.04 lane
+2026-11-02 13:41:43 CST STEP S2-7.0.0-1024-580.178.04 loaded soak 120m
+2026-11-02 15:42:35 CST S2-7.0.0-1024-580.178.04 loaded: {"arm":"S2-7.0.0-1024-580.178.04","soak":"loaded","minutes":120,"resets":0,"unreachable_polls":0} load=4077 ok 0 err 100.8 tok/s
+2026-11-02 15:43:16 CST S2-7.0.0-1024-580.178.04 lane stopped (kept)
+2026-11-02 15:43:16 CST STEP S2-7.0.0-1024-580.178.04 single-node
+2026-11-02 15:45:00 CST STEP S2-7.0.0-1024-580.178.04 userns
+2026-11-02 15:45:18 CST STEP S2-7.0.0-1024-580.178.04 idle soak 240m (headless, nothing running)
+2026-11-02 17:42:11 CST USB-C MONITOR attached to spark8 by James (~17:41 CST) during S2 idle soak; spark8 nvidia-smi display_active=Enabled (spark7 headless for comparison); kernel log shows no USB/xHCI events at plug-in; spark8 boot_id 31cd4c0a, up 4h29m at attach.
+2026-11-02 19:45:50 CST S2-7.0.0-1024-580.178.04 idle: {"arm":"S2-7.0.0-1024-580.178.04","soak":"idle","minutes":240,"resets":0,"unreachable_polls":0}
+2026-11-02 19:45:50 CST ARM S2-7.0.0-1024-580.178.04 DONE
+2026-11-02 19:45:50 CST STEP CAMPAIGN_DONE (nodes on 7.0.0-1024 this boot; GRUB default 6.17.0-1032; lane stopped+kept; guest lane still shelved)

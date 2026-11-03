@@ -1,0 +1,1 @@
+{"kind": "alloc_probe", "memavail_gib": 116, "limit_gib": 108, "allocated_gib": 108, "cuda_free_gib": 4.6, "cuda_total_gib": 121.7, "secs": 0.7, "stop_reason": null, "kernel": "6.17.0-1031-nvidia"}

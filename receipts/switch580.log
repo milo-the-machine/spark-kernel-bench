@@ -1,0 +1,46 @@
+== spark5 2026-11-01T23:11:18-06:00 kernel=6.17.0-1031-nvidia driver=595.84
+cat: /home/milo/kbench/driver580-set.txt: No such file or directory
+== spark5 2026-11-01T23:20:36-06:00 kernel=6.17.0-1031-nvidia driver=595.84
+simulate ok: 28 inst, 17 remv
+DRY_RUN_OK
+== spark6 2026-11-01T23:20:37-06:00 kernel=6.17.0-1031-nvidia driver=595.84
+simulate ok: 28 inst, 17 remv
+DRY_RUN_OK
+== spark7 2026-11-01T23:20:38-06:00 kernel=6.17.0-1031-nvidia driver=595.84
+simulate ok: 28 inst, 17 remv
+DRY_RUN_OK
+== spark8 2026-11-01T23:20:40-06:00 kernel=6.17.0-1031-nvidia driver=595.84
+simulate ok: 28 inst, 17 remv
+DRY_RUN_OK
+== spark5 2026-11-01T23:20:41-06:00 kernel=6.17.0-1031-nvidia driver=595.84
+simulate ok: 28 inst, 17 remv
+apt rc=0; holds now: linux-headers-nvidia-hwe-24.04 linux-image-6.17.0-1031-nvidia linux-image-nvidia-hwe-24.04 linux-modules-nvidia-fs-nvidia-hwe-24.04 
+module 6.17.0-1032-nvidia nvidia=580.178.04
+module 7.0.0-1019-nvidia nvidia=580.178.04
+module 7.0.0-1024-nvidia nvidia=580.178.04
+grubenv: saved_entry=gnulinux-advanced-02a57489-a431-46d3-ab1c-3fb3dd966782>gnulinux-6.17.0-1032-nvidia-advanced-02a57489-a431-46d3-ab1c-3fb3dd966782 
+STAGE1_DONE spark5
+== spark6 2026-11-01T23:22:25-06:00 kernel=6.17.0-1031-nvidia driver=595.84
+simulate ok: 28 inst, 17 remv
+apt rc=0; holds now: linux-headers-nvidia-hwe-24.04 linux-image-6.17.0-1031-nvidia linux-image-nvidia-hwe-24.04 linux-modules-nvidia-fs-nvidia-hwe-24.04 
+module 6.17.0-1032-nvidia nvidia=580.178.04
+module 7.0.0-1019-nvidia nvidia=580.178.04
+module 7.0.0-1024-nvidia nvidia=580.178.04
+grubenv: saved_entry=gnulinux-advanced-02a57489-a431-46d3-ab1c-3fb3dd966782>gnulinux-6.17.0-1032-nvidia-advanced-02a57489-a431-46d3-ab1c-3fb3dd966782 
+STAGE1_DONE spark6
+== spark7 2026-11-01T23:24:13-06:00 kernel=6.17.0-1031-nvidia driver=595.84
+simulate ok: 28 inst, 17 remv
+apt rc=0; holds now: linux-headers-nvidia-hwe-24.04 linux-image-6.17.0-1031-nvidia linux-image-nvidia-hwe-24.04 linux-modules-nvidia-fs-nvidia-hwe-24.04 
+module 6.17.0-1032-nvidia nvidia=580.178.04
+module 7.0.0-1019-nvidia nvidia=580.178.04
+module 7.0.0-1024-nvidia nvidia=580.178.04
+grubenv: saved_entry=gnulinux-advanced-02a57489-a431-46d3-ab1c-3fb3dd966782>gnulinux-6.17.0-1032-nvidia-advanced-02a57489-a431-46d3-ab1c-3fb3dd966782 
+STAGE1_DONE spark7
+== spark8 2026-11-01T23:26:12-06:00 kernel=6.17.0-1031-nvidia driver=595.84
+simulate ok: 28 inst, 17 remv
+apt rc=0; holds now: linux-headers-nvidia-hwe-24.04 linux-image-6.17.0-1031-nvidia linux-image-nvidia-hwe-24.04 linux-modules-nvidia-fs-nvidia-hwe-24.04 
+module 6.17.0-1032-nvidia nvidia=580.178.04
+module 7.0.0-1019-nvidia nvidia=580.178.04
+module 7.0.0-1024-nvidia nvidia=580.178.04
+grubenv: saved_entry=gnulinux-advanced-02a57489-a431-46d3-ab1c-3fb3dd966782>gnulinux-6.17.0-1032-nvidia-advanced-02a57489-a431-46d3-ab1c-3fb3dd966782 
+STAGE1_DONE spark8

@@ -1,0 +1,1270 @@
+{
+ "label": "S2-7.0.0-1024-580.178.04-c16-r3",
+ "prompt_set": "v1",
+ "model": "deepseek-v4.1-flash-spark-vllm",
+ "notes": "dsv41-5way S2-7.0.0-1024-580.178.04 c16 rep 3/3",
+ "started": "2026-11-02T19:32:51Z",
+ "batches": [
+  {
+   "c": 16,
+   "category": "coding",
+   "wall_s": 4.33,
+   "tokens": 3200,
+   "agg_tok_s": 738.97,
+   "per_stream_tok_s": 52.58,
+   "ttft_mean_s": 0.399,
+   "requests": [
+    {
+     "ttft_s": 0.4218788146972656,
+     "total_s": 4.248533725738525,
+     "completion_tokens": 200,
+     "prompt_tokens": 47,
+     "decode_tok_s": 52.00364407718455,
+     "chars": 635
+    },
+    {
+     "ttft_s": 0.42135095596313477,
+     "total_s": 4.324844121932983,
+     "completion_tokens": 200,
+     "prompt_tokens": 47,
+     "decode_tok_s": 50.979979095353976,
+     "chars": 635
+    },
+    {
+     "ttft_s": 0.42056822776794434,
+     "total_s": 4.324716091156006,
+     "completion_tokens": 200,
+     "prompt_tokens": 47,
+     "decode_tok_s": 50.971430120811476,
+     "chars": 626
+    },
+    {
+     "ttft_s": 0.4203181266784668,
+     "total_s": 4.323853254318237,
+     "completion_tokens": 200,
+     "prompt_tokens": 47,
+     "decode_tok_s": 50.979431077983705,
+     "chars": 635
+    },
+    {
+     "ttft_s": 0.12051892280578613,
+     "total_s": 4.040315866470337,
+     "completion_tokens": 200,
+     "prompt_tokens": 47,
+     "decode_tok_s": 50.76793590587331,
+     "chars": 614
+    },
+    {
+     "ttft_s": 0.41913294792175293,
+     "total_s": 4.3236987590789795,
+     "completion_tokens": 200,
+     "prompt_tokens": 47,
+     "decode_tok_s": 50.965974099184365,
+     "chars": 626
+    },
+    {
+     "ttft_s": 0.41350769996643066,
+     "total_s": 4.317542791366577,
+     "completion_tokens": 200,
+     "prompt_tokens": 47,
+     "decode_tok_s": 50.97290248193708,
+     "chars": 626
+    },
+    {
+     "ttft_s": 0.41926097869873047,
+     "total_s": 4.3230719566345215,
+     "completion_tokens": 200,
+     "prompt_tokens": 47,
+     "decode_tok_s": 50.975828779810634,
+     "chars": 626
+    },
+    {
+     "ttft_s": 0.41800379753112793,
+     "total_s": 4.039514064788818,
+     "completion_tokens": 200,
+     "prompt_tokens": 47,
+     "decode_tok_s": 54.94945073031324,
+     "chars": 626
+    },
+    {
+     "ttft_s": 0.41553378105163574,
+     "total_s": 4.036665916442871,
+     "completion_tokens": 200,
+     "prompt_tokens": 47,
+     "decode_tok_s": 54.95518875300572,
+     "chars": 626
+    },
+    {
+     "ttft_s": 0.4179270267486572,
+     "total_s": 4.321871995925903,
+     "completion_tokens": 200,
+     "prompt_tokens": 47,
+     "decode_tok_s": 50.974079186863925,
+     "chars": 626
+    },
+    {
+     "ttft_s": 0.41297197341918945,
+     "total_s": 4.0336830615997314,
+     "completion_tokens": 200,
+     "prompt_tokens": 47,
+     "decode_tok_s": 54.961579411739336,
+     "chars": 626
+    },
+    {
+     "ttft_s": 0.4174201488494873,
+     "total_s": 4.038802146911621,
+     "completion_tokens": 200,
+     "prompt_tokens": 47,
+     "decode_tok_s": 54.95139703750901,
+     "chars": 626
+    },
+    {
+     "ttft_s": 0.4156618118286133,
+     "total_s": 4.03701376914978,
+     "completion_tokens": 200,
+     "prompt_tokens": 47,
+     "decode_tok_s": 54.951852884028106,
+     "chars": 626
+    },
+    {
+     "ttft_s": 0.41338491439819336,
+     "total_s": 4.240087032318115,
+     "completion_tokens": 200,
+     "prompt_tokens": 47,
+     "decode_tok_s": 52.00300255097209,
+     "chars": 635
+    },
+    {
+     "ttft_s": 0.42169904708862305,
+     "total_s": 4.042375087738037,
+     "completion_tokens": 200,
+     "prompt_tokens": 47,
+     "decode_tok_s": 54.96211143052358,
+     "chars": 626
+    }
+   ]
+  },
+  {
+   "c": 16,
+   "category": "json",
+   "wall_s": 2.783,
+   "tokens": 1340,
+   "agg_tok_s": 481.49,
+   "per_stream_tok_s": 39.05,
+   "ttft_mean_s": 0.431,
+   "requests": [
+    {
+     "ttft_s": 0.432919979095459,
+     "total_s": 2.687581777572632,
+     "completion_tokens": 84,
+     "prompt_tokens": 65,
+     "decode_tok_s": 36.81261644476314,
+     "chars": 298
+    },
+    {
+     "ttft_s": 0.4328188896179199,
+     "total_s": 2.3037331104278564,
+     "completion_tokens": 82,
+     "prompt_tokens": 65,
+     "decode_tok_s": 43.294341931365686,
+     "chars": 287
+    },
+    {
+     "ttft_s": 0.4316129684448242,
+     "total_s": 2.6276237964630127,
+     "completion_tokens": 84,
+     "prompt_tokens": 65,
+     "decode_tok_s": 37.79580635078387,
+     "chars": 295
+    },
+    {
+     "ttft_s": 0.43166327476501465,
+     "total_s": 2.7778000831604004,
+     "completion_tokens": 85,
+     "prompt_tokens": 65,
+     "decode_tok_s": 35.803538693658226,
+     "chars": 288
+    },
+    {
+     "ttft_s": 0.4316532611846924,
+     "total_s": 2.303272008895874,
+     "completion_tokens": 82,
+     "prompt_tokens": 65,
+     "decode_tok_s": 43.27804479360745,
+     "chars": 287
+    },
+    {
+     "ttft_s": 0.43126606941223145,
+     "total_s": 2.5458860397338867,
+     "completion_tokens": 83,
+     "prompt_tokens": 65,
+     "decode_tok_s": 38.77765326671296,
+     "chars": 290
+    },
+    {
+     "ttft_s": 0.43123507499694824,
+     "total_s": 2.6270222663879395,
+     "completion_tokens": 84,
+     "prompt_tokens": 65,
+     "decode_tok_s": 37.79965577967554,
+     "chars": 288
+    },
+    {
+     "ttft_s": 0.43018484115600586,
+     "total_s": 2.5443289279937744,
+     "completion_tokens": 83,
+     "prompt_tokens": 65,
+     "decode_tok_s": 38.786381926622376,
+     "chars": 287
+    },
+    {
+     "ttft_s": 0.4295518398284912,
+     "total_s": 2.684040069580078,
+     "completion_tokens": 84,
+     "prompt_tokens": 65,
+     "decode_tok_s": 36.815450577511086,
+     "chars": 298
+    },
+    {
+     "ttft_s": 0.4307730197906494,
+     "total_s": 2.5448670387268066,
+     "completion_tokens": 84,
+     "prompt_tokens": 65,
+     "decode_tok_s": 39.26031636084321,
+     "chars": 290
+    },
+    {
+     "ttft_s": 0.4288487434387207,
+     "total_s": 2.6249516010284424,
+     "completion_tokens": 84,
+     "prompt_tokens": 65,
+     "decode_tok_s": 37.79422248514106,
+     "chars": 288
+    },
+    {
+     "ttft_s": 0.431027889251709,
+     "total_s": 2.471060037612915,
+     "completion_tokens": 84,
+     "prompt_tokens": 65,
+     "decode_tok_s": 40.68563334488399,
+     "chars": 288
+    },
+    {
+     "ttft_s": 0.43030595779418945,
+     "total_s": 2.685011863708496,
+     "completion_tokens": 84,
+     "prompt_tokens": 65,
+     "decode_tok_s": 36.811896301989165,
+     "chars": 283
+    },
+    {
+     "ttft_s": 0.42926907539367676,
+     "total_s": 2.4706060886383057,
+     "completion_tokens": 84,
+     "prompt_tokens": 65,
+     "decode_tok_s": 40.65962624568033,
+     "chars": 289
+    },
+    {
+     "ttft_s": 0.42852234840393066,
+     "total_s": 2.468872308731079,
+     "completion_tokens": 84,
+     "prompt_tokens": 65,
+     "decode_tok_s": 40.67929600993147,
+     "chars": 288
+    },
+    {
+     "ttft_s": 0.4327511787414551,
+     "total_s": 2.5472230911254883,
+     "completion_tokens": 85,
+     "prompt_tokens": 65,
+     "decode_tok_s": 39.72623117291322,
+     "chars": 303
+    }
+   ]
+  },
+  {
+   "c": 16,
+   "category": "narrative",
+   "wall_s": 7.485,
+   "tokens": 2301,
+   "agg_tok_s": 307.4,
+   "per_stream_tok_s": 22.0,
+   "ttft_mean_s": 0.279,
+   "requests": [
+    {
+     "ttft_s": 0.2815589904785156,
+     "total_s": 6.901806831359863,
+     "completion_tokens": 133,
+     "prompt_tokens": 39,
+     "decode_tok_s": 19.93883056535644,
+     "chars": 561
+    },
+    {
+     "ttft_s": 0.2799718379974365,
+     "total_s": 6.829146862030029,
+     "completion_tokens": 145,
+     "prompt_tokens": 39,
+     "decode_tok_s": 21.987502161964418,
+     "chars": 590
+    },
+    {
+     "ttft_s": 0.28122806549072266,
+     "total_s": 6.600703954696655,
+     "completion_tokens": 134,
+     "prompt_tokens": 39,
+     "decode_tok_s": 21.04604912365794,
+     "chars": 553
+    },
+    {
+     "ttft_s": 0.28049206733703613,
+     "total_s": 6.753313064575195,
+     "completion_tokens": 136,
+     "prompt_tokens": 39,
+     "decode_tok_s": 20.85643957365763,
+     "chars": 560
+    },
+    {
+     "ttft_s": 0.2790100574493408,
+     "total_s": 6.6751673221588135,
+     "completion_tokens": 142,
+     "prompt_tokens": 39,
+     "decode_tok_s": 22.044486113242016,
+     "chars": 563
+    },
+    {
+     "ttft_s": 0.2803981304168701,
+     "total_s": 6.518041133880615,
+     "completion_tokens": 135,
+     "prompt_tokens": 39,
+     "decode_tok_s": 21.482473415934543,
+     "chars": 563
+    },
+    {
+     "ttft_s": 0.28031206130981445,
+     "total_s": 7.477987051010132,
+     "completion_tokens": 171,
+     "prompt_tokens": 39,
+     "decode_tok_s": 23.6187380290532,
+     "chars": 701
+    },
+    {
+     "ttft_s": 0.27963685989379883,
+     "total_s": 6.75121808052063,
+     "completion_tokens": 154,
+     "prompt_tokens": 39,
+     "decode_tok_s": 23.641826438389437,
+     "chars": 642
+    },
+    {
+     "ttft_s": 0.2768518924713135,
+     "total_s": 6.898769855499268,
+     "completion_tokens": 136,
+     "prompt_tokens": 39,
+     "decode_tok_s": 20.386842717433723,
+     "chars": 564
+    },
+    {
+     "ttft_s": 0.27837419509887695,
+     "total_s": 7.1769468784332275,
+     "completion_tokens": 164,
+     "prompt_tokens": 39,
+     "decode_tok_s": 23.62807605024982,
+     "chars": 645
+    },
+    {
+     "ttft_s": 0.27724719047546387,
+     "total_s": 6.9611310958862305,
+     "completion_tokens": 152,
+     "prompt_tokens": 39,
+     "decode_tok_s": 22.59165511204673,
+     "chars": 599
+    },
+    {
+     "ttft_s": 0.27603793144226074,
+     "total_s": 6.749557018280029,
+     "completion_tokens": 146,
+     "prompt_tokens": 39,
+     "decode_tok_s": 22.398945311649747,
+     "chars": 596
+    },
+    {
+     "ttft_s": 0.2771430015563965,
+     "total_s": 5.5683581829071045,
+     "completion_tokens": 126,
+     "prompt_tokens": 39,
+     "decode_tok_s": 23.62406285054746,
+     "chars": 550
+    },
+    {
+     "ttft_s": 0.27668094635009766,
+     "total_s": 6.961275100708008,
+     "completion_tokens": 144,
+     "prompt_tokens": 39,
+     "decode_tok_s": 21.392473005526224,
+     "chars": 571
+    },
+    {
+     "ttft_s": 0.2763829231262207,
+     "total_s": 6.435138940811157,
+     "completion_tokens": 137,
+     "prompt_tokens": 39,
+     "decode_tok_s": 22.082381508453086,
+     "chars": 549
+    },
+    {
+     "ttft_s": 0.2820470333099365,
+     "total_s": 7.102639198303223,
+     "completion_tokens": 146,
+     "prompt_tokens": 39,
+     "decode_tok_s": 21.259151184000274,
+     "chars": 605
+    }
+   ]
+  },
+  {
+   "c": 16,
+   "category": "prose",
+   "wall_s": 5.304,
+   "tokens": 1999,
+   "agg_tok_s": 376.88,
+   "per_stream_tok_s": 26.64,
+   "ttft_mean_s": 0.285,
+   "requests": [
+    {
+     "ttft_s": 0.39383912086486816,
+     "total_s": 5.0097949504852295,
+     "completion_tokens": 121,
+     "prompt_tokens": 36,
+     "decode_tok_s": 25.996782558005844,
+     "chars": 590
+    },
+    {
+     "ttft_s": 0.22160887718200684,
+     "total_s": 4.934083700180054,
+     "completion_tokens": 122,
+     "prompt_tokens": 36,
+     "decode_tok_s": 25.676529752369174,
+     "chars": 618
+    },
+    {
+     "ttft_s": 0.2212848663330078,
+     "total_s": 5.2156081199646,
+     "completion_tokens": 129,
+     "prompt_tokens": 36,
+     "decode_tok_s": 25.629097977774183,
+     "chars": 620
+    },
+    {
+     "ttft_s": 0.22146892547607422,
+     "total_s": 5.3014538288116455,
+     "completion_tokens": 137,
+     "prompt_tokens": 36,
+     "decode_tok_s": 26.77173310312418,
+     "chars": 648
+    },
+    {
+     "ttft_s": 0.22046899795532227,
+     "total_s": 4.611433982849121,
+     "completion_tokens": 111,
+     "prompt_tokens": 36,
+     "decode_tok_s": 25.051440942579163,
+     "chars": 537
+    },
+    {
+     "ttft_s": 0.22115588188171387,
+     "total_s": 4.861299991607666,
+     "completion_tokens": 131,
+     "prompt_tokens": 36,
+     "decode_tok_s": 28.01637124319353,
+     "chars": 633
+    },
+    {
+     "ttft_s": 0.21990299224853516,
+     "total_s": 5.300997734069824,
+     "completion_tokens": 133,
+     "prompt_tokens": 36,
+     "decode_tok_s": 25.978653559347993,
+     "chars": 640
+    },
+    {
+     "ttft_s": 0.39470505714416504,
+     "total_s": 5.214293956756592,
+     "completion_tokens": 136,
+     "prompt_tokens": 36,
+     "decode_tok_s": 28.01068780178662,
+     "chars": 655
+    },
+    {
+     "ttft_s": 0.22032999992370605,
+     "total_s": 4.524216890335083,
+     "completion_tokens": 120,
+     "prompt_tokens": 36,
+     "decode_tok_s": 27.649425514671382,
+     "chars": 592
+    },
+    {
+     "ttft_s": 0.39330220222473145,
+     "total_s": 5.149106025695801,
+     "completion_tokens": 128,
+     "prompt_tokens": 36,
+     "decode_tok_s": 26.70421335994213,
+     "chars": 630
+    },
+    {
+     "ttft_s": 0.39254283905029297,
+     "total_s": 5.0092079639434814,
+     "completion_tokens": 122,
+     "prompt_tokens": 36,
+     "decode_tok_s": 26.209395034429633,
+     "chars": 592
+    },
+    {
+     "ttft_s": 0.39340901374816895,
+     "total_s": 4.931912899017334,
+     "completion_tokens": 123,
+     "prompt_tokens": 36,
+     "decode_tok_s": 26.881105113952007,
+     "chars": 589
+    },
+    {
+     "ttft_s": 0.21938371658325195,
+     "total_s": 5.086026906967163,
+     "completion_tokens": 123,
+     "prompt_tokens": 36,
+     "decode_tok_s": 25.06861407901488,
+     "chars": 602
+    },
+    {
+     "ttft_s": 0.392193078994751,
+     "total_s": 4.700069904327393,
+     "completion_tokens": 132,
+     "prompt_tokens": 36,
+     "decode_tok_s": 30.409411715221122,
+     "chars": 643
+    },
+    {
+     "ttft_s": 0.2188720703125,
+     "total_s": 4.608535051345825,
+     "completion_tokens": 115,
+     "prompt_tokens": 36,
+     "decode_tok_s": 25.970103056331773,
+     "chars": 559
+    },
+    {
+     "ttft_s": 0.22207307815551758,
+     "total_s": 4.611931800842285,
+     "completion_tokens": 116,
+     "prompt_tokens": 36,
+     "decode_tok_s": 26.196742825840975,
+     "chars": 598
+    }
+   ]
+  },
+  {
+   "c": 16,
+   "category": "math",
+   "wall_s": 4.952,
+   "tokens": 3200,
+   "agg_tok_s": 646.19,
+   "per_stream_tok_s": 45.62,
+   "ttft_mean_s": 0.427,
+   "requests": [
+    {
+     "ttft_s": 0.42962002754211426,
+     "total_s": 4.824625015258789,
+     "completion_tokens": 200,
+     "prompt_tokens": 70,
+     "decode_tok_s": 45.27867443977258,
+     "chars": 466
+    },
+    {
+     "ttft_s": 0.42890071868896484,
+     "total_s": 4.754508018493652,
+     "completion_tokens": 200,
+     "prompt_tokens": 70,
+     "decode_tok_s": 46.005100834970705,
+     "chars": 492
+    },
+    {
+     "ttft_s": 0.42821288108825684,
+     "total_s": 4.944311618804932,
+     "completion_tokens": 200,
+     "prompt_tokens": 70,
+     "decode_tok_s": 44.064581302891035,
+     "chars": 467
+    },
+    {
+     "ttft_s": 0.42820096015930176,
+     "total_s": 4.576227188110352,
+     "completion_tokens": 200,
+     "prompt_tokens": 70,
+     "decode_tok_s": 47.974624330738045,
+     "chars": 465
+    },
+    {
+     "ttft_s": 0.4271278381347656,
+     "total_s": 4.895320892333984,
+     "completion_tokens": 200,
+     "prompt_tokens": 70,
+     "decode_tok_s": 44.537019234873775,
+     "chars": 466
+    },
+    {
+     "ttft_s": 0.4282851219177246,
+     "total_s": 4.753835916519165,
+     "completion_tokens": 200,
+     "prompt_tokens": 70,
+     "decode_tok_s": 46.00570180527403,
+     "chars": 520
+    },
+    {
+     "ttft_s": 0.42739200592041016,
+     "total_s": 4.895040988922119,
+     "completion_tokens": 200,
+     "prompt_tokens": 70,
+     "decode_tok_s": 44.54244296209156,
+     "chars": 523
+    },
+    {
+     "ttft_s": 0.4273040294647217,
+     "total_s": 4.659650802612305,
+     "completion_tokens": 200,
+     "prompt_tokens": 70,
+     "decode_tok_s": 47.01883155287966,
+     "chars": 466
+    },
+    {
+     "ttft_s": 0.4252941608428955,
+     "total_s": 4.821096897125244,
+     "completion_tokens": 200,
+     "prompt_tokens": 70,
+     "decode_tok_s": 45.270457283599534,
+     "chars": 466
+    },
+    {
+     "ttft_s": 0.4266180992126465,
+     "total_s": 4.822221040725708,
+     "completion_tokens": 200,
+     "prompt_tokens": 70,
+     "decode_tok_s": 45.27251497640956,
+     "chars": 470
+    },
+    {
+     "ttft_s": 0.426084041595459,
+     "total_s": 4.752377033233643,
+     "completion_tokens": 200,
+     "prompt_tokens": 70,
+     "decode_tok_s": 45.99780929877501,
+     "chars": 467
+    },
+    {
+     "ttft_s": 0.42408013343811035,
+     "total_s": 4.657058238983154,
+     "completion_tokens": 200,
+     "prompt_tokens": 70,
+     "decode_tok_s": 47.011818875065146,
+     "chars": 466
+    },
+    {
+     "ttft_s": 0.4244041442871094,
+     "total_s": 4.819581031799316,
+     "completion_tokens": 200,
+     "prompt_tokens": 70,
+     "decode_tok_s": 45.27690354520397,
+     "chars": 470
+    },
+    {
+     "ttft_s": 0.42559814453125,
+     "total_s": 4.941663980484009,
+     "completion_tokens": 200,
+     "prompt_tokens": 70,
+     "decode_tok_s": 44.064902335068986,
+     "chars": 466
+    },
+    {
+     "ttft_s": 0.4252910614013672,
+     "total_s": 4.65871000289917,
+     "completion_tokens": 200,
+     "prompt_tokens": 70,
+     "decode_tok_s": 47.006923422890175,
+     "chars": 466
+    },
+    {
+     "ttft_s": 0.4298241138458252,
+     "total_s": 4.897261142730713,
+     "completion_tokens": 200,
+     "prompt_tokens": 70,
+     "decode_tok_s": 44.544556244069135,
+     "chars": 469
+    }
+   ]
+  },
+  {
+   "c": 16,
+   "category": "reasoning",
+   "wall_s": 6.557,
+   "tokens": 3200,
+   "agg_tok_s": 488.03,
+   "per_stream_tok_s": 34.92,
+   "ttft_mean_s": 0.502,
+   "requests": [
+    {
+     "ttft_s": 0.15723872184753418,
+     "total_s": 6.133823871612549,
+     "completion_tokens": 200,
+     "prompt_tokens": 64,
+     "decode_tok_s": 33.296605839845554,
+     "chars": 729
+    },
+    {
+     "ttft_s": 0.5267038345336914,
+     "total_s": 6.134277820587158,
+     "completion_tokens": 200,
+     "prompt_tokens": 64,
+     "decode_tok_s": 35.48771723653235,
+     "chars": 717
+    },
+    {
+     "ttft_s": 0.5277860164642334,
+     "total_s": 6.134701251983643,
+     "completion_tokens": 200,
+     "prompt_tokens": 64,
+     "decode_tok_s": 35.49188665085378,
+     "chars": 722
+    },
+    {
+     "ttft_s": 0.5261828899383545,
+     "total_s": 6.342875003814697,
+     "completion_tokens": 200,
+     "prompt_tokens": 64,
+     "decode_tok_s": 34.21188471111685,
+     "chars": 717
+    },
+    {
+     "ttft_s": 0.5213782787322998,
+     "total_s": 6.544856071472168,
+     "completion_tokens": 200,
+     "prompt_tokens": 64,
+     "decode_tok_s": 33.03739249107149,
+     "chars": 726
+    },
+    {
+     "ttft_s": 0.526404857635498,
+     "total_s": 6.276094913482666,
+     "completion_tokens": 200,
+     "prompt_tokens": 64,
+     "decode_tok_s": 34.61056127671199,
+     "chars": 717
+    },
+    {
+     "ttft_s": 0.5233731269836426,
+     "total_s": 6.202722072601318,
+     "completion_tokens": 200,
+     "prompt_tokens": 64,
+     "decode_tok_s": 35.03922754271918,
+     "chars": 719
+    },
+    {
+     "ttft_s": 0.526118278503418,
+     "total_s": 6.477607250213623,
+     "completion_tokens": 200,
+     "prompt_tokens": 64,
+     "decode_tok_s": 33.437010628084195,
+     "chars": 700
+    },
+    {
+     "ttft_s": 0.5209531784057617,
+     "total_s": 5.764405965805054,
+     "completion_tokens": 200,
+     "prompt_tokens": 64,
+     "decode_tok_s": 37.95209150699768,
+     "chars": 720
+    },
+    {
+     "ttft_s": 0.5190110206604004,
+     "total_s": 6.0423829555511475,
+     "completion_tokens": 200,
+     "prompt_tokens": 64,
+     "decode_tok_s": 36.02871621643496,
+     "chars": 717
+    },
+    {
+     "ttft_s": 0.5247681140899658,
+     "total_s": 5.959939002990723,
+     "completion_tokens": 200,
+     "prompt_tokens": 64,
+     "decode_tok_s": 36.613384209571194,
+     "chars": 740
+    },
+    {
+     "ttft_s": 0.5240471363067627,
+     "total_s": 6.340223073959351,
+     "completion_tokens": 200,
+     "prompt_tokens": 64,
+     "decode_tok_s": 34.21492096064696,
+     "chars": 719
+    },
+    {
+     "ttft_s": 0.5240397453308105,
+     "total_s": 6.340941905975342,
+     "completion_tokens": 200,
+     "prompt_tokens": 64,
+     "decode_tok_s": 34.21064932918696,
+     "chars": 723
+    },
+    {
+     "ttft_s": 0.5253598690032959,
+     "total_s": 6.203397035598755,
+     "completion_tokens": 200,
+     "prompt_tokens": 64,
+     "decode_tok_s": 35.04732254497024,
+     "chars": 723
+    },
+    {
+     "ttft_s": 0.5237209796905518,
+     "total_s": 6.1313159465789795,
+     "completion_tokens": 200,
+     "prompt_tokens": 64,
+     "decode_tok_s": 35.487584459121905,
+     "chars": 718
+    },
+    {
+     "ttft_s": 0.5285780429840088,
+     "total_s": 6.278625965118408,
+     "completion_tokens": 200,
+     "prompt_tokens": 64,
+     "decode_tok_s": 34.60840721587097,
+     "chars": 706
+    }
+   ]
+  },
+  {
+   "c": 16,
+   "category": "summary",
+   "wall_s": 6.391,
+   "tokens": 1791,
+   "agg_tok_s": 280.24,
+   "per_stream_tok_s": 26.84,
+   "ttft_mean_s": 1.178,
+   "requests": [
+    {
+     "ttft_s": 1.1803970336914062,
+     "total_s": 5.341836214065552,
+     "completion_tokens": 114,
+     "prompt_tokens": 303,
+     "decode_tok_s": 27.154067403633285,
+     "chars": 639
+    },
+    {
+     "ttft_s": 1.181077003479004,
+     "total_s": 5.995443820953369,
+     "completion_tokens": 126,
+     "prompt_tokens": 303,
+     "decode_tok_s": 25.963954293282427,
+     "chars": 705
+    },
+    {
+     "ttft_s": 1.180945873260498,
+     "total_s": 5.5725486278533936,
+     "completion_tokens": 113,
+     "prompt_tokens": 303,
+     "decode_tok_s": 25.503217448997724,
+     "chars": 623
+    },
+    {
+     "ttft_s": 1.1795470714569092,
+     "total_s": 4.955069065093994,
+     "completion_tokens": 104,
+     "prompt_tokens": 303,
+     "decode_tok_s": 27.28099589237903,
+     "chars": 566
+    },
+    {
+     "ttft_s": 1.1755139827728271,
+     "total_s": 4.86044979095459,
+     "completion_tokens": 104,
+     "prompt_tokens": 303,
+     "decode_tok_s": 27.95164023517216,
+     "chars": 566
+    },
+    {
+     "ttft_s": 1.1790781021118164,
+     "total_s": 4.669081926345825,
+     "completion_tokens": 94,
+     "prompt_tokens": 303,
+     "decode_tok_s": 26.647535270369445,
+     "chars": 516
+    },
+    {
+     "ttft_s": 1.1797749996185303,
+     "total_s": 4.31863808631897,
+     "completion_tokens": 93,
+     "prompt_tokens": 303,
+     "decode_tok_s": 29.30997544614475,
+     "chars": 508
+    },
+    {
+     "ttft_s": 1.178947925567627,
+     "total_s": 5.035470962524414,
+     "completion_tokens": 97,
+     "prompt_tokens": 303,
+     "decode_tok_s": 24.89288902984341,
+     "chars": 544
+    },
+    {
+     "ttft_s": 1.1756401062011719,
+     "total_s": 5.031994104385376,
+     "completion_tokens": 105,
+     "prompt_tokens": 303,
+     "decode_tok_s": 26.96847852893413,
+     "chars": 567
+    },
+    {
+     "ttft_s": 1.1745657920837402,
+     "total_s": 6.158283948898315,
+     "completion_tokens": 126,
+     "prompt_tokens": 303,
+     "decode_tok_s": 25.081675180423083,
+     "chars": 701
+    },
+    {
+     "ttft_s": 1.1740548610687256,
+     "total_s": 6.2683799266815186,
+     "completion_tokens": 143,
+     "prompt_tokens": 303,
+     "decode_tok_s": 27.874153724212515,
+     "chars": 772
+    },
+    {
+     "ttft_s": 1.1731529235839844,
+     "total_s": 6.378758907318115,
+     "completion_tokens": 150,
+     "prompt_tokens": 303,
+     "decode_tok_s": 28.622988460052063,
+     "chars": 807
+    },
+    {
+     "ttft_s": 1.176999807357788,
+     "total_s": 5.497428894042969,
+     "completion_tokens": 107,
+     "prompt_tokens": 303,
+     "decode_tok_s": 24.534600122629897,
+     "chars": 609
+    },
+    {
+     "ttft_s": 1.1763060092926025,
+     "total_s": 4.766000986099243,
+     "completion_tokens": 104,
+     "prompt_tokens": 303,
+     "decode_tok_s": 28.693245711820296,
+     "chars": 566
+    },
+    {
+     "ttft_s": 1.1766440868377686,
+     "total_s": 5.415059804916382,
+     "completion_tokens": 107,
+     "prompt_tokens": 303,
+     "decode_tok_s": 25.009344776602664,
+     "chars": 603
+    },
+    {
+     "ttft_s": 1.1810672283172607,
+     "total_s": 4.866024017333984,
+     "completion_tokens": 104,
+     "prompt_tokens": 303,
+     "decode_tok_s": 27.951481088461836,
+     "chars": 565
+    }
+   ]
+  },
+  {
+   "c": 16,
+   "category": "format",
+   "wall_s": 3.014,
+   "tokens": 1683,
+   "agg_tok_s": 558.31,
+   "per_stream_tok_s": 48.45,
+   "ttft_mean_s": 0.579,
+   "requests": [
+    {
+     "ttft_s": 0.6360149383544922,
+     "total_s": 3.010435104370117,
+     "completion_tokens": 121,
+     "prompt_tokens": 85,
+     "decode_tok_s": 50.53865432812801,
+     "chars": 316
+    },
+    {
+     "ttft_s": 0.6358640193939209,
+     "total_s": 2.8513400554656982,
+     "completion_tokens": 105,
+     "prompt_tokens": 85,
+     "decode_tok_s": 46.942507301681594,
+     "chars": 236
+    },
+    {
+     "ttft_s": 0.6355681419372559,
+     "total_s": 2.695723056793213,
+     "completion_tokens": 105,
+     "prompt_tokens": 85,
+     "decode_tok_s": 50.48164060384339,
+     "chars": 236
+    },
+    {
+     "ttft_s": 0.634788990020752,
+     "total_s": 2.7799301147460938,
+     "completion_tokens": 105,
+     "prompt_tokens": 85,
+     "decode_tok_s": 48.48165875954473,
+     "chars": 236
+    },
+    {
+     "ttft_s": 0.19312691688537598,
+     "total_s": 2.5970876216888428,
+     "completion_tokens": 102,
+     "prompt_tokens": 85,
+     "decode_tok_s": 42.01399789862919,
+     "chars": 212
+    },
+    {
+     "ttft_s": 0.6335501670837402,
+     "total_s": 2.694247007369995,
+     "completion_tokens": 102,
+     "prompt_tokens": 85,
+     "decode_tok_s": 49.01254664221736,
+     "chars": 212
+    },
+    {
+     "ttft_s": 0.6310598850250244,
+     "total_s": 2.5941009521484375,
+     "completion_tokens": 102,
+     "prompt_tokens": 85,
+     "decode_tok_s": 51.45078301800515,
+     "chars": 212
+    },
+    {
+     "ttft_s": 0.19240999221801758,
+     "total_s": 2.504404067993164,
+     "completion_tokens": 104,
+     "prompt_tokens": 85,
+     "decode_tok_s": 44.550287165189644,
+     "chars": 214
+    },
+    {
+     "ttft_s": 0.6318221092224121,
+     "total_s": 2.59490704536438,
+     "completion_tokens": 102,
+     "prompt_tokens": 85,
+     "decode_tok_s": 51.44963324841886,
+     "chars": 212
+    },
+    {
+     "ttft_s": 0.6317498683929443,
+     "total_s": 2.6927061080932617,
+     "completion_tokens": 105,
+     "prompt_tokens": 85,
+     "decode_tok_s": 50.46201272818999,
+     "chars": 236
+    },
+    {
+     "ttft_s": 0.6335821151733398,
+     "total_s": 2.849097967147827,
+     "completion_tokens": 105,
+     "prompt_tokens": 85,
+     "decode_tok_s": 46.94166367950574,
+     "chars": 236
+    },
+    {
+     "ttft_s": 0.6330409049987793,
+     "total_s": 2.777866840362549,
+     "completion_tokens": 105,
+     "prompt_tokens": 85,
+     "decode_tok_s": 48.48878330183062,
+     "chars": 236
+    },
+    {
+     "ttft_s": 0.6333458423614502,
+     "total_s": 2.7779130935668945,
+     "completion_tokens": 105,
+     "prompt_tokens": 85,
+     "decode_tok_s": 48.49463216485397,
+     "chars": 236
+    },
+    {
+     "ttft_s": 0.6327259540557861,
+     "total_s": 2.778218984603882,
+     "completion_tokens": 105,
+     "prompt_tokens": 85,
+     "decode_tok_s": 48.473706751418234,
+     "chars": 236
+    },
+    {
+     "ttft_s": 0.6325690746307373,
+     "total_s": 2.8482742309570312,
+     "completion_tokens": 105,
+     "prompt_tokens": 85,
+     "decode_tok_s": 46.93765310021444,
+     "chars": 236
+    },
+    {
+     "ttft_s": 0.6363430023193359,
+     "total_s": 2.6967291831970215,
+     "completion_tokens": 105,
+     "prompt_tokens": 85,
+     "decode_tok_s": 50.47597434171198,
+     "chars": 236
+    }
+   ]
+  },
+  {
+   "c": 16,
+   "category": "ceiling_count",
+   "wall_s": 3.71,
+   "tokens": 3824,
+   "agg_tok_s": 1030.76,
+   "per_stream_tok_s": 68.77,
+   "ttft_mean_s": 0.242,
+   "requests": [
+    {
+     "ttft_s": 0.24308991432189941,
+     "total_s": 3.704373836517334,
+     "completion_tokens": 239,
+     "prompt_tokens": 30,
+     "decode_tok_s": 68.76061177005109,
+     "chars": 309
+    },
+    {
+     "ttft_s": 0.24323081970214844,
+     "total_s": 3.7034759521484375,
+     "completion_tokens": 239,
+     "prompt_tokens": 30,
+     "decode_tok_s": 68.78125418581,
+     "chars": 309
+    },
+    {
+     "ttft_s": 0.24242591857910156,
+     "total_s": 3.702944040298462,
+     "completion_tokens": 239,
+     "prompt_tokens": 30,
+     "decode_tok_s": 68.7758282513341,
+     "chars": 309
+    },
+    {
+     "ttft_s": 0.24222683906555176,
+     "total_s": 3.7032737731933594,
+     "completion_tokens": 239,
+     "prompt_tokens": 30,
+     "decode_tok_s": 68.76532001146543,
+     "chars": 309
+    },
+    {
+     "ttft_s": 0.24184012413024902,
+     "total_s": 3.703423023223877,
+     "completion_tokens": 239,
+     "prompt_tokens": 30,
+     "decode_tok_s": 68.75467291634625,
+     "chars": 309
+    },
+    {
+     "ttft_s": 0.24103689193725586,
+     "total_s": 3.7032017707824707,
+     "completion_tokens": 239,
+     "prompt_tokens": 30,
+     "decode_tok_s": 68.7431154576854,
+     "chars": 309
+    },
+    {
+     "ttft_s": 0.24114489555358887,
+     "total_s": 3.7012369632720947,
+     "completion_tokens": 239,
+     "prompt_tokens": 30,
+     "decode_tok_s": 68.7842968747739,
+     "chars": 309
+    },
+    {
+     "ttft_s": 0.2400820255279541,
+     "total_s": 3.7011659145355225,
+     "completion_tokens": 239,
+     "prompt_tokens": 30,
+     "decode_tok_s": 68.76458578651908,
+     "chars": 309
+    },
+    {
+     "ttft_s": 0.24051594734191895,
+     "total_s": 3.7006731033325195,
+     "completion_tokens": 239,
+     "prompt_tokens": 30,
+     "decode_tok_s": 68.78300298815864,
+     "chars": 309
+    },
+    {
+     "ttft_s": 0.24205684661865234,
+     "total_s": 3.701727867126465,
+     "completion_tokens": 239,
+     "prompt_tokens": 30,
+     "decode_tok_s": 68.79266802803298,
+     "chars": 309
+    },
+    {
+     "ttft_s": 0.24186205863952637,
+     "total_s": 3.70221209526062,
+     "completion_tokens": 239,
+     "prompt_tokens": 30,
+     "decode_tok_s": 68.7791690092712,
+     "chars": 309
+    },
+    {
+     "ttft_s": 0.23932981491088867,
+     "total_s": 3.7012667655944824,
+     "completion_tokens": 239,
+     "prompt_tokens": 30,
+     "decode_tok_s": 68.74764138988856,
+     "chars": 309
+    },
+    {
+     "ttft_s": 0.23963499069213867,
+     "total_s": 3.6988720893859863,
+     "completion_tokens": 239,
+     "prompt_tokens": 30,
+     "decode_tok_s": 68.80129728311049,
+     "chars": 309
+    },
+    {
+     "ttft_s": 0.2414379119873047,
+     "total_s": 3.702040195465088,
+     "completion_tokens": 239,
+     "prompt_tokens": 30,
+     "decode_tok_s": 68.77415562496202,
+     "chars": 309
+    },
+    {
+     "ttft_s": 0.24135494232177734,
+     "total_s": 3.7019309997558594,
+     "completion_tokens": 239,
+     "prompt_tokens": 30,
+     "decode_tok_s": 68.77467683125282,
+     "chars": 309
+    },
+    {
+     "ttft_s": 0.24317407608032227,
+     "total_s": 3.704586982727051,
+     "completion_tokens": 239,
+     "prompt_tokens": 30,
+     "decode_tok_s": 68.75804950717782,
+     "chars": 309
+    }
+   ]
+  }
+ ],
+ "prefill": [],
+ "finished": "2026-11-02T19:33:38Z",
+ "headline": [
+  {
+   "level": "C16",
+   "agg_tok_s": 484.69,
+   "per_stream_tok_s": 37.01,
+   "ttft_mean_s": 0.51
+  }
+ ]
+}

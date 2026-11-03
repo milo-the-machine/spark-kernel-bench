@@ -1,0 +1,10 @@
+{
+ "ok": 4040,
+ "err": 0,
+ "completion_tokens": 719796,
+ "errors": [],
+ "kind": "load",
+ "concurrency": 4,
+ "minutes": 120.1,
+ "tok_s_avg": 99.9
+}

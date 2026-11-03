@@ -1,0 +1,15 @@
+{"kind":"userns","arm":"S2-7.0.0-1024-580.178.04","node":"spark7","check":"firefox_snap_headless_CONTROL","result":"INFO","detail":"rc=0 png=0"}
+{"kind":"userns","arm":"S2-7.0.0-1024-580.178.04","node":"spark8","check":"firefox_snap_headless_CONTROL","result":"INFO","detail":"rc=0 png=0"}
+{"kind":"userns","arm":"S2-7.0.0-1024-580.178.04","node":"spark7","check":"unshare_user_ns","result":"BLOCKED","detail":"unshare: unshare failed: No space left on device\nrc=1"}
+{"kind":"userns","arm":"S2-7.0.0-1024-580.178.04","node":"spark7","check":"docker_gpu_container","result":"OK","detail":"True NVIDIA GB10"}
+{"kind":"userns","arm":"S2-7.0.0-1024-580.178.04","node":"spark7","check":"userns_inside_container","result":"INFO","detail":"inner-userns-blocked"}
+{"kind":"userns","arm":"S2-7.0.0-1024-580.178.04","node":"spark7","check":"systemd_user_run","result":"INFO","detail":"rc=0"}
+{"kind":"userns","arm":"S2-7.0.0-1024-580.178.04","node":"spark7","check":"snaps_present","result":"INFO","detail":"firefox firefox.geckodriver firmware-updater geckodriver snap-store snap-store.show-updates thunderbird "}
+{"kind":"userns","arm":"S2-7.0.0-1024-580.178.04","node":"spark7","check":"firefox_snap_headless","result":"INFO","detail":"rc=0 png=0"}
+{"kind":"userns","arm":"S2-7.0.0-1024-580.178.04","node":"spark8","check":"unshare_user_ns","result":"BLOCKED","detail":"unshare: unshare failed: No space left on device\nrc=1"}
+{"kind":"userns","arm":"S2-7.0.0-1024-580.178.04","node":"spark8","check":"docker_gpu_container","result":"OK","detail":"True NVIDIA GB10"}
+{"kind":"userns","arm":"S2-7.0.0-1024-580.178.04","node":"spark8","check":"userns_inside_container","result":"INFO","detail":"inner-userns-blocked"}
+{"kind":"userns","arm":"S2-7.0.0-1024-580.178.04","node":"spark8","check":"systemd_user_run","result":"INFO","detail":"rc=0"}
+{"kind":"userns","arm":"S2-7.0.0-1024-580.178.04","node":"spark8","check":"snaps_present","result":"INFO","detail":"firefox firefox.geckodriver firmware-updater geckodriver snap-store snap-store.show-updates thunderbird "}
+{"kind":"userns","arm":"S2-7.0.0-1024-580.178.04","node":"spark8","check":"firefox_snap_headless","result":"INFO","detail":"rc=0 png=0"}
+{"kind":"userns","arm":"S2-7.0.0-1024-580.178.04","node":"spark7+8","check":"nccl_roce_2node","result":"OK","detail":"{\"kind\": \"summary\", \"label\": \"userns0\", \"status\": \"ok\", \"error\": null, \"sizes_done\": 9, \"peak_busbw_GBs\": 21.647, \"peak_busbw_Gbps\": 173.18, \"hog_gib\": 0, \"world\": 2}"}

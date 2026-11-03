@@ -1,0 +1,9 @@
+2026-11-01 23:28:16 spark5: saved_entry=gnulinux-advanced-02a57489-a431-46d3-ab1c-3fb3dd966782>gnulinux-6.17.0-1032-nvidia-advanced-02a57489-a431-46d3-ab1c-3fb3dd966782 
+2026-11-01 23:28:16 spark6: saved_entry=gnulinux-advanced-02a57489-a431-46d3-ab1c-3fb3dd966782>gnulinux-6.17.0-1032-nvidia-advanced-02a57489-a431-46d3-ab1c-3fb3dd966782 
+2026-11-01 23:28:16 spark7: saved_entry=gnulinux-advanced-02a57489-a431-46d3-ab1c-3fb3dd966782>gnulinux-6.17.0-1032-nvidia-advanced-02a57489-a431-46d3-ab1c-3fb3dd966782 
+2026-11-01 23:28:16 spark8: saved_entry=gnulinux-advanced-02a57489-a431-46d3-ab1c-3fb3dd966782>gnulinux-6.17.0-1032-nvidia-advanced-02a57489-a431-46d3-ab1c-3fb3dd966782 
+2026-11-01 23:28:16 reboots issued; waiting
+2026-11-01 23:30:07 spark5: 6.17.0-1032-nvidia up=18s drv=580.178.04 kho=1 cdi_old=0 cdi_new=80 dri=ok hca=rocep1s0f0,rocep1s0f1,roceP2p1s0f0,roceP2p1s0f1, sys=starting
+2026-11-01 23:30:07 spark6: 6.17.0-1032-nvidia up=18s drv=580.178.04 kho=1 cdi_old=0 cdi_new=80 dri=ok hca=rocep1s0f0,rocep1s0f1,roceP2p1s0f0,roceP2p1s0f1, sys=starting
+2026-11-01 23:30:08 spark7: 6.17.0-1032-nvidia up=20s drv=580.178.04 kho=1 cdi_old=0 cdi_new=80 dri=ok hca=rocep1s0f0,rocep1s0f1,roceP2p1s0f0,roceP2p1s0f1, sys=starting
+2026-11-01 23:30:09 spark8: 6.17.0-1032-nvidia up=20s drv=580.178.04 kho=1 cdi_old=0 cdi_new=80 dri=ok hca=rocep1s0f0,rocep1s0f1,roceP2p1s0f0,roceP2p1s0f1, sys=starting

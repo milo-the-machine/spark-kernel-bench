@@ -1,0 +1,103 @@
+{
+ "schema": "dsv41-5way/phase/v1",
+ "lane": "S1-7.0.0-1019-580.178.04",
+ "phase": "prefill",
+ "status": "ok",
+ "method": "prefill_reps.py: unique leading nonce, token-id prompt, /v1/completions max_tokens 1, T=0; tok/s = prompt/wall",
+ "started": "2026-11-02T06:25:52-0600",
+ "finished": "2026-11-02T06:27:26-0600",
+ "wall_s": 94.0,
+ "params": {
+  "plan": [
+   [
+    32768,
+    3
+   ],
+   [
+    131072,
+    3
+   ]
+  ],
+  "per_request_timeout_s": 1800,
+  "cap_s": 7200,
+  "api_root": "http://192.168.1.55:8002",
+  "model": "deepseek-v4.1-flash-spark-vllm",
+  "engine": "vllm"
+ },
+ "summary": {
+  "lengths": {
+   "32768": {
+    "n": 3,
+    "prompt_tokens": 32768,
+    "median_tok_s": 5464.8,
+    "tok_s_spread": [
+     5424.0,
+     5472.3
+    ],
+    "median_s": 5.996,
+    "s_spread": [
+     5.988,
+     6.041
+    ],
+    "reps": [
+     {
+      "prompt_tokens": 32768,
+      "seconds": 5.996,
+      "tok_s": 5464.8
+     },
+     {
+      "prompt_tokens": 32768,
+      "seconds": 5.988,
+      "tok_s": 5472.3
+     },
+     {
+      "prompt_tokens": 32768,
+      "seconds": 6.041,
+      "tok_s": 5424.0
+     }
+    ]
+   },
+   "131072": {
+    "n": 3,
+    "prompt_tokens": 131072,
+    "median_tok_s": 5292.3,
+    "tok_s_spread": [
+     5287.3,
+     5295.2
+    ],
+    "median_s": 24.766,
+    "s_spread": [
+     24.753,
+     24.79
+    ],
+    "reps": [
+     {
+      "prompt_tokens": 131072,
+      "seconds": 24.766,
+      "tok_s": 5292.3
+     },
+     {
+      "prompt_tokens": 131072,
+      "seconds": 24.753,
+      "tok_s": 5295.2
+     },
+     {
+      "prompt_tokens": 131072,
+      "seconds": 24.79,
+      "tok_s": 5287.3
+     }
+    ]
+   }
+  },
+  "one_m_tokens": null,
+  "one_m_skipped": "run without --allow-1m"
+ },
+ "raw": [
+  "raw/prefill-32768/prefill_reps.log",
+  "raw/prefill-131072/prefill_reps.log"
+ ],
+ "tools": {
+  "prefill_reps.py": "5048a66d6efb8ab8"
+ },
+ "error": null
+}
