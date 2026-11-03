@@ -67,6 +67,20 @@ bash bench/single_node.sh MYARM <your-spark-ip>
 
 Two or more Sparks: copy `bench/` to every node, set the IPs in `run_fabric.sh` (the `MG` node list, the `--master_addr` RoCE IP and the `rdma_pair.sh` arguments), then `bash bench/run_fabric.sh MYARM 3`. Compare `receipts/MYARM` with ours using `python3 bench/aggregate.py receipts`.
 
+## Follow-up: headless vs desktop (November 3)
+
+Same four Sparks, same boot of 7.0.0-1024 + 580.178.04. Graphical mode with GDM/GNOME running (H0), then `systemctl isolate multi-user.target` (H1). Receipts: `receipts/H0-graphical-1024`, `receipts/H1-multiuser-1024`.
+
+| | Graphical | Headless |
+|---|---|---|
+| NCCL all_reduce, 4 nodes (hog0 / hog100) | 184.7 / 185.0 Gb/s | 185.3 / 185.6 Gb/s |
+| NCCL all_reduce, 2 nodes (hog0 / hog100) | 190.5 / 191.1 Gb/s | 190.5 / 190.9 Gb/s |
+| NCCL failures | 0 / 12 | 0 / 12 |
+| RDMA write latency | 3.36 µs | 3.36 µs |
+| `cudaMemGetInfo` free after cache flush | 117.0 GiB | 117.4 GiB |
+
+A forum report from late 2025 said NCCL ran slower in `multi-user.target`. We did not see that on 7.0.0-1024. Going headless frees about 0.4 GiB per node. `bench/make_headless.sh` is the reversible version we use.
+
 ## Safety notes that cost us something
 
 - **Never allocate GPU memory until failure on a GB10.** `cudaMalloc` isn't charged to the cgroup, so the host OOM killer fires first. It took out our user session. `hog.py --probe` stops 8 GiB short of MemAvailable.

@@ -1,0 +1,4 @@
+{"host":"spark5","target_active":"inactive","gdm":"inactive","memavail_kib":123448408,"memfree_kib":124079216,"procs":467,"mlx5_irq_cpus":"0 1 2 3 4 5 6 7 "}
+{"host":"spark6","target_active":"inactive","gdm":"inactive","memavail_kib":123487920,"memfree_kib":124120344,"procs":463,"mlx5_irq_cpus":"0 1 2 3 4 5 6 7 "}
+{"host":"spark7","target_active":"inactive","gdm":"inactive","memavail_kib":123499812,"memfree_kib":124135592,"procs":465,"mlx5_irq_cpus":"0 1 2 3 4 5 6 7 "}
+{"host":"spark8","target_active":"inactive","gdm":"inactive","memavail_kib":123491652,"memfree_kib":124128124,"procs":465,"mlx5_irq_cpus":"0 1 2 3 4 5 6 7 "}

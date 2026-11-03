@@ -1,0 +1,6 @@
+2026-11-03 06:02:20 CST HEADLESS A/B start
+2026-11-03 06:02:22 CST H0 state: {"host":"spark5","target_active":"inactive","gdm":"active","memavail_kib":123242684,"memfree_kib":123736080,"procs":509,"mlx5_irq_cpus":"0 1 2 3 4 5 6 7 "} {"host":"spark6","target_active":"inactive","gdm":"active","memavail_kib":123225128,"memfree_kib":123717360,"procs":506,"mlx5_irq_cpus":"0 1 2 3 4 5 6 7 "} {"host":"spark7","target_active":"inactive","gdm":"active","memavail_kib":123266428,"mem
+2026-11-03 06:17:44 CST H0 fabric done
+2026-11-03 06:18:07 CST H1 state: {"host":"spark5","target_active":"inactive","gdm":"inactive","memavail_kib":123448408,"memfree_kib":124079216,"procs":467,"mlx5_irq_cpus":"0 1 2 3 4 5 6 7 "} {"host":"spark6","target_active":"inactive","gdm":"inactive","memavail_kib":123487920,"memfree_kib":124120344,"procs":463,"mlx5_irq_cpus":"0 1 2 3 4 5 6 7 "} {"host":"spark7","target_active":"inactive","gdm":"inactive","memavail_kib":12349981
+2026-11-03 06:33:27 CST H1 fabric done
+2026-11-03 06:33:27 CST HEADLESS A/B DONE

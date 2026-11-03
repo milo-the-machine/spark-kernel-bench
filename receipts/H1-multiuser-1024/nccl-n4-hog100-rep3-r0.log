@@ -1,0 +1,48 @@
+
+=============
+== PyTorch ==
+=============
+
+NVIDIA Release 25.09 (build 210907838)
+PyTorch Version 2.9.0a0+50eac81
+Container image Copyright (c) 2025, NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+Copyright (c) 2014-2024 Facebook Inc.
+Copyright (c) 2011-2014 Idiap Research Institute (Ronan Collobert)
+Copyright (c) 2012-2014 Deepmind Technologies    (Koray Kavukcuoglu)
+Copyright (c) 2011-2012 NEC Laboratories America (Koray Kavukcuoglu)
+Copyright (c) 2011-2013 NYU                      (Clement Farabet)
+Copyright (c) 2006-2010 NEC Laboratories America (Ronan Collobert, Leon Bottou, Iain Melvin, Jason Weston)
+Copyright (c) 2006      Idiap Research Institute (Samy Bengio)
+Copyright (c) 2001-2004 Idiap Research Institute (Ronan Collobert, Samy Bengio, Johnny Mariethoz)
+Copyright (c) 2015      Google Inc.
+Copyright (c) 2015      Yangqing Jia
+Copyright (c) 2013-2016 The Caffe contributors
+All rights reserved.
+
+Various files include modifications (c) NVIDIA CORPORATION & AFFILIATES.  All rights reserved.
+
+GOVERNING TERMS: The software and materials are governed by the NVIDIA Software License Agreement
+(found at https://www.nvidia.com/en-us/agreements/enterprise-software/nvidia-software-license-agreement/)
+and the Product-Specific Terms for NVIDIA AI Products
+(found at https://www.nvidia.com/en-us/agreements/enterprise-software/product-specific-terms-for-ai-products/).
+
+/usr/local/lib/python3.12/dist-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+  import pynvml  # type: ignore[import]
+/usr/local/lib/python3.12/dist-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+  import pynvml  # type: ignore[import]
+NCCL version 2.27.7+cuda13.0
+{"kind": "meta", "label": "H1-multiuser-1024 n4-hog100-rep3", "world": 4, "hog_gib": 100, "torch": "2.9.0a0+50eac811a6.nv25.09", "nccl": "2.27.7", "kernel": "7.0.0-1024-nvidia", "env": {"NCCL_VERSION": "2.27.7", "NCCL_SOCKET_IFNAME": "enp1s0f0np0", "NCCL_DEBUG": "WARN", "NCCL_IB_HCA": "rocep1s0f0,roceP2p1s0f0", "NCCL_IB_GID_INDEX": "3", "NCCL_IB_DISABLE": "0"}}
+{"kind": "row", "bytes": 1048576, "time_us": 386.5, "algbw_GBs": 2.713, "busbw_GBs": 4.069, "busbw_Gbps": 32.56, "correct": true}
+{"kind": "row", "bytes": 2097152, "time_us": 575.2, "algbw_GBs": 3.646, "busbw_GBs": 5.469, "busbw_Gbps": 43.75, "correct": true}
+{"kind": "row", "bytes": 4194304, "time_us": 927.1, "algbw_GBs": 4.524, "busbw_GBs": 6.786, "busbw_Gbps": 54.29, "correct": true}
+{"kind": "row", "bytes": 8388608, "time_us": 1691.6, "algbw_GBs": 4.959, "busbw_GBs": 7.438, "busbw_Gbps": 59.51, "correct": true}
+{"kind": "row", "bytes": 16777216, "time_us": 1100.9, "algbw_GBs": 15.239, "busbw_GBs": 22.859, "busbw_Gbps": 182.87, "correct": true}
+{"kind": "row", "bytes": 33554432, "time_us": 2163.3, "algbw_GBs": 15.511, "busbw_GBs": 23.267, "busbw_Gbps": 186.13, "correct": true}
+{"kind": "row", "bytes": 67108864, "time_us": 4631.5, "algbw_GBs": 14.49, "busbw_GBs": 21.735, "busbw_Gbps": 173.88, "correct": true}
+{"kind": "row", "bytes": 134217728, "time_us": 10475.1, "algbw_GBs": 12.813, "busbw_GBs": 19.219, "busbw_Gbps": 153.76, "correct": true}
+{"kind": "row", "bytes": 268435456, "time_us": 20515.3, "algbw_GBs": 13.085, "busbw_GBs": 19.627, "busbw_Gbps": 157.02, "correct": true}
+{"kind": "row", "bytes": 536870912, "time_us": 40612.9, "algbw_GBs": 13.219, "busbw_GBs": 19.829, "busbw_Gbps": 158.63, "correct": true}
+{"kind": "row", "bytes": 1073741824, "time_us": 80711.4, "algbw_GBs": 13.303, "busbw_GBs": 19.955, "busbw_Gbps": 159.64, "correct": true}
+{"kind": "row", "bytes": 2147483648, "time_us": 160892.6, "algbw_GBs": 13.347, "busbw_GBs": 20.021, "busbw_Gbps": 160.17, "correct": true}
+{"kind": "row", "bytes": 4294967296, "time_us": 319696.9, "algbw_GBs": 13.434, "busbw_GBs": 20.152, "busbw_Gbps": 161.21, "correct": true}
+{"kind": "summary", "label": "H1-multiuser-1024 n4-hog100-rep3", "status": "ok", "error": null, "sizes_done": 13, "peak_busbw_GBs": 23.267, "peak_busbw_Gbps": 186.14, "hog_gib": 100, "world": 4}

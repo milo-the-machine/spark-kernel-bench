@@ -1,0 +1,20 @@
+2026-11-03 06:02:22 ARM H0-graphical-1024 start reps=3
+2026-11-03 06:02:31 facts spark5 7.0.0-1024-nvidia 580.178.04 xid 0 alloc {"kind": "alloc_probe", "memavail_gib": 117, "limit_gib": 109, "allocated_gib": 109, "cuda_free_gib": 117.0, "cuda_total_gib": 121.7, "secs": 5.3, "stop_reason": null, "kernel": "7.0.0-1024-nvidia"}
+2026-11-03 06:02:39 facts spark6 7.0.0-1024-nvidia 580.178.04 xid 0 alloc {"kind": "alloc_probe", "memavail_gib": 117, "limit_gib": 109, "allocated_gib": 109, "cuda_free_gib": 117.0, "cuda_total_gib": 121.7, "secs": 5.2, "stop_reason": null, "kernel": "7.0.0-1024-nvidia"}
+2026-11-03 06:02:49 facts spark7 7.0.0-1024-nvidia 580.178.04 xid 0 alloc {"kind": "alloc_probe", "memavail_gib": 117, "limit_gib": 109, "allocated_gib": 109, "cuda_free_gib": 117.0, "cuda_total_gib": 121.7, "secs": 4.8, "stop_reason": null, "kernel": "7.0.0-1024-nvidia"}
+2026-11-03 06:03:00 facts spark8 7.0.0-1024-nvidia 580.178.04 xid 0 alloc {"kind": "alloc_probe", "memavail_gib": 117, "limit_gib": 109, "allocated_gib": 109, "cuda_free_gib": 116.9, "cuda_total_gib": 121.7, "secs": 4.9, "stop_reason": null, "kernel": "7.0.0-1024-nvidia"}
+2026-11-03 06:08:49 rdma hog0 done
+2026-11-03 06:14:51 rdma hog100 done
+2026-11-03 06:15:00 nccl n2-hog0-rep1 rc=0 {"kind": "summary", "label": "H0-graphical-1024 n2-hog0-rep1", "status": "ok", "error": null, "sizes_done": 13, "peak_busbw_GBs": 23.731, "peak_busbw_Gbps": 189.85, "hog_gib": 0, "world": 2} 
+2026-11-03 06:15:14 nccl n2-hog100-rep1 rc=0 {"kind": "summary", "label": "H0-graphical-1024 n2-hog100-rep1", "status": "ok", "error": null, "sizes_done": 13, "peak_busbw_GBs": 23.903, "peak_busbw_Gbps": 191.22, "hog_gib": 100, "world": 2} 
+2026-11-03 06:15:29 nccl n4-hog0-rep1 rc=0 {"kind": "summary", "label": "H0-graphical-1024 n4-hog0-rep1", "status": "ok", "error": null, "sizes_done": 13, "peak_busbw_GBs": 23.135, "peak_busbw_Gbps": 185.08, "hog_gib": 0, "world": 4} 
+2026-11-03 06:15:49 nccl n4-hog100-rep1 rc=0 {"kind": "summary", "label": "H0-graphical-1024 n4-hog100-rep1", "status": "ok", "error": null, "sizes_done": 13, "peak_busbw_GBs": 23.197, "peak_busbw_Gbps": 185.58, "hog_gib": 100, "world": 4} 
+2026-11-03 06:15:58 nccl n2-hog0-rep2 rc=0 {"kind": "summary", "label": "H0-graphical-1024 n2-hog0-rep2", "status": "ok", "error": null, "sizes_done": 13, "peak_busbw_GBs": 23.765, "peak_busbw_Gbps": 190.12, "hog_gib": 0, "world": 2} 
+2026-11-03 06:16:12 nccl n2-hog100-rep2 rc=0 {"kind": "summary", "label": "H0-graphical-1024 n2-hog100-rep2", "status": "ok", "error": null, "sizes_done": 13, "peak_busbw_GBs": 23.834, "peak_busbw_Gbps": 190.67, "hog_gib": 100, "world": 2} 
+2026-11-03 06:16:27 nccl n4-hog0-rep2 rc=0 {"kind": "summary", "label": "H0-graphical-1024 n4-hog0-rep2", "status": "ok", "error": null, "sizes_done": 13, "peak_busbw_GBs": 23.055, "peak_busbw_Gbps": 184.44, "hog_gib": 0, "world": 4} 
+2026-11-03 06:16:46 nccl n4-hog100-rep2 rc=0 {"kind": "summary", "label": "H0-graphical-1024 n4-hog100-rep2", "status": "ok", "error": null, "sizes_done": 13, "peak_busbw_GBs": 23.107, "peak_busbw_Gbps": 184.86, "hog_gib": 100, "world": 4} 
+2026-11-03 06:16:55 nccl n2-hog0-rep3 rc=0 {"kind": "summary", "label": "H0-graphical-1024 n2-hog0-rep3", "status": "ok", "error": null, "sizes_done": 13, "peak_busbw_GBs": 23.952, "peak_busbw_Gbps": 191.62, "hog_gib": 0, "world": 2} 
+2026-11-03 06:17:09 nccl n2-hog100-rep3 rc=0 {"kind": "summary", "label": "H0-graphical-1024 n2-hog100-rep3", "status": "ok", "error": null, "sizes_done": 13, "peak_busbw_GBs": 23.927, "peak_busbw_Gbps": 191.42, "hog_gib": 100, "world": 2} 
+2026-11-03 06:17:24 nccl n4-hog0-rep3 rc=0 {"kind": "summary", "label": "H0-graphical-1024 n4-hog0-rep3", "status": "ok", "error": null, "sizes_done": 13, "peak_busbw_GBs": 23.085, "peak_busbw_Gbps": 184.68, "hog_gib": 0, "world": 4} 
+2026-11-03 06:17:44 nccl n4-hog100-rep3 rc=0 {"kind": "summary", "label": "H0-graphical-1024 n4-hog100-rep3", "status": "ok", "error": null, "sizes_done": 13, "peak_busbw_GBs": 23.071, "peak_busbw_Gbps": 184.57, "hog_gib": 100, "world": 4} 
+2026-11-03 06:17:44 ARM H0-graphical-1024 fabric end
